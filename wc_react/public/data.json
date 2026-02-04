@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1",
+    "name": "Random Bot",
+    "elo": 1000,
+    "division": 1,
+    "profile": null,
+    "position": -1,
+    "winsTotal": 0,
+    "lossesTotal": 0,
+    "drawsTotal": 0,
+    "seasons": [
+      {
+        "season": 1,
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "startingElo": 1000,
+        "endingElo": null
+      }
+    ],
+    "peakElo": 1000
+  },
+  {
+    "id": "2",
+    "name": "One Move Bot",
+    "elo": 1000,
+    "division": 1,
+    "profile": null,
+    "position": -1,
+    "winsTotal": 0,
+    "lossesTotal": 0,
+    "drawsTotal": 0,
+    "seasons": [
+      {
+        "season": 1,
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "startingElo": 1000,
+        "endingElo": null
+      }
+    ],
+    "peakElo": 1000
+  },
+  {
+    "id": "3",
+    "name": "Idiot Bot",
+    "elo": 1000,
+    "division": 1,
+    "profile": null,
+    "position": -1,
+    "winsTotal": 0,
+    "lossesTotal": 0,
+    "drawsTotal": 0,
+    "seasons": [
+      {
+        "season": 1,
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "startingElo": 1000,
+        "endingElo": null
+      }
+    ],
+    "peakElo": 1000
+  }
+]
