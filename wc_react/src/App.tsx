@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Elo from './pages/Elo'
+import Season1 from './pages/Season1'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Router>
         <Routes>
             <Route path="/" element={<Elo />} />
+            <Route path="/season1" element={<Season1 />} />
         </Routes>
       </Router>
     </div>
