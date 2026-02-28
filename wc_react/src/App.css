@@ -2,6 +2,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  font-family: 'Trebuchet MS', sans-serif;
 }
 
 .logo {
@@ -49,10 +50,18 @@
   border: 3px solid black;
   border-radius: 10px;
   margin-bottom: 25px;
+  border-collapse: collapse;
+}
+
+tbody {
+  border: 0;
 }
 
 .eloTable td {
-  width: 33%;
+  width: 20%;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0px;
 }
 
 .eloTable th {
@@ -94,4 +103,11 @@
   color: white;
   padding: 10px;
   border: 1px solid black;
+}
+
+.botImage {
+  width: 240px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 6px;
 }

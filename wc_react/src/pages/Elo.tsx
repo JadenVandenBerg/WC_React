@@ -31,26 +31,39 @@ function Elo() {
   return (
     <>
       <h1>Wacky Chess Bot Tournament Leaderboard</h1>
-      <nav class="seasonNav">
-        <a class="season" href="/season1">Season 1</a>
-        <a class="season" href="/season2">Season 2</a>
+      <nav className="seasonNav">
+        <a className="season" href="/season1">Season 1</a>
+        <a className="season" href="/season2">Season 2</a>
       </nav>
+
       {divisions.map((divisionBots, divisionIndex) => (
         <table className="eloTable" key={divisionIndex}>
           <tbody>
             <tr>
-              <th colSpan="4">Division {divisionIndex + 1}</th>
+              <th colSpan="5">Division {divisionIndex + 1}</th>
             </tr>
             <tr>
               <td>Position</td>
+              <td>Profile</td>
               <td>Name</td>
+              <td>Creator</td>
               <td>Elo</td>
             </tr>
 
             {divisionBots.map((bot, index) => (
               <tr key={bot.id}>
                 <td>{divisionIndex * DIVISION_SIZE + index + 1}</td>
+
+                <td>
+                  <img
+                    src={bot.profile}
+                    alt={bot.name}
+                    className="botImage"
+                  />
+                </td>
+
                 <td>{bot.name}</td>
+                <td>{bot.creator}</td>
                 <td>{bot.elo}</td>
               </tr>
             ))}

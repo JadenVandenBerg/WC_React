@@ -4,11 +4,12 @@
     "name": "Random Bot",
     "elo": 1000,
     "division": 1,
-    "profile": null,
+    "profile": "img/RandomBot.png",
     "position": -1,
     "winsTotal": 0,
     "lossesTotal": 0,
     "drawsTotal": 0,
+    "creator": "Jaden",
     "seasons": [
       {
         "season": 1,
@@ -28,11 +29,12 @@
     "name": "One Move Bot",
     "elo": 1000,
     "division": 1,
-    "profile": null,
+    "profile": "img/OneMoveBot.png",
     "position": -1,
     "winsTotal": 0,
     "lossesTotal": 0,
     "drawsTotal": 0,
+    "creator": "Jaden",
     "seasons": [
       {
         "season": 1,
@@ -52,11 +54,12 @@
     "name": "Idiot Bot",
     "elo": 1000,
     "division": 1,
-    "profile": null,
+    "profile": "img/IdiotBot.png",
     "position": -1,
     "winsTotal": 0,
     "lossesTotal": 0,
     "drawsTotal": 0,
+    "creator": "Jaden",
     "seasons": [
       {
         "season": 1,
@@ -73,14 +76,40 @@
   },
   {
     "id": "4",
-    "name": "Idiot Bot 2",
+    "name": "Savage Beast Bot",
     "elo": 1000,
     "division": 1,
-    "profile": null,
+    "profile": "img/SavageBeastBot.png",
     "position": -1,
     "winsTotal": 0,
     "lossesTotal": 0,
     "drawsTotal": 0,
+    "creator": "Jaden",
+    "seasons": [
+      {
+        "season": 1,
+        "division": 1,
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "startingElo": 1000,
+        "endingElo": null
+      }
+    ],
+    "peakElo": 1000,
+    "competing": ["S1"]
+  },
+  {
+    "id": "5",
+    "name": "Bloodbot",
+    "elo": 1000,
+    "division": 1,
+    "profile": "img/Bloodbot.png",
+    "position": -1,
+    "winsTotal": 0,
+    "lossesTotal": 0,
+    "drawsTotal": 0,
+    "creator": "Jaden",
     "seasons": [
       {
         "season": 1,
