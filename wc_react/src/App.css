@@ -43,7 +43,7 @@
 
 .eloTable {
   background: #ffffff40;
-  width: calc(100vw - 400px);
+  width: 33vw;
   padding: 25px;
   margin: auto;
   margin-top: 25px;
@@ -110,4 +110,48 @@ tbody {
   height: 130px;
   object-fit: cover;
   border-radius: 6px;
+}
+
+.divisionContainer {
+  margin-bottom: 40px;
+  width: 33vw;
+  align-self: center;
+}
+
+.divisionTitle {
+  margin-bottom: 15px;
+}
+
+.botRow {
+  display: flex;
+  align-items: stretch;
+  background: #1e1e1e;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+.botProfile {
+  width: 260px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.botInfo {
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.botTitle {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.botMeta {
+  font-size: 14px;
+  opacity: 0.85;
 }

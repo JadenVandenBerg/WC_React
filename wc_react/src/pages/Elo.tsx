@@ -30,45 +30,41 @@ function Elo() {
 
   return (
     <>
-      <h1>Wacky Chess Bot Tournament Leaderboard</h1>
-      <nav className="seasonNav">
+      {/*<nav className="seasonNav">
         <a className="season" href="/season1">Season 1</a>
         <a className="season" href="/season2">Season 2</a>
-      </nav>
-
+      </nav>*/}
       {divisions.map((divisionBots, divisionIndex) => (
-        <table className="eloTable" key={divisionIndex}>
-          <tbody>
-            <tr>
-              <th colSpan="5">Division {divisionIndex + 1}</th>
-            </tr>
-            <tr>
-              <td>Position</td>
-              <td>Profile</td>
-              <td>Name</td>
-              <td>Creator</td>
-              <td>Elo</td>
-            </tr>
+        <div className="divisionContainer" key={divisionIndex}>
+          <h2 className="divisionTitle">
+            Division {divisionIndex + 1}
+          </h2>
 
-            {divisionBots.map((bot, index) => (
-              <tr key={bot.id}>
-                <td>{divisionIndex * DIVISION_SIZE + index + 1}</td>
+          {divisionBots.map((bot, index) => {
+            const rank = divisionIndex * DIVISION_SIZE + index + 1;
 
-                <td>
-                  <img
-                    src={bot.profile}
-                    alt={bot.name}
-                    className="botImage"
-                  />
-                </td>
+            return (
+              <div className="botRow" key={bot.id}>
+                <img
+                  src={bot.profile}
+                  alt={bot.name}
+                  className="botProfile"
+                />
 
-                <td>{bot.name}</td>
-                <td>{bot.creator}</td>
-                <td>{bot.elo}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+                <div className="botInfo">
+                  <div className="botTitle">
+                    #{rank} - {bot.name}
+                  </div>
+
+                  <div className="botMeta">
+                    <div>Creator: {bot.creator}</div>
+                    <div>Elo: {bot.elo}</div>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
       ))}
     </>
   );
