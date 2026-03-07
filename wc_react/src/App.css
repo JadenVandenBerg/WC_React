@@ -1,6 +1,7 @@
 #root {
   margin: 0 auto;
   padding: 2rem;
+  padding-top: 0.5rem;
   text-align: center;
   font-family: 'Trebuchet MS', sans-serif;
 }
@@ -115,6 +116,7 @@ tbody {
 .divisionContainer {
   margin-bottom: 40px;
   width: 33vw;
+  min-width: 500px;
   align-self: center;
 }
 
@@ -132,7 +134,8 @@ tbody {
 }
 
 .botProfile {
-  width: 260px;
+  width: 250px;
+  max-height: calc(250px * 9 / 16);
   object-fit: cover;
   border-radius: 10px;
 }

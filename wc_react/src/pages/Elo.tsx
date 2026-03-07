@@ -57,8 +57,9 @@ function Elo() {
                   </div>
 
                   <div className="botMeta">
+                    <div><b>Elo: {bot.elo}</b></div>
                     <div>Creator: {bot.creator}</div>
-                    <div>Elo: {bot.elo}</div>
+                    <div>W/L/D: {bot.winsTotal}/{bot.lossesTotal}/{bot.drawsTotal}</div>
                   </div>
                 </div>
               </div>
