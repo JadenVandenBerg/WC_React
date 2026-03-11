@@ -19,7 +19,7 @@ function Elo() {
     return () => clearInterval(interval);
   }, []);
 
-  const sortedBots = [...bots].sort((a, b) => b.elo - a.elo);
+  const sortedBots = [...bots].sort((a, b) => b.Elo - a.Elo);
 
   const DIVISION_SIZE = 8;
   const divisions = [];
@@ -44,22 +44,22 @@ function Elo() {
             const rank = divisionIndex * DIVISION_SIZE + index + 1;
 
             return (
-              <div className="botRow" key={bot.id}>
+              <div className="botRow" key={bot.Id}>
                 <img
-                  src={bot.profile}
-                  alt={bot.name}
+                  src={bot.Profile}
+                  alt={bot.Name}
                   className="botProfile"
                 />
 
                 <div className="botInfo">
                   <div className="botTitle">
-                    #{rank} - {bot.name}
+                    #{rank} - {bot.Name}
                   </div>
 
                   <div className="botMeta">
-                    <div><b>Elo: {bot.elo}</b></div>
-                    <div>Creator: {bot.creator}</div>
-                    <div>W/L/D: {bot.winsTotal}/{bot.lossesTotal}/{bot.drawsTotal}</div>
+                    <div><b>Elo: {bot.Elo}</b></div>
+                    <div>Creator: {bot.Creator}</div>
+                    <div>W/L/D: {bot.WinsTotal}/{bot.LossesTotal}/{bot.DrawsTotal}</div>
                   </div>
                 </div>
               </div>
