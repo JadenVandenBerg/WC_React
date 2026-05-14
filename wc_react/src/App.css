@@ -107,16 +107,16 @@ tbody {
 }
 
 .botImage {
-  width: 240px;
-  height: 130px;
+  width: 260px;
+  height: 152px;
   object-fit: cover;
   border-radius: 6px;
 }
 
 .divisionContainer {
   margin-bottom: 40px;
-  width: 33vw;
-  min-width: 500px;
+  width: 40vw;
+  min-width: 600px;
   align-self: center;
 }
 
@@ -134,13 +134,14 @@ tbody {
 }
 
 .botProfile {
-  width: 250px;
-  max-height: calc(250px * 9 / 16);
+  width: 270px;
+  max-height: calc(270px * 9 / 16);
   object-fit: cover;
   border-radius: 10px;
 }
 
 .botInfo {
+  width: 100%;
   padding: 15px 20px;
   display: flex;
   flex-direction: column;
@@ -157,4 +158,8 @@ tbody {
 .botMeta {
   font-size: 14px;
   opacity: 0.85;
+}
+
+.botMeta div {
+  width: 100%;
 }

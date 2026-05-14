@@ -5,6 +5,8 @@ import './App.css'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Elo from './pages/Elo'
 import Season1 from './pages/Season1'
+import Dashboard from "./Dashboard";
+
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function App() {
         <Routes>
             <Route path="/" element={<Elo />} />
             <Route path="/season1" element={<Season1 />} />
+            <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
       </Router>
     </div>
