@@ -116,7 +116,7 @@ tbody {
 .divisionContainer {
   margin-bottom: 40px;
   width: 40vw;
-  min-width: 600px;
+  min-width: 800px;
   align-self: center;
 }
 
@@ -153,6 +153,11 @@ tbody {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 8px;
+}
+
+.botTitle span {
+  font-size: 17.5px;
+  font-weight: 600;
 }
 
 .botMeta {

@@ -23,6 +23,16 @@ function Elo() {
     return games === 0 ? 0 : (bot.WinsTotal / games) * 100;
   };
 
+  const getDrawPct = (bot: any) => {
+    const games = bot.WinsTotal + bot.LossesTotal + bot.DrawsTotal;
+    return games === 0 ? 0 : (bot.DrawsTotal / games) * 100;
+  };
+
+  const getLossPct = (bot: any) => {
+    const games = bot.WinsTotal + bot.LossesTotal + bot.DrawsTotal;
+    return games === 0 ? 0 : (bot.LossesTotal / games) * 100;
+  };
+
   const getAWinPct = (bot: any) => {
     const games = bot.WinsTotal + bot.LossesTotal + bot.DrawsTotal;
     return games === 0 ? 0 : ((bot.WinsTotal + (bot.DrawsTotal / 2)) / games) * 100;
@@ -38,6 +48,11 @@ function Elo() {
     return wl;
   };
 
+  const getWinDrawLoss = (bot: any) => {
+    const wl = (bot.WinsTotal + bot.DrawsTotal) / bot.LossesTotal;
+    return wl;
+  };
+
   const getGames = (bot: any) => bot.WinsTotal + bot.LossesTotal + bot.DrawsTotal;
 
   const sortedBots = useMemo(() => {
@@ -45,9 +60,12 @@ function Elo() {
     copy.sort((a: any, b: any) => {
       let result = 0;
       if (sortBy === 'Win %') result = getWinPct(b) - getWinPct(a);
+      else if (sortBy === 'Draw %') result = getDrawPct(b) - getDrawPct(a);
+      else if (sortBy === 'Loss %') result = getLossPct(b) - getLossPct(a);
       else if (sortBy === 'Games Total') result = getGames(b) - getGames(a);
       else if (sortBy === 'Range') result = getRange(b) - getRange(a);
       else if (sortBy === 'Win / Loss') result = getWinLoss(b) - getWinLoss(a);
+      else if (sortBy === 'WinDraw / Loss') result = getWinDrawLoss(b) - getWinDrawLoss(a);
       else if (sortBy === 'Max Elo') result = b.PeakElo - a.PeakElo;
       else if (sortBy === 'Min Elo') result = b.MinElo - a.MinElo;
       else if (sortBy === 'Adjusted Win %') result = getAWinPct(b) - getAWinPct(a);
@@ -73,20 +91,40 @@ function Elo() {
             const rank = divisionIndex * DIVISION_SIZE + index + 1;
             const games = getGames(bot);
             const winPct = getWinPct(bot).toFixed(2);
+            const drawPct = getDrawPct(bot).toFixed(2);
+            const lossPct = getLossPct(bot).toFixed(2);
             const awinPct = getAWinPct(bot).toFixed(2);
             const range = getRange(bot);
             const winLoss = getWinLoss(bot).toFixed(2);
+            const winDrawLoss = getWinDrawLoss(bot).toFixed(2);
 
             return (
               <div className="botRow" key={bot.Id}>
                 <img src={bot.Profile} alt={bot.Name} className="botProfile" />
                 <div className="botInfo">
-                  <div className="botTitle">#{rank} - {bot.Name}</div>
+                  <div className="botTitle">#{rank} - {bot.Name}{bot.Trophies?.length > 0 && (
+                  <span style={{ marginLeft: '8px' }}>
+                    {bot.Trophies.map((trophy: string, i: number) => (
+                      <img
+                        key={i}
+                        src={`./../img/Trophy/${trophy}.png`}
+                        alt={trophy}
+                        title={trophy.replace('_', ' ')}
+                        style={{
+                          width: '30px',
+                          height: '30px',
+                          verticalAlign: 'middle',
+                          marginRight: '4px'
+                        }}
+                      />
+                    ))}
+                  </span>
+                )}<span style={{ float: 'right' }}>Elo: {bot.Elo}</span></div>
                   <div className="botMeta">
-                    <div><b>Elo: {bot.Elo}</b><span style={{ float: 'right' }}>Max: {bot.PeakElo}</span></div>
-                    <div>Creator: {bot.Creator}<span style={{ float: 'right' }}>Min: {bot.MinElo}</span></div>
-                    <div>W/D/L: {bot.WinsTotal}/{bot.DrawsTotal}/{bot.LossesTotal} ({awinPct}%)<span style={{ float: 'right' }}>Range: {range}</span></div>
-                    <div>Win %: {winPct}%, WL: {winLoss}<span style={{ float: 'right' }}>G: {games}</span></div>
+                    <div><b>Creator: {bot.Creator}</b><span style={{ float: 'right' }}>Max: {bot.PeakElo}</span></div>
+                    <div>W/D/L: {bot.WinsTotal}/{bot.DrawsTotal}/{bot.LossesTotal}, AW%: {awinPct}%<span style={{ float: 'right' }}>Min: {bot.MinElo}</span></div>
+                    <div>Win %: {winPct}%, Draw %: {drawPct}%, Loss %: {lossPct}%<span style={{ float: 'right' }}>Range: {range}</span></div>
+                    <div>W/L: {winLoss}, WD/L: {winDrawLoss}<span style={{ float: 'right' }}>G: {games}</span></div>
                   </div>
                 </div>
               </div>
@@ -99,8 +137,11 @@ function Elo() {
         <select id="sortBy" value={sortBy} onChange={(e) => setSortBy(e.target.value)}>
           <option value="Elo">Elo</option>
           <option value="Win %">Win %</option>
+          <option value="Draw %">Draw %</option>
+          <option value="Loss %">Loss %</option>
           <option value="Adjusted Win %">Adjusted Win %</option>
           <option value="Win / Loss">Win / Loss</option>
+          <option value="WinDraw / Loss">Win + Draw / Loss</option>
           <option value="Games Total">Games Total</option>
           <option value="Max Elo">Max Elo</option>
           <option value="Min Elo">Min Elo</option>

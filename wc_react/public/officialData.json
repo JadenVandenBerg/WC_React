@@ -35,7 +35,8 @@
     "Competing": [
       "S1",
       "S2"
-    ]
+    ],
+    "Trophies": ["S1_Bronze"]
   },
   {
     "Id": "2",
@@ -73,7 +74,8 @@
     "Competing": [
       "S1",
       "S2"
-    ]
+    ],
+    "Trophies": []
   },
   {
     "Id": "3",
@@ -111,7 +113,8 @@
     "Competing": [
       "S1",
       "S2"
-    ]
+    ],
+    "Trophies": []
   },
   {
     "Id": "4",
@@ -149,7 +152,8 @@
     "Competing": [
       "S1",
       "S2"
-    ]
+    ],
+    "Trophies": []
   },
   {
     "Id": "5",
@@ -177,7 +181,8 @@
     "MinElo": 944,
     "Competing": [
       "S1"
-    ]
+    ],
+    "Trophies": []
   },
   {
     "Id": "6",
@@ -205,7 +210,8 @@
     "MinElo": 1000,
     "Competing": [
       "S1"
-    ]
+    ],
+    "Trophies": ["S1_Silver", "S2_Silver"]
   },
   {
     "Id": "7",
@@ -233,7 +239,8 @@
     "MinElo": 1000,
     "Competing": [
       "S1"
-    ]
+    ],
+    "Trophies": ["S1_Gold", "S2_Gold"]
   },
   {
     "Id": "8",
@@ -261,7 +268,8 @@
     "MinElo": 917,
     "Competing": [
       "S1"
-    ]
+    ],
+    "Trophies": []
   },
   {
     "Id": "9",
@@ -289,7 +297,8 @@
     "MinElo": 973,
     "Competing": [
       "S2"
-    ]
+    ],
+    "Trophies": ["S2_Bronze"]
   },
   {
     "Id": "10",
@@ -317,7 +326,8 @@
     "MinElo": 981,
     "Competing": [
       "S2"
-    ]
+    ],
+    "Trophies": []
   },
   {
     "Id": "11",
@@ -345,7 +355,8 @@
     "MinElo": 965,
     "Competing": [
       "S2"
-    ]
+    ],
+    "Trophies": []
   },
   {
     "Id": "12",
@@ -373,7 +384,8 @@
     "MinElo": 910,
     "Competing": [
       "S2"
-    ]
+    ],
+    "Trophies": []
   },
   {
     "Id": "13",
@@ -401,7 +413,8 @@
     "MinElo": 915,
     "Competing": [
       "S2"
-    ]
+    ],
+    "Trophies": []
   },
   {
     "Id": "14",
@@ -429,7 +442,8 @@
     "MinElo": 942,
     "Competing": [
       "S2"
-    ]
+    ],
+    "Trophies": []
   },
   {
     "Id": "15",
@@ -457,7 +471,8 @@
     "MinElo": 943,
     "Competing": [
       "S2"
-    ]
+    ],
+    "Trophies": []
   },
   {
     "Id": "16",
@@ -485,6 +500,7 @@
     "MinElo": 966,
     "Competing": [
       "S2"
-    ]
+    ],
+    "Trophies": []
   }
 ]
