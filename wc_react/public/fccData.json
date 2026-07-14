@@ -1,0 +1,147 @@
+[
+  {
+    "Id": "19",
+    "Name": "Abilibot",
+    "Elo": 1011,
+    "Profile": "img/Abilibot.png",
+    "WinsTotal": 1,
+    "LossesTotal": 1,
+    "DrawsTotal": 5,
+    "Creator": "Jaden",
+    "PeakElo": 1021,
+    "MinElo": 968,
+    "Competing": [
+      "S3"
+    ],
+    "Trophies": [],
+    "Class": null
+  },
+  {
+    "Id": "18",
+    "Name": "Restrictor Bot",
+    "Elo": 940,
+    "Profile": "img/RestrictorBot.png",
+    "WinsTotal": 1,
+    "LossesTotal": 3,
+    "DrawsTotal": 3,
+    "Creator": "Carter",
+    "PeakElo": 1003,
+    "MinElo": 927,
+    "Competing": [
+      "S3"
+    ],
+    "Trophies": [
+    ],
+    "Class": null
+  },
+  {
+    "Id": "7",
+    "Name": "Bloodbot",
+    "Elo": 954,
+    "Profile": "img/Bloodbot.png",
+    "WinsTotal": 1,
+    "LossesTotal": 3,
+    "DrawsTotal": 3,
+    "Creator": "Jaden",
+    "PeakElo": 1000,
+    "MinElo": 911,
+    "Competing": [
+      "S1"
+    ],
+    "Trophies": [
+    ],
+    "Class": null
+  },
+  {
+    "Id": "14",
+    "Name": "Adventurous King Bot",
+    "Elo": 995,
+    "Profile": "img/AdventurousKingBot.png",
+    "WinsTotal": 1,
+    "LossesTotal": 2,
+    "DrawsTotal": 4,
+    "Creator": "Carter",
+    "PeakElo": 1000,
+    "MinElo": 945,
+    "Competing": [
+      "S2"
+    ],
+    "Trophies": [],
+    "Class": null
+  },
+  {
+    "Id": "5",
+    "Name": "BOTential",
+    "Elo": 919,
+    "Profile": "img/BOTential.png",
+    "WinsTotal": 1,
+    "LossesTotal": 4,
+    "DrawsTotal": 2,
+    "Creator": "Carter",
+    "PeakElo": 1000,
+    "MinElo": 919,
+    "Competing": [
+      "S1"
+    ],
+    "Trophies": [],
+    "Class": null
+  },
+  {
+    "Id": "2",
+    "Name": "Bottus Maximus",
+    "Elo": 1075,
+    "Profile": "img/BottusMaximus.png",
+    "WinsTotal": 3,
+    "LossesTotal": 0,
+    "DrawsTotal": 4,
+    "Creator": "Jaden",
+    "PeakElo": 1084,
+    "MinElo": 1000,
+    "Competing": [
+      "S1",
+      "S2"
+    ],
+    "Trophies": [
+      "FCC_S1_Gold"
+    ],
+    "Class": null
+  },
+  {
+    "Id": "9",
+    "Name": "G2 E-Bot",
+    "Elo": 1043,
+    "Profile": "img/G2-EBot.png",
+    "WinsTotal": 4,
+    "LossesTotal": 2,
+    "DrawsTotal": 1,
+    "Creator": "Jaden",
+    "PeakElo": 1092,
+    "MinElo": 1000,
+    "Competing": [
+      "S2"
+    ],
+    "Trophies": [
+      "FCC_S1_Bronze"
+    ],
+    "Class": null
+  },
+  {
+    "Id": "12",
+    "Name": "Savage Beastbot",
+    "Elo": 1063,
+    "Profile": "img/SavageBeastBot.png",
+    "WinsTotal": 4,
+    "LossesTotal": 1,
+    "DrawsTotal": 2,
+    "Creator": "Jaden",
+    "PeakElo": 1085,
+    "MinElo": 1000,
+    "Competing": [
+      "S2"
+    ],
+    "Trophies": [
+      "FCC_S1_Silver"
+    ],
+    "Class": null
+  }
+]

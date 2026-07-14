@@ -1,0 +1,534 @@
+[
+  {
+    "Id": "1",
+    "Name": "Random Bot",
+    "Elo": 847,
+    "Division": 1,
+    "Profile": "img/RandomBot.png",
+    "Position": -1,
+    "WinsTotal": 0,
+    "LossesTotal": 8,
+    "DrawsTotal": 6,
+    "Creator": "Jaden",
+    "Seasons": [
+      {
+        "Season": 1,
+        "Division": 1,
+        "Wins": 0,
+        "Losses": 0,
+        "Draws": 0,
+        "StartingElo": 1000,
+        "EndingElo": null
+      }
+    ],
+    "PeakElo": 1000,
+    "MinElo": 846,
+    "Competing": [
+      "S1"
+    ]
+  },
+  {
+    "Id": "2",
+    "Name": "One Move Bot",
+    "Elo": 925,
+    "Division": 1,
+    "Profile": "img/OneMoveBot.png",
+    "Position": -1,
+    "WinsTotal": 1,
+    "LossesTotal": 4,
+    "DrawsTotal": 2,
+    "Creator": "Jaden",
+    "Seasons": [
+      {
+        "Season": 1,
+        "Division": 1,
+        "Wins": 0,
+        "Losses": 0,
+        "Draws": 0,
+        "StartingElo": 1000,
+        "EndingElo": null
+      }
+    ],
+    "PeakElo": 1000,
+    "MinElo": 915,
+    "Competing": [
+      "S1"
+    ]
+  },
+  {
+    "Id": "3",
+    "Name": "Idiot Bot",
+    "Elo": 926,
+    "Division": 1,
+    "Profile": "img/IdiotBot.png",
+    "Position": -1,
+    "WinsTotal": 0,
+    "LossesTotal": 3,
+    "DrawsTotal": 4,
+    "Creator": "Jaden",
+    "Seasons": [
+      {
+        "Season": 1,
+        "Division": 1,
+        "Wins": 0,
+        "Losses": 0,
+        "Draws": 0,
+        "StartingElo": 1000,
+        "EndingElo": null
+      }
+    ],
+    "PeakElo": 1000,
+    "MinElo": 925,
+    "Competing": [
+      "S1"
+    ]
+  },
+  {
+    "Id": "4",
+    "Name": "Savage Beastbot",
+    "Elo": 963,
+    "Division": 1,
+    "Profile": "img/SavageBeastBot.png",
+    "Position": -1,
+    "WinsTotal": 1,
+    "LossesTotal": 2,
+    "DrawsTotal": 4,
+    "Creator": "Jaden",
+    "Seasons": [
+      {
+        "Season": 1,
+        "Division": 1,
+        "Wins": 0,
+        "Losses": 0,
+        "Draws": 0,
+        "StartingElo": 1000,
+        "EndingElo": null
+      }
+    ],
+    "PeakElo": 1031,
+    "MinElo": 956,
+    "Competing": [
+      "S1"
+    ]
+  },
+  {
+    "Id": "5",
+    "Name": "Bloodbot",
+    "Elo": 1000,
+    "Division": 1,
+    "Profile": "img/Bloodbot.png",
+    "Position": -1,
+    "WinsTotal": 0,
+    "LossesTotal": 0,
+    "DrawsTotal": 0,
+    "Creator": "Jaden",
+    "Seasons": [
+      {
+        "Season": 1,
+        "Division": 1,
+        "Wins": 0,
+        "Losses": 0,
+        "Draws": 0,
+        "StartingElo": 1000,
+        "EndingElo": null
+      }
+    ],
+    "PeakElo": 1000,
+    "MinElo": 1000,
+    "Competing": [
+      "S1"
+    ]
+  },
+  {
+    "Id": "6",
+    "Name": "Abilibot",
+    "Elo": 994,
+    "Division": 1,
+    "Profile": "img/Abilibot.png",
+    "Position": -1,
+    "WinsTotal": 1,
+    "LossesTotal": 1,
+    "DrawsTotal": 5,
+    "Creator": "Jaden",
+    "Seasons": [
+      {
+        "Season": 1,
+        "Division": 1,
+        "Wins": 0,
+        "Losses": 0,
+        "Draws": 0,
+        "StartingElo": 1000,
+        "EndingElo": null
+      }
+    ],
+    "PeakElo": 1000,
+    "MinElo": 960,
+    "Competing": [
+      "S1"
+    ]
+  },
+  {
+    "Id": "7",
+    "Name": "5x Random Bot",
+    "Elo": 925,
+    "Division": 1,
+    "Profile": "img/5xRandomBot.png",
+    "Position": -1,
+    "WinsTotal": 3,
+    "LossesTotal": 10,
+    "DrawsTotal": 8,
+    "Creator": "Jaden",
+    "Seasons": [
+      {
+        "Season": 1,
+        "Division": 1,
+        "Wins": 0,
+        "Losses": 0,
+        "Draws": 0,
+        "StartingElo": 1000,
+        "EndingElo": null
+      }
+    ],
+    "PeakElo": 1000,
+    "MinElo": 880,
+    "Competing": [
+      "S1"
+    ]
+  },
+  {
+    "Id": "8",
+    "Name": "Bottus Maximus",
+    "Elo": 1084,
+    "Division": 1,
+    "Profile": "img/BottusMaximus.png",
+    "Position": -1,
+    "WinsTotal": 5,
+    "LossesTotal": 2,
+    "DrawsTotal": 7,
+    "Creator": "Jaden",
+    "Seasons": [
+      {
+        "Season": 1,
+        "Division": 1,
+        "Wins": 0,
+        "Losses": 0,
+        "Draws": 0,
+        "StartingElo": 1000,
+        "EndingElo": null
+      }
+    ],
+    "PeakElo": 1084,
+    "MinElo": 971,
+    "Competing": [
+      "S1"
+    ]
+  },
+  {
+    "Id": "9",
+    "Name": "G2 E-Bot",
+    "Elo": 1134,
+    "Division": 1,
+    "Profile": "img/G2-EBot.png",
+    "Position": -1,
+    "WinsTotal": 11,
+    "LossesTotal": 4,
+    "DrawsTotal": 6,
+    "Creator": "Jaden",
+    "Seasons": [
+      {
+        "Season": 1,
+        "Division": 1,
+        "Wins": 0,
+        "Losses": 0,
+        "Draws": 0,
+        "StartingElo": 1000,
+        "EndingElo": null
+      }
+    ],
+    "PeakElo": 1140,
+    "MinElo": 964,
+    "Competing": [
+      "S1"
+    ]
+  },
+  {
+    "Id": "10",
+    "Name": "Kamikaze Bot",
+    "Elo": 1013,
+    "Division": 1,
+    "Profile": "img/KamikazeBot.png",
+    "Position": -1,
+    "WinsTotal": 4,
+    "LossesTotal": 2,
+    "DrawsTotal": 8,
+    "Creator": "Jaden",
+    "Seasons": [
+      {
+        "Season": 1,
+        "Division": 1,
+        "Wins": 0,
+        "Losses": 0,
+        "Draws": 0,
+        "StartingElo": 1000,
+        "EndingElo": null
+      }
+    ],
+    "PeakElo": 1073,
+    "MinElo": 995,
+    "Competing": [
+      "S1"
+    ]
+  },
+  {
+    "Id": "11",
+    "Name": "Bot Ross",
+    "Elo": 815,
+    "Division": 1,
+    "Profile": "img/BotRoss.png",
+    "Position": -1,
+    "WinsTotal": 0,
+    "LossesTotal": 9,
+    "DrawsTotal": 5,
+    "Creator": "Jaden",
+    "Seasons": [
+      {
+        "Season": 1,
+        "Division": 1,
+        "Wins": 0,
+        "Losses": 0,
+        "Draws": 0,
+        "StartingElo": 1000,
+        "EndingElo": null
+      }
+    ],
+    "PeakElo": 1000,
+    "MinElo": 815,
+    "Competing": [
+      "S1"
+    ]
+  },
+  {
+    "Id": "12",
+    "Name": "Two Move Bot",
+    "Elo": 1026,
+    "Division": 1,
+    "Profile": "img/TwoMoveBot.png",
+    "Position": -1,
+    "WinsTotal": 2,
+    "LossesTotal": 0,
+    "DrawsTotal": 5,
+    "Creator": "Jaden",
+    "Seasons": [
+      {
+        "Season": 1,
+        "Division": 1,
+        "Wins": 0,
+        "Losses": 0,
+        "Draws": 0,
+        "StartingElo": 1000,
+        "EndingElo": null
+      }
+    ],
+    "PeakElo": 1050,
+    "MinElo": 997,
+    "Competing": [
+      "S1"
+    ]
+  },
+  {
+    "Id": "13",
+    "Name": "Thinking Bot",
+    "Elo": 1103,
+    "Division": 1,
+    "Profile": "img/ThinkingBot.png",
+    "Position": -1,
+    "WinsTotal": 4,
+    "LossesTotal": 0,
+    "DrawsTotal": 3,
+    "Creator": "Jaden",
+    "Seasons": [
+      {
+        "Season": 1,
+        "Division": 1,
+        "Wins": 0,
+        "Losses": 0,
+        "Draws": 0,
+        "StartingElo": 1000,
+        "EndingElo": null
+      }
+    ],
+    "PeakElo": 1103,
+    "MinElo": 1000,
+    "Competing": [
+      "S1"
+    ]
+  },
+  {
+    "Id": "14",
+    "Name": "Lobotomy",
+    "Elo": 923,
+    "Division": 1,
+    "Profile": "img/Lobotomy.png",
+    "Position": -1,
+    "WinsTotal": 0,
+    "LossesTotal": 3,
+    "DrawsTotal": 4,
+    "Creator": "Jaden",
+    "Seasons": [
+      {
+        "Season": 1,
+        "Division": 1,
+        "Wins": 0,
+        "Losses": 0,
+        "Draws": 0,
+        "StartingElo": 1000,
+        "EndingElo": null
+      }
+    ],
+    "PeakElo": 1000,
+    "MinElo": 923,
+    "Competing": [
+      "S1"
+    ]
+  },
+  {
+    "Id": "15",
+    "Name": "Berserker Bot",
+    "Elo": 1000,
+    "Division": 1,
+    "Profile": "img/BerserkerBot.png",
+    "Position": -1,
+    "WinsTotal": 0,
+    "LossesTotal": 0,
+    "DrawsTotal": 0,
+    "Creator": "Jaden",
+    "Seasons": [
+      {
+        "Season": 1,
+        "Division": 1,
+        "Wins": 0,
+        "Losses": 0,
+        "Draws": 0,
+        "StartingElo": 1000,
+        "EndingElo": null
+      }
+    ],
+    "PeakElo": 1000,
+    "MinElo": 1000,
+    "Competing": [
+      "S1"
+    ]
+  },
+  {
+    "Id": "16",
+    "Name": "Hitman Bot",
+    "Elo": 1000,
+    "Division": 1,
+    "Profile": "img/HitmanBot.png",
+    "Position": -1,
+    "WinsTotal": 0,
+    "LossesTotal": 0,
+    "DrawsTotal": 0,
+    "Creator": "Jaden",
+    "Seasons": [
+      {
+        "Season": 1,
+        "Division": 1,
+        "Wins": 0,
+        "Losses": 0,
+        "Draws": 0,
+        "StartingElo": 1000,
+        "EndingElo": null
+      }
+    ],
+    "PeakElo": 1000,
+    "MinElo": 1000,
+    "Competing": [
+      "S1"
+    ]
+  },
+  {
+    "Id": "17",
+    "Name": "Thinking Bot II",
+    "Elo": 1000,
+    "Division": 1,
+    "Profile": "img/ThinkingBotII.png",
+    "Position": -1,
+    "WinsTotal": 0,
+    "LossesTotal": 0,
+    "DrawsTotal": 0,
+    "Creator": "Jaden",
+    "Seasons": [
+      {
+        "Season": 1,
+        "Division": 1,
+        "Wins": 0,
+        "Losses": 0,
+        "Draws": 0,
+        "StartingElo": 1000,
+        "EndingElo": null
+      }
+    ],
+    "PeakElo": 1000,
+    "MinElo": 1000,
+    "Competing": [
+      "S1"
+    ]
+  },
+  {
+    "Id": "18",
+    "Name": "Bot 618",
+    "Elo": 1221,
+    "Division": 1,
+    "Profile": "img/Bot618.png",
+    "Position": -1,
+    "WinsTotal": 12,
+    "LossesTotal": 0,
+    "DrawsTotal": 2,
+    "Creator": "Jaden",
+    "Seasons": [
+      {
+        "Season": 1,
+        "Division": 1,
+        "Wins": 0,
+        "Losses": 0,
+        "Draws": 0,
+        "StartingElo": 1000,
+        "EndingElo": null
+      }
+    ],
+    "PeakElo": 1221,
+    "MinElo": 1000,
+    "Competing": [
+      "S1"
+    ]
+  },
+  {
+    "Id": "19",
+    "Name": "Bots Utd.",
+    "Elo": 1101,
+    "Division": 1,
+    "Profile": "img/BotsUtd.png",
+    "Position": -1,
+    "WinsTotal": 4,
+    "LossesTotal": 0,
+    "DrawsTotal": 3,
+    "Creator": "Jaden",
+    "Seasons": [
+      {
+        "Season": 1,
+        "Division": 1,
+        "Wins": 0,
+        "Losses": 0,
+        "Draws": 0,
+        "StartingElo": 1000,
+        "EndingElo": null
+      }
+    ],
+    "PeakElo": 1101,
+    "MinElo": 1000,
+    "Competing": [
+      "S1"
+    ]
+  }
+]

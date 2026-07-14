@@ -1,11 +1,9 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Elo from './pages/Elo'
 import Season1 from './pages/Season1'
 import Dashboard from "./Dashboard";
+import Victors from './pages/Victors';
 
 
 function App() {
@@ -22,6 +20,7 @@ function App() {
       <Router>
         <Routes>
             <Route path="/" element={<Elo />} />
+            <Route path="/victors" element={<Victors />} />
             <Route path="/season1" element={<Season1 />} />
             <Route path="/dashboard" element={<Dashboard />} />
         </Routes>

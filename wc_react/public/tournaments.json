@@ -1,0 +1,132 @@
+{
+    "WCC": [
+        {
+            "Id": "1",
+            "Season": "Season 1",
+            "Name": "Bloodbot",
+            "Profile": "img/Bloodbot.png",
+            "Elo": 1110,
+            "Creator": "Jaden",
+            "Trophies": ["S1_Gold"],
+            "RunnerUp": ["Assassin Bot", "Pawn Bot"]
+        },
+        {
+            "Id": "2",
+            "Season": "Season 2",
+            "Name": "Bloodbot",
+            "Profile": "img/Bloodbot.png",
+            "Elo": 1109,
+            "Creator": "Jaden",
+            "Trophies": ["S2_Gold"],
+            "RunnerUp": ["Assassin Bot", "G2 E-Bot"]
+        },
+        {
+            "Id": "3",
+            "Season": "Season 3",
+            "Name": "Bloodbot",
+            "Profile": "img/Bloodbot.png",
+            "Elo": 1192,
+            "Creator": "Jaden",
+            "Trophies": ["S3_Gold"],
+            "RunnerUp": ["G2 E-Bot", "Bottus Maximus"]
+        },
+        {
+            "Id": "4",
+            "Season": "Season 4",
+            "Name": "G2 E-Bot",
+            "Profile": "img/G2-EBot.png",
+            "Elo": 1254,
+            "Creator": "Jaden",
+            "Trophies": ["S4_Gold"],
+            "RunnerUp": ["Two Move Bot", "Botnia and Herzebotvina"]
+        }
+    ],
+    "NCC": [
+        {
+            "Id": "1",
+            "Season": "Season 1",
+            "Name": "G2 E-Bot",
+            "Profile": "img/G2-EBot.png",
+            "Elo": 1158,
+            "Creator": "Jaden",
+            "Trophies": ["NCC_S1_Gold"],
+            "RunnerUp": ["Kamikaze Bot", "Assassin Bot"]
+        },
+        {
+            "Id": "2",
+            "Season": "Season 2",
+            "Name": "Two Move Bot",
+            "Profile": "img/TwoMoveBot.png",
+            "Elo": 1153,
+            "Creator": "Jaden",
+            "Trophies": ["NCC_S2_Gold"],
+            "RunnerUp": ["G2 E-Bot", "Thinking Bot"]
+        },
+        {
+            "Id": "3",
+            "Season": "Season 3",
+            "Name": "Botnia and Herzebotvina",
+            "Profile": "img/BotniaAndHerzebotvina.png",
+            "Elo": 1213,
+            "Creator": "Jaden",
+            "Trophies": ["NCC_S3_Gold"],
+            "RunnerUp": ["Thinking Bot", "Two Move Bot"]
+        }
+    ],
+    "ACC": [
+        {
+            "Id": "1",
+            "Season": "Season 1",
+            "Name": "Savage Beastbot",
+            "Profile": "img/SavageBeastBot.png",
+            "Elo": 1167,
+            "Creator": "Jaden",
+            "Trophies": ["ACC_S1_Gold"],
+            "RunnerUp": ["5x Random Bot", "Bottus Maximus"]
+        },
+        {
+            "Id": "2",
+            "Season": "Season 2",
+            "Name": "Thinking Bot",
+            "Profile": "img/ThinkingBot.png",
+            "Elo": 1158,
+            "Creator": "Jaden",
+            "Trophies": ["ACC_S2_Gold"],
+            "RunnerUp": ["Hitman Bot", "Bottus Maximus"]
+        }
+    ],
+    "FCC": [
+        {
+            "Id": "1",
+            "Season": "Season 1",
+            "Name": "Bottus Maximus",
+            "Profile": "img/BottusMaximus.png",
+            "Elo": 1075,
+            "Creator": "Jaden",
+            "Trophies": ["FCC_S1_Gold"],
+            "RunnerUp": ["Savage Beastbot", "G2 E-Bot"]
+        }
+    ],
+    "WCTourney": [
+        {
+            "Id": "1",
+            "Season": "Season 1",
+            "Name": "G2 E-Bot",
+            "Profile": "img/G2-EBot.png",
+            "Elo": 0,
+            "Creator": "Jaden",
+            "Trophies": ["WCTourney_S1_Gold"],
+            "RunnerUp": ["Bloodbot", "Assassin Bot"]
+        },
+        {
+            "Id": "2",
+            "Season": "Season 2",
+            "Name": "Thinking Bot",
+            "Profile": "img/ThinkingBot.png",
+            "Elo": 0,
+            "Creator": "Jaden",
+            "Trophies": ["WCTourney_S2_Gold"],
+            "RunnerUp": ["Two Move Bot", "Restrictor Bot"]
+        }
+    ]
+}

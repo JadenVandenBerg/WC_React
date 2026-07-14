@@ -2,505 +2,494 @@
   {
     "Id": "1",
     "Name": "Pawn Bot",
-    "Elo": 1031,
-    "Division": 1,
+    "Elo": 987,
     "Profile": "img/PawnBot.png",
-    "Position": -1,
-    "WinsTotal": 6,
-    "LossesTotal": 4,
-    "DrawsTotal": 4,
+    "WinsTotal": 11,
+    "LossesTotal": 11,
+    "DrawsTotal": 6,
     "Creator": "Carter",
-    "Seasons": [
-      {
-        "Season": 1,
-        "Division": 1,
-        "Wins": 4,
-        "Losses": 1,
-        "Draws": 2,
-        "StartingElo": 1000,
-        "EndingElo": 1070
-      },
-      {
-        "Season": 2,
-        "Division": 1,
-        "Wins": 0,
-        "Losses": 0,
-        "Draws": 0,
-        "StartingElo": 1070,
-        "EndingElo": null
-      }
-    ],
     "PeakElo": 1098,
-    "MinElo": 1000,
-    "Competing": [
-      "S1",
-      "S2"
+    "MinElo": 948,
+    "Trophies": [
+      "S1_Bronze"
     ],
-    "Trophies": ["S1_Bronze"]
+    "Class": "OneMove"
   },
   {
     "Id": "2",
     "Name": "Bottus Maximus",
-    "Elo": 1085,
-    "Division": 1,
+    "Elo": 1167,
     "Profile": "img/BottusMaximus.png",
-    "Position": -1,
-    "WinsTotal": 5,
-    "LossesTotal": 1,
-    "DrawsTotal": 8,
+    "WinsTotal": 11,
+    "LossesTotal": 3,
+    "DrawsTotal": 14,
     "Creator": "Jaden",
-    "Seasons": [
-      {
-        "Season": 1,
-        "Division": 1,
-        "Wins": 3,
-        "Losses": 1,
-        "Draws": 3,
-        "StartingElo": 1000,
-        "EndingElo": 1054
-      },
-      {
-        "Season": 2,
-        "Division": 1,
-        "Wins": 0,
-        "Losses": 0,
-        "Draws": 0,
-        "StartingElo": 1054,
-        "EndingElo": null
-      }
-    ],
-    "PeakElo": 1101,
+    "PeakElo": 1173,
     "MinElo": 971,
-    "Competing": [
-      "S1",
-      "S2"
+    "Trophies": [
+      "ACC_S1_Bronze",
+      "S3_Bronze",
+      "ACC_S2_Bronze",
+      "FCC_S1_Gold",
+      "S4_Bronze"
     ],
-    "Trophies": []
+    "Class": "OneMove"
   },
   {
     "Id": "3",
     "Name": "5x Random Bot",
-    "Elo": 973,
-    "Division": 1,
+    "Elo": 854,
     "Profile": "img/5xRandomBot.png",
-    "Position": -1,
-    "WinsTotal": 3,
-    "LossesTotal": 5,
-    "DrawsTotal": 6,
+    "WinsTotal": 6,
+    "LossesTotal": 12,
+    "DrawsTotal": 10,
     "Creator": "Jaden",
-    "Seasons": [
-      {
-        "Season": 1,
-        "Division": 1,
-        "Wins": 1,
-        "Losses": 4,
-        "Draws": 2,
-        "StartingElo": 1000,
-        "EndingElo": 928
-      },
-      {
-        "Season": 2,
-        "Division": 1,
-        "Wins": 0,
-        "Losses": 0,
-        "Draws": 0,
-        "StartingElo": 928,
-        "EndingElo": null
-      }
-    ],
     "PeakElo": 1000,
-    "MinElo": 908,
-    "Competing": [
-      "S1",
-      "S2"
+    "MinElo": 846,
+    "Trophies": [
+      "ACC_S1_Silver"
     ],
-    "Trophies": []
+    "Class": "OneMove"
   },
   {
     "Id": "4",
     "Name": "Idiot Bot",
-    "Elo": 863,
-    "Division": 1,
+    "Elo": 811,
     "Profile": "img/IdiotBot.png",
-    "Position": -1,
-    "WinsTotal": 1,
-    "LossesTotal": 9,
-    "DrawsTotal": 4,
+    "WinsTotal": 3,
+    "LossesTotal": 14,
+    "DrawsTotal": 11,
     "Creator": "Jaden",
-    "Seasons": [
-      {
-        "Season": 1,
-        "Division": 1,
-        "Wins": 0,
-        "Losses": 6,
-        "Draws": 1,
-        "StartingElo": 1000,
-        "EndingElo": 854
-      },
-      {
-        "Season": 2,
-        "Division": 1,
-        "Wins": 0,
-        "Losses": 0,
-        "Draws": 0,
-        "StartingElo": 854,
-        "EndingElo": null
-      }
-    ],
     "PeakElo": 1000,
-    "MinElo": 849,
-    "Competing": [
-      "S1",
-      "S2"
-    ],
-    "Trophies": []
+    "MinElo": 811,
+    "Trophies": [],
+    "Class": "OneMove"
   },
   {
     "Id": "5",
     "Name": "BOTential",
-    "Elo": 1050,
-    "Division": 1,
+    "Elo": 1005,
     "Profile": "img/BOTential.png",
-    "Position": -1,
-    "WinsTotal": 6,
-    "LossesTotal": 4,
-    "DrawsTotal": 4,
+    "WinsTotal": 10,
+    "LossesTotal": 10,
+    "DrawsTotal": 8,
     "Creator": "Carter",
-    "Seasons": [
-      {
-        "Season": 1,
-        "Division": 1,
-        "Wins": 0,
-        "Losses": 0,
-        "Draws": 0,
-        "StartingElo": 1000,
-        "EndingElo": null
-      }
-    ],
-    "PeakElo": 1050,
-    "MinElo": 944,
-    "Competing": [
-      "S1"
-    ],
-    "Trophies": []
+    "PeakElo": 1095,
+    "MinElo": 912,
+    "Trophies": [],
+    "Class": "OneMove"
   },
   {
     "Id": "6",
     "Name": "Assassin Bot",
-    "Elo": 1107,
-    "Division": 1,
+    "Elo": 1094,
     "Profile": "img/AssassinBot.png",
-    "Position": -1,
-    "WinsTotal": 8,
-    "LossesTotal": 3,
-    "DrawsTotal": 3,
+    "WinsTotal": 14,
+    "LossesTotal": 10,
+    "DrawsTotal": 4,
     "Creator": "Carter",
-    "Seasons": [
-      {
-        "Season": 1,
-        "Division": 1,
-        "Wins": 0,
-        "Losses": 0,
-        "Draws": 0,
-        "StartingElo": 1000,
-        "EndingElo": null
-      }
-    ],
-    "PeakElo": 1108,
+    "PeakElo": 1149,
     "MinElo": 1000,
-    "Competing": [
-      "S1"
+    "Trophies": [
+      "S1_Silver",
+      "S2_Silver",
+      "NCC_S1_Bronze",
+      "WCTourney_S1_Bronze"
     ],
-    "Trophies": ["S1_Silver", "S2_Silver"]
+    "Class": "OneMove"
   },
   {
     "Id": "7",
     "Name": "Bloodbot",
-    "Elo": 1109,
-    "Division": 1,
+    "Elo": 1115,
     "Profile": "img/Bloodbot.png",
-    "Position": -1,
-    "WinsTotal": 7,
-    "LossesTotal": 2,
-    "DrawsTotal": 5,
+    "WinsTotal": 13,
+    "LossesTotal": 5,
+    "DrawsTotal": 10,
     "Creator": "Jaden",
-    "Seasons": [
-      {
-        "Season": 1,
-        "Division": 1,
-        "Wins": 0,
-        "Losses": 0,
-        "Draws": 0,
-        "StartingElo": 1000,
-        "EndingElo": null
-      }
-    ],
-    "PeakElo": 1110,
+    "PeakElo": 1211,
     "MinElo": 1000,
-    "Competing": [
-      "S1"
+    "Trophies": [
+      "S1_Gold",
+      "S2_Gold",
+      "WCTourney_S1_Silver",
+      "S3_Gold"
     ],
-    "Trophies": ["S1_Gold", "S2_Gold"]
+    "Class": "OneMove"
   },
   {
     "Id": "8",
     "Name": "Shield Bot",
-    "Elo": 917,
-    "Division": 1,
+    "Elo": 924,
     "Profile": "img/ShieldBot.png",
-    "Position": -1,
-    "WinsTotal": 2,
-    "LossesTotal": 6,
-    "DrawsTotal": 6,
+    "WinsTotal": 5,
+    "LossesTotal": 9,
+    "DrawsTotal": 14,
     "Creator": "Carter",
-    "Seasons": [
-      {
-        "Season": 1,
-        "Division": 1,
-        "Wins": 0,
-        "Losses": 0,
-        "Draws": 0,
-        "StartingElo": 1000,
-        "EndingElo": null
-      }
-    ],
     "PeakElo": 1000,
-    "MinElo": 917,
-    "Competing": [
-      "S1"
-    ],
-    "Trophies": []
+    "MinElo": 889,
+    "Trophies": [],
+    "Class": "OneMove"
   },
   {
     "Id": "9",
     "Name": "G2 E-Bot",
-    "Elo": 1095,
-    "Division": 1,
+    "Elo": 1254,
     "Profile": "img/G2-EBot.png",
-    "Position": -1,
-    "WinsTotal": 5,
-    "LossesTotal": 2,
-    "DrawsTotal": 0,
+    "WinsTotal": 15,
+    "LossesTotal": 3,
+    "DrawsTotal": 3,
     "Creator": "Jaden",
-    "Seasons": [
-      {
-        "Season": 2,
-        "Division": 1,
-        "Wins": 0,
-        "Losses": 0,
-        "Draws": 0,
-        "StartingElo": 1000,
-        "EndingElo": null
-      }
-    ],
-    "PeakElo": 1095,
+    "PeakElo": 1260,
     "MinElo": 973,
-    "Competing": [
-      "S2"
+    "Trophies": [
+      "S2_Bronze",
+      "NCC_S1_Gold",
+      "WCTourney_S1_Gold",
+      "S3_Silver",
+      "NCC_S2_Silver",
+      "FCC_S1_Bronze",
+      "S4_Gold"
     ],
-    "Trophies": ["S2_Bronze"]
+    "Class": "OneMove"
   },
   {
     "Id": "10",
     "Name": "Kamikaze Bot",
-    "Elo": 1018,
-    "Division": 1,
+    "Elo": 1058,
     "Profile": "img/KamikazeBot.png",
-    "Position": -1,
-    "WinsTotal": 2,
-    "LossesTotal": 2,
-    "DrawsTotal": 3,
+    "WinsTotal": 7,
+    "LossesTotal": 8,
+    "DrawsTotal": 6,
     "Creator": "Jaden",
-    "Seasons": [
-      {
-        "Season": 2,
-        "Division": 1,
-        "Wins": 0,
-        "Losses": 0,
-        "Draws": 0,
-        "StartingElo": 1000,
-        "EndingElo": null
-      }
+    "PeakElo": 1082,
+    "MinElo": 973,
+    "Trophies": [
+      "NCC_S1_Silver"
     ],
-    "PeakElo": 1039,
-    "MinElo": 981,
-    "Competing": [
-      "S2"
-    ],
-    "Trophies": []
+    "Class": "OneMove"
   },
   {
     "Id": "11",
     "Name": "One Move Bot",
-    "Elo": 965,
-    "Division": 1,
+    "Elo": 985,
     "Profile": "img/OneMoveBot.png",
-    "Position": -1,
-    "WinsTotal": 2,
-    "LossesTotal": 4,
-    "DrawsTotal": 1,
+    "WinsTotal": 8,
+    "LossesTotal": 10,
+    "DrawsTotal": 3,
     "Creator": "Jaden",
-    "Seasons": [
-      {
-        "Season": 2,
-        "Division": 1,
-        "Wins": 0,
-        "Losses": 0,
-        "Draws": 0,
-        "StartingElo": 1000,
-        "EndingElo": null
-      }
-    ],
-    "PeakElo": 1040,
-    "MinElo": 965,
-    "Competing": [
-      "S2"
-    ],
-    "Trophies": []
+    "PeakElo": 1071,
+    "MinElo": 943,
+    "Trophies": [],
+    "Class": "OneMove"
   },
   {
     "Id": "12",
     "Name": "Savage Beastbot",
-    "Elo": 910,
-    "Division": 1,
+    "Elo": 1013,
     "Profile": "img/SavageBeastBot.png",
-    "Position": -1,
-    "WinsTotal": 0,
-    "LossesTotal": 4,
-    "DrawsTotal": 3,
+    "WinsTotal": 5,
+    "LossesTotal": 6,
+    "DrawsTotal": 10,
     "Creator": "Jaden",
-    "Seasons": [
-      {
-        "Season": 2,
-        "Division": 1,
-        "Wins": 0,
-        "Losses": 0,
-        "Draws": 0,
-        "StartingElo": 1000,
-        "EndingElo": null
-      }
+    "PeakElo": 1042,
+    "MinElo": 889,
+    "Trophies": [
+      "ACC_S1_Gold",
+      "FCC_S1_Silver"
     ],
-    "PeakElo": 1020,
-    "MinElo": 910,
-    "Competing": [
-      "S2"
-    ],
-    "Trophies": []
+    "Class": "OneMove"
   },
   {
     "Id": "13",
     "Name": "One Piece Random Bot",
-    "Elo": 1017,
-    "Division": 1,
+    "Elo": 959,
     "Profile": "img/OnePieceRandomBot.png",
-    "Position": -1,
-    "WinsTotal": 3,
-    "LossesTotal": 2,
-    "DrawsTotal": 2,
+    "WinsTotal": 6,
+    "LossesTotal": 9,
+    "DrawsTotal": 6,
     "Creator": "Carter",
-    "Seasons": [
-      {
-        "Season": 2,
-        "Division": 1,
-        "Wins": 0,
-        "Losses": 0,
-        "Draws": 0,
-        "StartingElo": 1000,
-        "EndingElo": null
-      }
-    ],
     "PeakElo": 1017,
     "MinElo": 915,
-    "Competing": [
-      "S2"
-    ],
-    "Trophies": []
+    "Trophies": [],
+    "Class": "OneMove"
   },
   {
     "Id": "14",
     "Name": "Adventurous King Bot",
-    "Elo": 942,
-    "Division": 1,
+    "Elo": 898,
     "Profile": "img/AdventurousKingBot.png",
-    "Position": -1,
-    "WinsTotal": 1,
-    "LossesTotal": 2,
-    "DrawsTotal": 4,
+    "WinsTotal": 4,
+    "LossesTotal": 7,
+    "DrawsTotal": 10,
     "Creator": "Carter",
-    "Seasons": [
-      {
-        "Season": 2,
-        "Division": 1,
-        "Wins": 0,
-        "Losses": 0,
-        "Draws": 0,
-        "StartingElo": 1000,
-        "EndingElo": null
-      }
-    ],
-    "PeakElo": 1020,
-    "MinElo": 942,
-    "Competing": [
-      "S2"
-    ],
-    "Trophies": []
+    "PeakElo": 1031,
+    "MinElo": 886,
+    "Trophies": [],
+    "Class": "OneMove"
   },
   {
     "Id": "15",
     "Name": "Bot Ross",
-    "Elo": 949,
-    "Division": 1,
+    "Elo": 884,
     "Profile": "img/BotRoss.png",
-    "Position": -1,
-    "WinsTotal": 1,
-    "LossesTotal": 2,
-    "DrawsTotal": 4,
+    "WinsTotal": 2,
+    "LossesTotal": 6,
+    "DrawsTotal": 13,
     "Creator": "Jaden",
-    "Seasons": [
-      {
-        "Season": 2,
-        "Division": 1,
-        "Wins": 0,
-        "Losses": 0,
-        "Draws": 0,
-        "StartingElo": 1000,
-        "EndingElo": null
-      }
-    ],
     "PeakElo": 1000,
-    "MinElo": 943,
-    "Competing": [
-      "S2"
-    ],
-    "Trophies": []
+    "MinElo": 844,
+    "Trophies": [],
+    "Class": "PointFiveMove"
   },
   {
     "Id": "16",
     "Name": "Random Bot",
-    "Elo": 969,
-    "Division": 1,
+    "Elo": 957,
     "Profile": "img/RandomBot.png",
-    "Position": -1,
-    "WinsTotal": 2,
-    "LossesTotal": 2,
-    "DrawsTotal": 3,
+    "WinsTotal": 6,
+    "LossesTotal": 7,
+    "DrawsTotal": 8,
     "Creator": "Jaden",
-    "Seasons": [
-      {
-        "Season": 2,
-        "Division": 1,
-        "Wins": 0,
-        "Losses": 0,
-        "Draws": 0,
-        "StartingElo": 1000,
-        "EndingElo": null
-      }
-    ],
     "PeakElo": 1048,
-    "MinElo": 966,
-    "Competing": [
-      "S2"
+    "MinElo": 852,
+    "Trophies": [],
+    "Class": "ZeroMove"
+  },
+  {
+    "Id": "17",
+    "Name": "Thinking Bot",
+    "Elo": 1101,
+    "Profile": "img/ThinkingBot.png",
+    "WinsTotal": 9,
+    "LossesTotal": 4,
+    "DrawsTotal": 1,
+    "Creator": "Jaden",
+    "PeakElo": 1115,
+    "MinElo": 965,
+    "Trophies": [
+      "NCC_S2_Bronze",
+      "ACC_S2_Gold",
+      "WCTourney_S2_Gold"
     ],
-    "Trophies": []
+    "Class": "TwoMove"
+  },
+  {
+    "Id": "18",
+    "Name": "Restrictor Bot",
+    "Elo": 1056,
+    "Profile": "img/RestrictorBot.png",
+    "WinsTotal": 6,
+    "LossesTotal": 3,
+    "DrawsTotal": 5,
+    "Creator": "Carter",
+    "PeakElo": 1056,
+    "MinElo": 968,
+    "Trophies": [
+      "WCTourney_S2_Bronze"
+    ],
+    "Class": "PointFiveMove"
+  },
+  {
+    "Id": "19",
+    "Name": "Abilibot",
+    "Elo": 919,
+    "Profile": "img/Abilibot.png",
+    "WinsTotal": 1,
+    "LossesTotal": 4,
+    "DrawsTotal": 9,
+    "Creator": "Jaden",
+    "PeakElo": 1000,
+    "MinElo": 915,
+    "Trophies": [],
+    "Class": "OneMove"
+  },
+  {
+    "Id": "20",
+    "Name": "Christopher Columbot",
+    "Elo": 1013,
+    "Profile": "img/ChristopherColumbot.png",
+    "WinsTotal": 6,
+    "LossesTotal": 6,
+    "DrawsTotal": 2,
+    "Creator": "Carter",
+    "PeakElo": 1113,
+    "MinElo": 989,
+    "Trophies": [],
+    "Class": "OneMove"
+  },
+  {
+    "Id": "21",
+    "Name": "Botdefender",
+    "Elo": 969,
+    "Profile": "img/BotDefender.png",
+    "WinsTotal": 2,
+    "LossesTotal": 3,
+    "DrawsTotal": 9,
+    "Creator": "Carter",
+    "PeakElo": 1000,
+    "MinElo": 909,
+    "Trophies": [],
+    "Class": "OneMove"
+  },
+  {
+    "Id": "22",
+    "Name": "Hitman Bot",
+    "Elo": 994,
+    "Profile": "img/HitmanBot.png",
+    "WinsTotal": 6,
+    "LossesTotal": 6,
+    "DrawsTotal": 2,
+    "Creator": "Jaden",
+    "PeakElo": 1055,
+    "MinElo": 994,
+    "Trophies": [
+      "ACC_S2_Silver"
+    ],
+    "Class": "OneMove"
+  },
+  {
+    "Id": "23",
+    "Name": "Two Move Bot",
+    "Elo": 1191,
+    "Profile": "img/TwoMoveBot.png",
+    "WinsTotal": 10,
+    "LossesTotal": 2,
+    "DrawsTotal": 2,
+    "Creator": "Jaden",
+    "PeakElo": 1191,
+    "MinElo": 1000,
+    "Trophies": [
+      "NCC_S2_Gold",
+      "WCTourney_S2_Silver",
+      "S4_Silver"
+    ],
+    "Class": "TwoMove"
+  },
+  {
+    "Id": "24",
+    "Name": "Equality Bot",
+    "Elo": 946,
+    "Profile": "img/EqualityBot.png",
+    "WinsTotal": 2,
+    "LossesTotal": 4,
+    "DrawsTotal": 8,
+    "Creator": "Carter",
+    "PeakElo": 1000,
+    "MinElo": 893,
+    "Trophies": [],
+    "Class": "OneMove"
+  },
+  {
+    "Id": "25",
+    "Name": "Botnia and Herzebotvina",
+    "Elo": 1172,
+    "Profile": "img/BotniaAndHerzebotvina.png",
+    "WinsTotal": 7,
+    "LossesTotal": 0,
+    "DrawsTotal": 0,
+    "Creator": "Jaden",
+    "PeakElo": 1172,
+    "MinElo": 1000,
+    "Trophies": [],
+    "Class": null
+  },
+  {
+    "Id": "26",
+    "Name": "Laser Bot",
+    "Elo": 1080,
+    "Profile": "img/LaserBot.png",
+    "WinsTotal": 5,
+    "LossesTotal": 2,
+    "DrawsTotal": 0,
+    "Creator": "Carter",
+    "PeakElo": 1080,
+    "MinElo": 994,
+    "Trophies": [],
+    "Class": "OneMove"
+  },
+  {
+    "Id": "27",
+    "Name": "Counting Bot",
+    "Elo": 940,
+    "Profile": "img/CountingBot.png",
+    "WinsTotal": 0,
+    "LossesTotal": 3,
+    "DrawsTotal": 4,
+    "Creator": "Carter",
+    "PeakElo": 1000,
+    "MinElo": 925,
+    "Trophies": [],
+    "Class": "OneMove"
+  },
+  {
+    "Id": "28",
+    "Name": "Marching Bot",
+    "Elo": 975,
+    "Profile": "img/MarchingBot.png",
+    "WinsTotal": 2,
+    "LossesTotal": 3,
+    "DrawsTotal": 2,
+    "Creator": "Jaden",
+    "PeakElo": 1035,
+    "MinElo": 941,
+    "Trophies": [],
+    "Class": "OneMove"
+  },
+  {
+    "Id": "29",
+    "Name": "Migrating Bot",
+    "Elo": 985,
+    "Profile": "img/MigratingBot.png",
+    "WinsTotal": 2,
+    "LossesTotal": 3,
+    "DrawsTotal": 2,
+    "Creator": "Carter",
+    "PeakElo": 1000,
+    "MinElo": 915,
+    "Trophies": [],
+    "Class": "OneMove"
+  },
+  {
+    "Id": "30",
+    "Name": "Bots United",
+    "Elo": 926,
+    "Profile": "img/BotsUtd.png",
+    "WinsTotal": 2,
+    "LossesTotal": 4,
+    "DrawsTotal": 1,
+    "Creator": "Jaden",
+    "PeakElo": 1031,
+    "MinElo": 926,
+    "Trophies": [],
+    "Class": "OneMove"
+  },
+  {
+    "Id": "31",
+    "Name": "Botfish",
+    "Elo": 928,
+    "Profile": "img/Botfish.png",
+    "WinsTotal": 1,
+    "LossesTotal": 4,
+    "DrawsTotal": 2,
+    "Creator": "Jaden",
+    "PeakElo": 1003,
+    "MinElo": 928,
+    "Trophies": [],
+    "Class": "TwoMove"
+  },
+  {
+    "Id": "32",
+    "Name": "Lobotomy",
+    "Elo": 840,
+    "Profile": "img/Lobotomy.png",
+    "WinsTotal": 0,
+    "LossesTotal": 6,
+    "DrawsTotal": 1,
+    "Creator": "Jaden",
+    "PeakElo": 1000,
+    "MinElo": 840,
+    "Trophies": [],
+    "Class": "OneMove"
   }
 ]

@@ -168,3 +168,45 @@ tbody {
 .botMeta div {
   width: 100%;
 }
+
+.trophies {
+  max-width: 280px;
+  overflow-x: auto;
+  white-space: nowrap;
+  float: right;
+  scrollbar-gutter: overlay;
+}
+
+.trophies::-webkit-scrollbar {
+  display: none;
+}
+
+/*
+.botInfo.ZeroMove {
+  background: #707070;
+}
+
+.botInfo.PointFiveMove {
+  background: #5E5E5E;
+}
+
+.botInfo.OneMove {
+  background: #4F4F4F;
+}
+
+.botInfo.OnePointFiveMove {
+  background: #3D3D3D;
+}
+
+.botInfo.TwoMove {
+  background: #2E2E2E;
+}
+
+.botInfo.TwoPointFiveMove {
+  background: #1F1F1F;
+}
+
+.botInfo.ThreeMove {
+  background: #121212;
+}
+  */

@@ -55,6 +55,36 @@ function Elo() {
 
   const getGames = (bot: any) => bot.WinsTotal + bot.LossesTotal + bot.DrawsTotal;
 
+  const getTrophies = (bot: any) => {
+    let trophies = 0;
+
+    bot.Trophies.forEach((trophy: any) => {
+      console.log(trophy);
+      if (trophy.includes("Gold")) {
+        trophies += 3;
+      }
+      else if (trophy.includes("Silver")) {
+        trophies += 2;
+      } else if (trophy.includes("Bronze")) {
+        trophies += 1;
+      }
+    });
+
+    return trophies;
+  }
+
+  const getClass = (bot: any) => {
+    let classes = ["ZeroMove", "PointFiveMove", "OneMove", "OnePointFiveMove", "TwoMove", "TwoPointFiveMove", "ThreeMove", "ThreePointFiveMove", "FourMove"];
+    
+    for(let i = 0; i < classes.length; i++) {
+      if (classes[i] == bot.Class) {
+        return i;
+      }
+    }
+
+    return 0;
+  }
+
   const sortedBots = useMemo(() => {
     const copy = [...bots];
     copy.sort((a: any, b: any) => {
@@ -69,6 +99,8 @@ function Elo() {
       else if (sortBy === 'Max Elo') result = b.PeakElo - a.PeakElo;
       else if (sortBy === 'Min Elo') result = b.MinElo - a.MinElo;
       else if (sortBy === 'Adjusted Win %') result = getAWinPct(b) - getAWinPct(a);
+      else if (sortBy === 'Trophies') result = getTrophies(b) - getTrophies(a);
+      else if (sortBy === 'Class') result = getClass(b) - getClass(a);
       else result = b.Elo - a.Elo;
       return sortOrder === 'Descending' ? result : -result;
     });
@@ -98,12 +130,14 @@ function Elo() {
             const winLoss = getWinLoss(bot).toFixed(2);
             const winDrawLoss = getWinDrawLoss(bot).toFixed(2);
 
+            const botInfoClassName = "botInfo " + bot.Class;
+
             return (
               <div className="botRow" key={bot.Id}>
                 <img src={bot.Profile} alt={bot.Name} className="botProfile" />
-                <div className="botInfo">
+                <div className={botInfoClassName}>
                   <div className="botTitle">#{rank} - {bot.Name}{bot.Trophies?.length > 0 && (
-                  <span style={{ marginLeft: '8px' }}>
+                  <div className='trophies' style={{ marginLeft: '8px' }}>
                     {bot.Trophies.map((trophy: string, i: number) => (
                       <img
                         key={i}
@@ -118,13 +152,13 @@ function Elo() {
                         }}
                       />
                     ))}
-                  </span>
-                )}<span style={{ float: 'right' }}>Elo: {bot.Elo}</span></div>
+                  </div>
+                )}</div>
                   <div className="botMeta">
-                    <div><b>Creator: {bot.Creator}</b><span style={{ float: 'right' }}>Max: {bot.PeakElo}</span></div>
+                    <div><b>Elo: {bot.Elo}</b><span style={{ float: 'right' }}>Max: {bot.PeakElo}</span></div>
                     <div>W/D/L: {bot.WinsTotal}/{bot.DrawsTotal}/{bot.LossesTotal}, AW%: {awinPct}%<span style={{ float: 'right' }}>Min: {bot.MinElo}</span></div>
                     <div>Win %: {winPct}%, Draw %: {drawPct}%, Loss %: {lossPct}%<span style={{ float: 'right' }}>Range: {range}</span></div>
-                    <div>W/L: {winLoss}, WD/L: {winDrawLoss}<span style={{ float: 'right' }}>G: {games}</span></div>
+                    <div>W/L: {winLoss}, WD/L: {winDrawLoss}. Creator: {bot.Creator}<span style={{ float: 'right' }}>G: {games}</span></div>
                   </div>
                 </div>
               </div>
@@ -146,6 +180,8 @@ function Elo() {
           <option value="Max Elo">Max Elo</option>
           <option value="Min Elo">Min Elo</option>
           <option value="Range">Range</option>
+          <option value="Trophies">Trophies</option>
+          <option value="Class">Class</option>
         </select>
         <label htmlFor="sortOrder" style={{ marginLeft: '12px' }}><b>Order: </b></label>
         <select id="sortOrder" value={sortOrder} onChange={(e) => setSortOrder(e.target.value)}>
