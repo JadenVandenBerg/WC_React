@@ -301,7 +301,7 @@
     "MinElo": 811,
     "Competing": null,
     "Trophies": [],
-    "Class": "OneMove"
+    "Class": "?"
   },
   {
     "Id": "20",
@@ -316,7 +316,7 @@
     "MinElo": 801,
     "Competing": null,
     "Trophies": [],
-    "Class": "TwoPointFiveMove"
+    "Class": "TwoMove"
   },
   {
     "Id": "21",
@@ -361,6 +361,6 @@
     "MinElo": 1000,
     "Competing": null,
     "Trophies": [],
-    "Class": "OneMove"
+    "Class": "OnePointFiveMove"
   }
 ]

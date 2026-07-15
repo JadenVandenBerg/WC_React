@@ -100,7 +100,7 @@ function Elo() {
       else if (sortBy === 'Min Elo') result = b.MinElo - a.MinElo;
       else if (sortBy === 'Adjusted Win %') result = getAWinPct(b) - getAWinPct(a);
       else if (sortBy === 'Trophies') result = getTrophies(b) - getTrophies(a);
-      else if (sortBy === 'Class') result = getClass(b) - getClass(a);
+      else if (sortBy === 'Depth') result = getClass(b) - getClass(a);
       else result = b.Elo - a.Elo;
       return sortOrder === 'Descending' ? result : -result;
     });
@@ -111,6 +111,32 @@ function Elo() {
   const divisions = [];
   for (let i = 0; i < sortedBots.length; i += DIVISION_SIZE) {
     divisions.push(sortedBots.slice(i, i + DIVISION_SIZE));
+  }
+
+  function mapClass(class_) {
+
+    if (class_ == "ZeroMove") {
+      return 0;
+    } else if (class_ == "PointFiveMove") {
+      return 0.5;
+    } else if (class_ == "OneMove") {
+      return 1;
+    } else if (class_ == "OnePointFiveMove") {
+      return 1.5;
+    } else if (class_ == "TwoMove") {
+      return 2.0;
+    } else if (class_ == "TwoPointFiveMove") {
+      return 2.5;
+    } else if (class_ == "ThreeMove") {
+      return 3.0;
+    } else if (class_ == "ThreePointFiveMove") {
+      return 3.5;
+    }
+
+
+
+
+    return class_;
   }
 
   return (
@@ -155,10 +181,10 @@ function Elo() {
                   </div>
                 )}</div>
                   <div className="botMeta">
-                    <div><b>Elo: {bot.Elo}</b><span style={{ float: 'right' }}>Max: {bot.PeakElo}</span></div>
-                    <div>W/D/L: {bot.WinsTotal}/{bot.DrawsTotal}/{bot.LossesTotal}, AW%: {awinPct}%<span style={{ float: 'right' }}>Min: {bot.MinElo}</span></div>
-                    <div>Win %: {winPct}%, Draw %: {drawPct}%, Loss %: {lossPct}%<span style={{ float: 'right' }}>Range: {range}</span></div>
-                    <div>W/L: {winLoss}, WD/L: {winDrawLoss}. Creator: {bot.Creator}<span style={{ float: 'right' }}>G: {games}</span></div>
+                    <div><b>Elo: {bot.Elo}</b><span style={{ float: 'right' }}>Range: {bot.PeakElo} - {bot.MinElo} ({range})</span></div>
+                    <div>AW%: {awinPct}%<span style={{ float: 'right' }}>Creator: {bot.Creator}</span></div>
+                    <div>W/D/L (%): {bot.WinsTotal} ({winPct}%), {bot.DrawsTotal} ({drawPct}%), {bot.LossesTotal} ({lossPct}%)<span style={{ float: 'right' }}>Depth: {mapClass(bot.Class)}</span></div>
+                    <div>W/L: {winLoss}, WD/L: {winDrawLoss}.<span style={{ float: 'right' }}>G: {games}</span></div>
                   </div>
                 </div>
               </div>
@@ -181,7 +207,7 @@ function Elo() {
           <option value="Min Elo">Min Elo</option>
           <option value="Range">Range</option>
           <option value="Trophies">Trophies</option>
-          <option value="Class">Class</option>
+          <option value="Depth">Depth</option>
         </select>
         <label htmlFor="sortOrder" style={{ marginLeft: '12px' }}><b>Order: </b></label>
         <select id="sortOrder" value={sortOrder} onChange={(e) => setSortOrder(e.target.value)}>

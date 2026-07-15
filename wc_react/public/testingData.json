@@ -290,7 +290,7 @@
   },
   {
     "Id": "19",
-    "Name": "Bots Utd.",
+    "Name": "Bots United",
     "Elo": 955,
     "Profile": "img/BotsUtd.png",
     "WinsTotal": 86,
@@ -316,7 +316,7 @@
     "MinElo": 801,
     "Competing": null,
     "Trophies": [],
-    "Class": "TwoPointFiveMove"
+    "Class": "TwoMove"
   },
   {
     "Id": "21",
