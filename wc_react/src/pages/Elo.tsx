@@ -6,17 +6,21 @@ function Elo() {
   const [sortBy, setSortBy] = useState('Elo');
   const [sortOrder, setSortOrder] = useState('Descending');
 
+  const [dataFile, setDataFile] = useState("/data.json");
+
   useEffect(() => {
     const fetchBots = async () => {
-      const res = await fetch('/data.json', { cache: 'no-store' });
+      const res = await fetch(dataFile, { cache: "no-store" });
       const data = await res.json();
       setBots(data);
     };
 
     fetchBots();
+
     const interval = setInterval(fetchBots, 1000);
+
     return () => clearInterval(interval);
-  }, []);
+  }, [dataFile]);
 
   const getWinPct = (bot: any) => {
     const games = bot.WinsTotal + bot.LossesTotal + bot.DrawsTotal;
@@ -213,6 +217,21 @@ function Elo() {
         <select id="sortOrder" value={sortOrder} onChange={(e) => setSortOrder(e.target.value)}>
           <option value="Descending">Descending</option>
           <option value="Ascending">Ascending</option>
+        </select><br />
+        <label htmlFor="dataFile"><b>Data: </b></label>
+        <select
+          id="dataFile"
+          value={dataFile}
+          onChange={(e) => setDataFile(e.target.value)}
+        >
+          <option value="/data.json">Current</option>
+          <option value="/officialData.json">WCC</option>
+          <option value="/nccData.json">NCC</option>
+          <option value="/accData.json">ACC</option>
+          <option value="/fccData.json">FCC</option>
+          <option value="/testingData.json">Testing</option>
+          <option value="/allTestingData.json">All Testing</option>
+          <option value="/testingNccData.json">NCC Testing</option>
         </select>
       </div>
     </>
