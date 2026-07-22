@@ -1,5 +1,6 @@
 import "../App.css";
 import { useEffect, useState } from "react";
+import PageButton from '../Button'
 
 function Victors() {
   const [victors, setVictors] = useState<any>(null);
@@ -25,6 +26,7 @@ function Victors() {
 
   return (
     <>
+      <PageButton Page="Victors" />
       <div className="divisionContainer">
         <h2 className="divisionTitle">{tournament} Champions</h2>
 

@@ -1,5 +1,7 @@
 import '../App.css'
 import { useEffect, useMemo, useState } from "react";
+import PageButton from '../Button'
+
 
 function Elo() {
   const [bots, setBots] = useState([]);
@@ -137,14 +139,12 @@ function Elo() {
       return 3.5;
     }
 
-
-
-
     return class_;
   }
 
   return (
     <>
+      <PageButton Page="Elo" />
       {divisions.map((divisionBots, divisionIndex) => (
         <div className="divisionContainer" key={divisionIndex}>
           <h2 className="divisionTitle">Division {divisionIndex + 1}</h2>
