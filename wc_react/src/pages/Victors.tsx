@@ -91,6 +91,7 @@ function Victors() {
           <option value="NCC">Normal Chess Championship (NCC)</option>
           <option value="ACC">Atomic Chess Championship (ACC)</option>
           <option value="FCC">Fusion Chess Championship (FCC)</option>
+          <option value="LCC">Landmine Chess Championship (LCC)</option>
           <option value="WCTourney">Single Elimination (WCTourney)</option>
         </select>
       </div>

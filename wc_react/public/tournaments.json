@@ -107,6 +107,18 @@
             "RunnerUp": ["Savage Beastbot", "G2 E-Bot"]
         }
     ],
+    "LCC": [
+        {
+            "Id": "1",
+            "Season": "Season 1",
+            "Name": "Savage Beastbot",
+            "Profile": "img/SavageBeastBot.png",
+            "Elo": 1108,
+            "Creator": "Jaden",
+            "Trophies": ["LCC_S1_Gold"],
+            "RunnerUp": ["Restrictor Bot", "Two Move Bot"]
+        }
+    ],
     "WCTourney": [
         {
             "Id": "1",

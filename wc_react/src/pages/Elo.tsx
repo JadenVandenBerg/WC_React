@@ -117,7 +117,7 @@ function Elo() {
     divisions.push(sortedBots.slice(i, i + DIVISION_SIZE));
   }
 
-  function mapClass(class_) {
+  function mapClass(class_: string) {
 
     if (class_ == "ZeroMove") {
       return 0;
@@ -229,6 +229,7 @@ function Elo() {
           <option value="/nccData.json">NCC</option>
           <option value="/accData.json">ACC</option>
           <option value="/fccData.json">FCC</option>
+          <option value="/lccData.json">LCC</option>
           <option value="/testingData.json">Testing</option>
           <option value="/allTestingData.json">All Testing</option>
           <option value="/testingNccData.json">NCC Testing</option>
