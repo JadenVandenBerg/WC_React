@@ -210,3 +210,37 @@ tbody {
   background: #121212;
 }
   */
+
+#seasonTable {
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+
+#seasonTable th {
+  border: 2px solid white;
+  border-collapse: collapse;
+  padding: 15px;
+}
+
+#seasonTable td {
+  border: 2px solid white;
+  border-collapse: collapse;
+  padding: 15px;
+}
+
+.botImg {
+  height: 120px;
+  width: calc(120px * 16 / 9);
+}
+
+.green {
+  color: limegreen;
+}
+
+.red {
+  color: red;
+}
+
+.yellow {
+  color: yellow;
+}
