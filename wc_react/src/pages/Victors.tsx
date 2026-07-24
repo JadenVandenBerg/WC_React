@@ -26,7 +26,7 @@ function Victors() {
 
   return (
     <>
-      <PageButton Page="Victors" />
+      <PageButton/>
       <div className="divisionContainer">
         <h2 className="divisionTitle">{tournament} Champions</h2>
 

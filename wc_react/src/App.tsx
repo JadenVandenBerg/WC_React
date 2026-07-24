@@ -7,6 +7,7 @@ import Season3 from './pages/Season3'
 import Season4 from './pages/Season4'
 import Dashboard from "./Dashboard";
 import Victors from './pages/Victors';
+import Trophies from './pages/Trophies';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Routes>
             <Route path="/" element={<Elo />} />
             <Route path="/victors" element={<Victors />} />
+            <Route path="/trophies" element={<Trophies />} />
             <Route path="/season1" element={<Season1 />} />
             <Route path="/season2" element={<Season2 />} />
             <Route path="/season3" element={<Season3 />} />

@@ -244,3 +244,16 @@ tbody {
 .yellow {
   color: yellow;
 }
+
+.trophyCell {
+  min-width: 120px;
+  max-width: 200px;
+  white-space: normal;
+}
+
+.trophyImg {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  margin: 2px;
+}

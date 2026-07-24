@@ -144,7 +144,7 @@ function Elo() {
 
   return (
     <>
-      <PageButton Page="Elo" />
+      <PageButton/>
       {divisions.map((divisionBots, divisionIndex) => (
         <div className="divisionContainer" key={divisionIndex}>
           <h2 className="divisionTitle">Division {divisionIndex + 1}</h2>

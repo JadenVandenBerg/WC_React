@@ -1,14 +1,18 @@
 import '../App.css'
 import { useEffect, useState } from "react";
+import PageButton from '../Button';
 
 function Season1() {
 
   return (
     <>
+      <PageButton/>
       <h1>Season 1</h1>
       <table id="seasonTable">
         <tbody>
           <tr>
+            <th>#</th>
+            <th># +/-</th>
             <th>Bot</th>
             <th>Profile</th>
             <th>Elo</th>
@@ -18,6 +22,8 @@ function Season1() {
             <th>Losses</th>
           </tr>
           <tr>
+            <td>1</td>
+            <td className='yellow'>New</td>
             <td>Bloodbot</td>
             <td><img className="botImg" src="/img/Bloodbot.png" alt="Bloodbot" /></td>
             <td>1110</td>
@@ -27,6 +33,8 @@ function Season1() {
             <td>1</td>
           </tr>
           <tr>
+            <td>2</td>
+            <td className='yellow'>New</td>
             <td>Assassin Bot</td>
             <td><img className="botImg" src="/img/AssassinBot.png" alt="AssassinBot" /></td>
             <td>1086</td>
@@ -36,6 +44,8 @@ function Season1() {
             <td>1</td>
           </tr>
           <tr>
+            <td>3</td>
+            <td className='yellow'>New</td>
             <td>Pawn Bot</td>
             <td><img className="botImg" src="/img/PawnBot.png" alt="PawnBot" /></td>
             <td>1070</td>
@@ -45,6 +55,8 @@ function Season1() {
             <td>1</td>
           </tr>
           <tr>
+            <td>4</td>
+            <td className='yellow'>New</td>
             <td>Bottus Maximus</td>
             <td><img className="botImg" src="/img/BottusMaximus.png" alt="BottusMaximus" /></td>
             <td>1054</td>
@@ -54,6 +66,8 @@ function Season1() {
             <td>1</td>
           </tr>
           <tr>
+            <td>5</td>
+            <td className='yellow'>New</td>
             <td>BOTential</td>
             <td><img className="botImg" src="/img/BOTential.png" alt="BOTential" /></td>
             <td>974</td>
@@ -63,6 +77,8 @@ function Season1() {
             <td>3</td>
           </tr>
           <tr>
+            <td>6</td>
+            <td className='yellow'>New</td>
             <td>5x Random Bot</td>
             <td><img className="botImg" src="/img/5xRandomBot.png" alt="FiveXRandomBot" /></td>
             <td>928</td>
@@ -72,6 +88,8 @@ function Season1() {
             <td>4</td>
           </tr>
           <tr>
+            <td>7</td>
+            <td className='yellow'>New</td>
             <td>Shield Bot</td>
             <td><img className="botImg" src="/img/ShieldBot.png" alt="ShieldBot" /></td>
             <td>924</td>
@@ -81,6 +99,8 @@ function Season1() {
             <td>4</td>
           </tr>
           <tr>
+            <td>8</td>
+            <td className='yellow'>New</td>
             <td>Idiot Bot</td>
             <td><img className="botImg" src="/img/IdiotBot.png" alt="IdiotBot" /></td>
             <td>854</td>
