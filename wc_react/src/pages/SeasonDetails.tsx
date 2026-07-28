@@ -43,51 +43,51 @@ function SeasonDetails() {
   }, [bots])
 
   const matchResultData = useMemo(() => {
-    if (bots == null || bots == undefined) {
-      return {};
-    }
-    let endReasons = {}
+  if (bots == null || bots == undefined) {
+    return {};
+  }
 
-    setTOTAL_GAMES(Object.keys(bots).length * 7 / 2);
+  const endReasons: Record<string, number> = {};
 
-    for (const [key, value] of Object.entries(bots)) {
+  setTOTAL_GAMES(Object.keys(bots).length * 7 / 2);
 
-      let botGames = 0;
+  for (const [, value] of Object.entries(bots as any)) {
 
-      for (const [reasonKey, reasonValue] of Object.entries(value.winReasons)) {
-        botGames+=reasonValue;
-        if (reasonKey in endReasons) {
-          endReasons[reasonKey] += reasonValue;
-        }
-        else {
-          endReasons[reasonKey] = reasonValue;
-        }
-      }
+    let botGames = 0;
+    const bot = value as any;
 
-      for (const [reasonKey2, reasonValue2] of Object.entries(value.drawReasons)) {
-        botGames+=reasonValue2;
-        if (reasonKey2 in endReasons) {
-          endReasons[reasonKey2] += reasonValue2 * 0.5;
-        }
-        else {
-          endReasons[reasonKey2] = reasonValue2 * 0.5;
-        }
-      }
-
-      for (const [reasonKey3, reasonValue3] of Object.entries(value.lossReasons)) {
-        botGames+=reasonValue3;
+    for (const [reasonKey, reasonValue] of Object.entries(bot.winReasons as Record<string, number>)) {
+      botGames += reasonValue;
+      if (reasonKey in endReasons) {
+        endReasons[reasonKey] += reasonValue;
+      } else {
+        endReasons[reasonKey] = reasonValue;
       }
     }
 
-    return endReasons;
-  }, [bots]);
+    for (const [reasonKey2, reasonValue2] of Object.entries(bot.drawReasons as Record<string, number>)) {
+      botGames += reasonValue2;
+      if (reasonKey2 in endReasons) {
+        endReasons[reasonKey2] += reasonValue2 * 0.5;
+      } else {
+        endReasons[reasonKey2] = reasonValue2 * 0.5;
+      }
+    }
+
+    for (const [, reasonValue3] of Object.entries(bot.lossReasons as Record<string, number>)) {
+      botGames += reasonValue3;
+    }
+  }
+
+  return endReasons;
+}, [bots]);
 
   const topBots = useMemo(() => {
     if (!bots) {
       return undefined;
     }
 
-    return Object.entries(bots)
+    return Object.entries(bots as Record<string, any>)
       .sort(([, aBot], [, bBot]) => {
         if (bBot.record.wins !== aBot.record.wins) {
           return bBot.record.wins - aBot.record.wins;
@@ -105,7 +105,7 @@ function SeasonDetails() {
       return undefined;
     }
 
-    return Object.entries(bots)
+    return Object.entries(bots as Record<string, any>)
       .sort(([, aBot], [, bBot]) => {
         return bBot.averageStartingPoints - aBot.averageStartingPoints
       })
@@ -117,7 +117,7 @@ function SeasonDetails() {
       return undefined;
     }
 
-    return Object.entries(bots)
+    return Object.entries(bots as Record<string, any>)
       .sort(([, aBot], [, bBot]) => {
         return aBot.averageStartingPoints - bBot.averageStartingPoints
       })
@@ -129,7 +129,7 @@ function SeasonDetails() {
       return undefined;
     }
 
-    return Object.entries(bots)
+    return Object.entries(bots as Record<string, any>)
       .sort(([, aBot], [, bBot]) => {
         return bBot.averageTurns - aBot.averageTurns
       })
@@ -141,7 +141,7 @@ function SeasonDetails() {
       return undefined;
     }
 
-    return Object.entries(bots)
+    return Object.entries(bots as Record<string, any>)
       .sort(([, aBot], [, bBot]) => {
         return aBot.averageTurns - bBot.averageTurns
       })
@@ -155,7 +155,7 @@ function SeasonDetails() {
 
     const pieceTotals: Record<string, number> = {};
 
-    Object.values(bots).forEach((bot) => {
+    Object.values(bots as Record<string, { piecesPlayed?: Record<string, number> }>).forEach((bot) => {
       Object.entries(bot.piecesPlayed ?? {}).forEach(([piece, count]) => {
         pieceTotals[piece] = (pieceTotals[piece] ?? 0) + count;
       });
@@ -176,7 +176,7 @@ function SeasonDetails() {
       return undefined;
     }
 
-    return Object.entries(bots)
+    return Object.entries(bots as Record<string, any>)
       .sort(([, aBot], [, bBot]) => {
         if (bBot.record.losses !== aBot.record.losses) {
           return bBot.record.losses - aBot.record.losses;
@@ -189,7 +189,7 @@ function SeasonDetails() {
       .slice(0, 5);
   }, [bots]);
 
-  const renderLabel = ({ value }) => {
+  const renderLabel = ({ value }: any) => {
     const percent = ((value / TOTAL_GAMES) * 100).toFixed(1);
     return `${percent}%`;
   };

@@ -1,0 +1,364 @@
+Game Ended
+Shield Bot (White) vs (Black) Pawn Bot
+Black Won by Checkmate
+The match took 54 turns
+Penalties: Shield Bot: 0, Pawn Bot: 0
+Shield Bot started with 43.5pts
+Pawn Bot started with 50pts
+Shield Bot pieces:
+PromotingPawn (1.5) TwoPawn (1) Pawn (1) TwoPawnLR (0) TwoPawnULURLR (1) TwoPawnULUURLR (1) AtomicPawn (4) OneTwoPawnD (0) CrowdingRook (6) MonochromeRook (2) JockeyKnight (4) Knight (3) StackingBishop (7) JockeyBishop (4) HeartbrokenKing (-2) DefuserQueen (10) 
+Pawn Bot pieces:
+SquarePawn (2) One-Two-ForwardPawn (1.5) BackwardPawn (-0.5) ProtectivePawn (2.5) TwoPawnULUUR (1) TwoPawn (1) PawnLite (-0.5) TwoPawnD (0) ElectricRook (7) SpittingRook (5) KnightSniperElephant (1) JockeyKnight (4) PortalBishop (6) DelayedBishop (1) PortalKing (5) PortalQueen (14) 
+
+------------------------
+Game Ended
+Bloodbot (White) vs (Black) Bottus Maximus
+ Draw by Moves Without Capture
+The match took 46 turns
+Penalties: Bloodbot: 0, Bottus Maximus: 0
+Bloodbot started with 38.5pts
+Bottus Maximus started with 44pts
+Bloodbot pieces:
+OnePawnUD (0) OneTwoPawnD (0) OneTwoPawnU (0) SpontaneouslyCombustingPawn (-2) OneTwoPawnLite (0) PiggybackPawn (1.5) TwoPawn (1) OneTwoPawnULUUR (1) InfiniteRook (10) HungryRook (5) DisabledKnight (2) SpiderKnight (6) LiteBishop (0) FreezingBishop (4) RulebreakerKing (1) AtomicQueen (9) 
+Bottus Maximus pieces:
+TwoPawnUDLR (1) ElectricPawn (1.5) OneTwoPawnLR (1) ManPawn (3) CrowdingPawn (1.5) UpperPawn (2) SpittingPawn (1.5) ProtectivePawn (2.5) InfiniteRook (10) PiggybackRook (6) KnightElephant (2) PiggybackKnight (4) CrowdingBishop (4) LiteBishop (0) PiggybackKing (1) ReverseMinisterQueen (3) 
+
+------------------------
+Game Ended
+Assassin Bot (White) vs (Black) 5x Random Bot
+White Won by Opposing King Death
+The match took 37 turns
+Penalties: Assassin Bot: 0, 5x Random Bot: 0
+Assassin Bot started with 46pts
+5x Random Bot started with 48pts
+Assassin Bot pieces:
+TwoPawnUD (0) Two-ForwardPawn (0.5) OneTwoPawnD (0) One-Two-ForwardPawn (1.5) TwoPawnUDLDR (1) OnePawnLR (0) PortalPawn (2) OneTwoPawnLR (1) GhostRook (6.5) PortalRook (7.5) DefuserKnight (4) SpittingKnight (3) DefuserBishop (4) Bishop (3) UndeadKing (2) DefuserQueen (10) 
+5x Random Bot pieces:
+RightPawn (0.5) One-Two-ForwardPawn (1.5) UpperPawn (2) SplittingPawn (1.5) SpontaneouslyCombustingPawn (-2) PromotingPawn (1.5) OnePawnULURLR (1) OnePawnLR (0) SpittingRook (5) FreezingRook (7) LandmineKnight (6) PortalKnight (5) ColorChangingBishop (4) BouncingBishop (5) FragileKing (-4) PortalQueen (14) 
+
+------------------------
+Game Ended
+BOTential (White) vs (Black) Idiot
+White Won by Checkmate
+The match took 20 turns
+Penalties: BOTential: 0, Idiot: 0
+BOTential started with 53.5pts
+Idiot started with 46pts
+BOTential pieces:
+SuperGhostPawn (2.5) JailPawn (0) UndeadPawn (0.5) TwoPawnDLDDR (1) FourPawn (0.5) OneTwoPawnLite (0) OppressivePawn (3) ProtectivePawn (2.5) StackingRook (9) Crook (12) FragileKnight (2) StackingKnight (7) CloningBishop (6) GhostBishop (5) FastKing (-2) MonochromeQueen (4.5) 
+Idiot pieces:
+TwoPawnULURDLDR (1) JockeyPawn (1.5) PawnLite (-0.5) OnePawnU (0) DefuserPawn (1.5) One-Two-ForwardPawn (1.5) Octapawn (2.5) TwoPawnLR (0) LiteRook (0) PortalRook (7.5) KnightElephant (2) SpiderKnight (6) InfiniteBishop (9) GhoulBishop (4) PiggybackKing (1) SpittingQueen (9) 
+
+------------------------
+Game Ended
+BOTential (White) vs (Black) Pawn Bot
+Black Won by Checkmate
+The match took 16 turns
+Penalties: BOTential: 0, Pawn Bot: 0
+BOTential started with 35.5pts
+Pawn Bot started with 52.5pts
+BOTential pieces:
+LandminePawn (4) TwoPawnULUURLR (1) JockeyPawn (1.5) OneTwoPawnULUUR (1) TwoPawnULUUR (1) PromotingPawn (1.5) ForwardPawn (1) OnePawnDLDR (0) PortalRook (7.5) MurderousRook (5) FragileKnight (2) LiteKnight (0) PortalBishop (6) LiteBishop (0) LiteKing (-8) AmazonQueen (12) 
+Pawn Bot pieces:
+TwoPawnD (0) One-TwoPawn (2) RightPawn (0.5) ForwardPawn (1) OnePawnUD (0) OppressivePawn (3) SpontaneouslyCombustingPawn (-2) SquarePawn (2) InfiniteRook (10) JailRook (1) KnightElephant (2) StackingKnight (7) InfiniteBishop (9) PromotionBishop (4) GhoulKing (2) BouncingQueen (11) 
+
+------------------------
+Game Ended
+Assassin Bot (White) vs (Black) Bottus Maximus
+White Won by Checkmate
+The match took 8 turns
+Penalties: Assassin Bot: 0, Bottus Maximus: 0
+Assassin Bot started with 57pts
+Bottus Maximus started with 39.5pts
+Assassin Bot pieces:
+OnePawnULURD (1) ShieldPawn (2) OppressivePawn (3) JailPawn (0) PAWN (1.5) SuperGhostPawn (2.5) ZombiePawn (0.5) OneTwoPawnDLDR (1) SpittingRook (5) GhostRook (6.5) CrowdingKnight (4) PromotionKnight (4) CloningBishop (6) BishopPrincess (5) PortalKing (5) CaptureTheFlagQueen (10) 
+Bottus Maximus pieces:
+LandminePawn (4) One-Two-ForwardPawn (1.5) ThreePawn (0.5) TwoPawnD (0) Two-ForwardPawn (0.5) PromotionPawn (0) PortalPawn (2) OnePawnLite (0) RoyalRook (7) AtomicRook (7) ElectricKnight (5) KnightCamel (3) MurderousBishop (4) UndeadBishop (4) SlidingKing (0) OneTimeQueen (1) 
+
+------------------------
+Game Ended
+Bloodbot (White) vs (Black) 5x Random Bot
+White Won by Checkmate
+The match took 28 turns
+Penalties: Bloodbot: 0, 5x Random Bot: 0
+Bloodbot started with 54pts
+5x Random Bot started with 35pts
+Bloodbot pieces:
+TwoPawn (1) ProtectivePawn (2.5) StackingPawn (3) LandminePawn (4) PiggybackPawn (1.5) GhoulPawn (2) OneTwoPawnULUUR (1) HungryPawn (1.5) ElectricRook (7) GhoulRook (5.5) PromotionKnight (4) FragileKnight (2) SuperGhostBishop (5) CrowdingBishop (4) StackingKing (9) MinisterQueen (1) 
+5x Random Bot pieces:
+TwoPawnDLDDR (1) CaptureTheFlagPawn (1.5) TwoPawnULUUR (1) OnePawnUDLDR (1) CloningPawn (2.5) OneTwoPawnULUUR (1) One-Two-ForwardPawn (1.5) OneTwoPawnUD (1) MurderousRook (5) RoyalRook (7) JailKnight (1) SpittingKnight (3) ElectricBishop (4.5) ColorChangingBishop (4) OneTimeKing (-6) SinisterMinisterQueen (6) 
+
+------------------------
+Game Ended
+Shield Bot (White) vs (Black) Idiot
+White Won by Checkmate
+The match took 12 turns
+Penalties: Shield Bot: 0, Idiot: 0
+Shield Bot started with 48pts
+Idiot started with 38.5pts
+Shield Bot pieces:
+OnePawnD (0) OnePawnLR (0) ManPawn (3) FreezingPawn (2) TwoPawnDLDR (0) TwoPawnULURD (1) SpittingPawn (1.5) OnePawnULURD (1) Rook (5) CloningRook (10) LiteKnight (0) CaptureTheFlagKnight (4) MurderousBishop (4) BishopPrincess (5) GhoulKing (2) MurderousQueen (9.5) 
+Idiot pieces:
+RightPawn (0.5) FourPawn (0.5) OneTwoPawnLR (1) OnePawnDLDDR (1) PortalPawn (2) JockeyPawn (1.5) OnePawnLite (0) TwoPawnU (0) ElectricRook (7) Rook (5) DelayedKnight (1) UndeadKnight (4) PiggybackBishop (4) DefuserBishop (4) PiggybackKing (1) DelayedQueen (6) 
+
+------------------------
+Game Ended
+Assassin Bot (White) vs (Black) Pawn Bot
+ Draw by Stalemate
+The match took 47 turns
+Penalties: Assassin Bot: 0, Pawn Bot: 0
+Assassin Bot started with 41pts
+Pawn Bot started with 47.5pts
+Assassin Bot pieces:
+TwoPawnLR (0) ElectricPawn (1.5) OneTwoPawnU (0) OneTwoPawnUD (1) SuperGhostPawn (2.5) OppressivePawn (3) OnePawnULURD (1) ForwardPawn (1) MonochromeRook (2) CrowdingRook (6) UndeadKnight (4) PortalKnight (5) LiteBishop (0) CloningBishop (6) FastKing (-2) CrowdingQueen (10) 
+Pawn Bot pieces:
+OneTwoPawnLR (1) Two-ForwardPawn (0.5) LeftPawn (0.5) OnePawnLite (0) PAWN (1.5) SplittingPawn (1.5) DelayedPawn (0) LandminePawn (4) AtomicRook (7) StackingRook (9) HungryKnight (4) LongKnight (5) SpittingBishop (3) RoyalBishop (4.5) PortalKing (5) OneTimeQueen (1) 
+
+------------------------
+Game Ended
+BOTential (White) vs (Black) Bottus Maximus
+ Draw by Moves Without Capture
+The match took 58 turns
+Penalties: BOTential: 0, Bottus Maximus: 0
+BOTential started with 54.5pts
+Bottus Maximus started with 46.5pts
+BOTential pieces:
+TwoPawnULUUR (1) OnePawnULURLR (1) OnePawnD (0) AtomicPawn (4) TwoPawnULUURLR (1) BackwardPawn (-0.5) One-Two-ForwardPawn (1.5) ElectricPawn (1.5) JockeyRook (6) AtomicRook (7) ElectricKnight (5) LandmineKnight (6) JailBishop (1) CloningBishop (6) SlidingKing (0) CloningQueen (14) 
+Bottus Maximus pieces:
+OneTwoPawnUD (1) CaptureTheFlagPawn (1.5) GhoulPawn (2) OneTwoPawnD (0) PawnLite (-0.5) AtomicPawn (4) SquarePawn (2) StackingPawn (3) MonochromeRook (2) PromotionRook (6) SpittingKnight (3) DefuserKnight (4) ColorChangingBishop (4) PromotionBishop (4) HungryKing (1) MurderousQueen (9.5) 
+
+------------------------
+Game Ended
+5x Random Bot (White) vs (Black) Shield Bot
+ Draw by Moves Without Capture
+The match took 135 turns
+Penalties: 5x Random Bot: 0, Shield Bot: 0
+5x Random Bot started with 55pts
+Shield Bot started with 36.5pts
+5x Random Bot pieces:
+DoublePawn (2) TwoPawnULUUR (1) TwoPawnUDLDR (1) OnePawnDLDDR (1) OnePawnULUUR (1) SplittingPawn (1.5) TwoPawnUD (0) DefuserPawn (1.5) HungryRook (5) DefuserRook (6) Hippocamelus (5) DisabledKnight (2) GhoulBishop (4) PortalBishop (6) King (0) InfiniteQueen (17) 
+Shield Bot pieces:
+UndeadPawn (0.5) ZombiePawn (0.5) RightPawn (0.5) TwoPawnDLDR (0) TwoPawnLite (0) ManPawn (3) OctapawnLite (1.5) One-Two-ForwardPawn (1.5) MonochromeRook (2) HungryRook (5) JockeyKnight (4) PortalKnight (5) LiteBishop (0) MurderousBishop (4) Overlord (8) MinisterQueen (1) 
+
+------------------------
+Game Ended
+Idiot (White) vs (Black) Bloodbot
+ Draw by Stalemate
+The match took 30 turns
+Penalties: Idiot: 0, Bloodbot: 0
+Idiot started with 38.5pts
+Bloodbot started with 42.5pts
+Idiot pieces:
+ShieldPawn (2) SpontaneouslyCombustingPawn (-2) DiagonalSquarePawn (1.5) CaptureTheFlagPawn (1.5) OneTwoPawnU (0) ThreePawn (0.5) OneTwoPawnD (0) JailPawn (0) JailRook (1) LandmineRook (8) CloningKnight (6) CrowdingKnight (4) DefuserBishop (4) Bishop (3) SwitchingKing (0) Queen (9) 
+Bloodbot pieces:
+OneTwoPawnD (0) LandminePawn (4) ManPawn (3) PortalPawn (2) Forward-SidePawn (1.5) PawnLite (-0.5) Octapawn (2.5) OneTwoPawnUD (1) CrowdingRook (6) CaptureTheFlagRook (7) DisabledKnight (2) LongKnight (5) FreezingBishop (4) PromotionBishop (4) DefuserKing (0) OneTimeQueen (1) 
+
+------------------------
+Game Ended
+Bottus Maximus (White) vs (Black) Pawn Bot
+White Won by Checkmate
+The match took 27 turns
+Penalties: Bottus Maximus: 0, Pawn Bot: 0
+Bottus Maximus started with 44.5pts
+Pawn Bot started with 41.5pts
+Bottus Maximus pieces:
+CaptureTheFlagPawn (1.5) PawnLite (-0.5) HungryPawn (1.5) BackwardPawn (-0.5) TwoPawnULUURLR (1) One-Two-ForwardPawn (1.5) TwoPawnLR (0) GhostPawn (1) CaptureTheFlagRook (7) DelayedRook (3) CrowdingKnight (4) FragileKnight (2) CaptureTheFlagBishop (5) UndeadBishop (4) PortalKing (5) Queen (9) 
+Pawn Bot pieces:
+PromotionPawn (0) OnePawnU (0) OnePawnLite (0) OnePawnULURLR (1) TwoPawnDLDR (0) JockeyPawn (1.5) ShieldPawn (2) DoublePawn (2) JockeyRook (6) FreezingRook (7) CaptureTheFlagKnight (4) PortalKnight (5) ColorChangingBishop (4) CloningBishop (6) PiggybackKing (1) MinisterQueen (1) 
+
+------------------------
+Game Ended
+Idiot (White) vs (Black) 5x Random Bot
+Black Won by Checkmate
+The match took 65 turns
+Penalties: Idiot: 0, 5x Random Bot: 0
+Idiot started with 46.5pts
+5x Random Bot started with 25.5pts
+Idiot pieces:
+DefuserPawn (1.5) ZombiePawn (0.5) OnePawnUD (0) PortalPawn (2) Pawn (1) OneTwoPawnD (0) ElectricPawn (1.5) TwoPawnULURD (1) StackingRook (9) HungryRook (5) KnightCamel (3) CaptureTheFlagKnight (4) ColorChangingBishop (4) Bishop (3) UndeadKing (2) Queen (9) 
+5x Random Bot pieces:
+PromotingPawn (1.5) TwoPawnLite (0) TwoPawnUDLR (1) CloningPawn (2.5) OnePawnD (0) StackingPawn (3) OnePawnLR (0) SplittingPawn (1.5) OneTimeRook (1) HungryRook (5) PortalKnight (5) PiggybackKnight (4) ColorChangingBishop (4) OneTimeBishop (1) DelayedKing (-5) OneTimeQueen (1) 
+
+------------------------
+Game Ended
+Assassin Bot (White) vs (Black) BOTential
+White Won by Opposing King Death
+The match took 38 turns
+Penalties: Assassin Bot: 0, BOTential: 0
+Assassin Bot started with 44.5pts
+BOTential started with 51pts
+Assassin Bot pieces:
+AtomicPawn (4) TwoPawnULUUR (1) FourPawn (0.5) OnePawnULURLR (1) PawnLite (-0.5) BackwardPawn (-0.5) One-Two-ForwardPawn (1.5) CaptureTheFlagPawn (1.5) CloningRook (10) AtomicRook (7) FragileKnight (2) SinisterMinisterKnight (4) CaptureTheFlagBishop (5) DefuserBishop (4) RulebreakerKing (1) ReverseMinisterQueen (3) 
+BOTential pieces:
+FourPawn (0.5) ManPawn (3) PAWN (1.5) TwoPawnULURLR (1) Forward-SidePawn (1.5) OctapawnLite (1.5) SpittingPawn (1.5) PortalPawn (2) GhoulRook (5.5) SpittingRook (5) GhoulKnight (3.5) CloningKnight (6) PromotionBishop (4) SpittingBishop (3) DefuserKing (0) SuperGhostQueen (11.5) 
+
+------------------------
+Game Ended
+Shield Bot (White) vs (Black) Bloodbot
+Black Won by Checkmate
+The match took 9 turns
+Penalties: Shield Bot: 0, Bloodbot: 0
+Shield Bot started with 39.5pts
+Bloodbot started with 46pts
+Shield Bot pieces:
+FreezingPawn (2) OneTwoPawnUD (1) TwoPawn (1) TwoPawnUDLR (1) OnePawnUD (0) One-TwoPawn (2) OneTwoPawnD (0) CloningPawn (2.5) HungryRook (5) JockeyRook (6) KnightSniperElephant (1) CaptureTheFlagKnight (4) DefuserBishop (4) GhostBishop (5) UndeadKing (2) ReverseMinisterQueen (3) 
+Bloodbot pieces:
+PromotionPawn (0) TwoPawnUDLDR (1) PortalPawn (2) TwoPawnDLDDR (1) TwoPawnULURLR (1) OnePawnLite (0) ProtectivePawn (2.5) LeftPawn (0.5) MonochromeRook (2) SpittingRook (5) SpiderKnight (6) FragileKnight (2) InfiniteBishop (9) OneTimeBishop (1) RulebreakerKing (1) AmazonQueen (12) 
+
+------------------------
+Game Ended
+Bloodbot (White) vs (Black) Pawn Bot
+ Draw by Stalemate
+The match took 24 turns
+Penalties: Bloodbot: 0, Pawn Bot: 0
+Bloodbot started with 52.5pts
+Pawn Bot started with 53.5pts
+Bloodbot pieces:
+CloningPawn (2.5) StackingPawn (3) OneTwoPawnDLDR (1) OnePawnLite (0) FreezingPawn (2) TwoPawnULUURLR (1) OnePawnUD (0) ThreePawn (0.5) PortalRook (7.5) FreezingRook (7) StackingKnight (7) DelayedKnight (1) JailBishop (1) PortalBishop (6) BadKing (-1) CloningQueen (14) 
+Pawn Bot pieces:
+OnePawnUDLDR (1) JockeyPawn (1.5) OnePawnU (0) GhostPawn (1) OppressivePawn (3) OnePawnULURLR (1) DiagonalSquarePawn (1.5) PortalPawn (2) RookEmpress (7) PiggybackRook (6) LandmineKnight (6) HungryKnight (4) PortalBishop (6) InfiniteBishop (9) SwitchingKing (0) MonochromeQueen (4.5) 
+
+------------------------
+Game Ended
+Bottus Maximus (White) vs (Black) Idiot
+White Won by Opposing King Death
+The match took 16 turns
+Penalties: Bottus Maximus: 0, Idiot: 0
+Bottus Maximus started with 44pts
+Idiot started with 39pts
+Bottus Maximus pieces:
+SpittingPawn (1.5) CaptureTheFlagPawn (1.5) ShieldPawn (2) OnePawnULUUR (1) OnePawnDLDR (0) PromotingPawn (1.5) LandminePawn (4) PawnLite (-0.5) ElectricRook (7) DefuserRook (6) ElectricKnight (5) PromotionKnight (4) MurderousBishop (4) FragileBishop (2) SpittingKing (1) FragileQueen (4) 
+Idiot pieces:
+PortalPawn (2) FragilePawn (0.5) OneTwoPawnU (0) OnePawnULURD (1) GhoulPawn (2) ThreePawn (0.5) TwoPawnULUUR (1) StackingPawn (3) ElectricRook (7) JockeyRook (6) FragileKnight (2) GhoulKnight (3.5) ElectricBishop (4.5) UndeadBishop (4) FragileKing (-4) DelayedQueen (6) 
+
+------------------------
+Game Ended
+5x Random Bot (White) vs (Black) BOTential
+Black Won by Opposing King Death
+The match took 34 turns
+Penalties: 5x Random Bot: 0, BOTential: 0
+5x Random Bot started with 30.5pts
+BOTential started with 43.5pts
+5x Random Bot pieces:
+FreezingPawn (2) PromotionPawn (0) TwoPawnULUURLR (1) TwoPawnD (0) Octapawn (2.5) FragilePawn (0.5) OnePawnU (0) CaptureTheFlagPawn (1.5) HungryRook (5) DefuserRook (6) JockeyKnight (4) FragileKnight (2) CaptureTheFlagBishop (5) FragileBishop (2) FragileKing (-4) JailQueen (3) 
+BOTential pieces:
+FreezingPawn (2) PromotingPawn (1.5) TwoPawnDLDR (0) PiggybackPawn (1.5) OneTwoPawnU (0) OnePawnDLDR (0) JailPawn (0) HungryPawn (1.5) FragileRook (3) GhostRook (6.5) LandmineKnight (6) CloningKnight (6) CloningBishop (6) FreezingBishop (4) DelayedKing (-5) FreezingQueen (10.5) 
+
+------------------------
+Game Ended
+Assassin Bot (White) vs (Black) Shield Bot
+White Won by Opposing King Death
+The match took 37 turns
+Penalties: Assassin Bot: 0, Shield Bot: 0
+Assassin Bot started with 57.5pts
+Shield Bot started with 51.5pts
+Assassin Bot pieces:
+TwoPawnUDLDR (1) TwoPawnDLDR (0) OneTwoPawnUD (1) Two-ForwardPawn (0.5) ShieldPawn (2) DelayedPawn (0) ElectricPawn (1.5) HungryPawn (1.5) ElectricRook (7) FreezingRook (7) AtomicKnight (6.5) KnightElephant (2) ElectricBishop (4.5) CrowdingBishop (4) StackingKing (9) JockeyQueen (10) 
+Shield Bot pieces:
+StackingPawn (3) UpperPawn (2) One-TwoPawn (2) SplittingPawn (1.5) Forward-SidePawn (1.5) JockeyPawn (1.5) DefuserPawn (1.5) ElectricPawn (1.5) StackingRook (9) HungryRook (5) CrowdingKnight (4) LiteKnight (0) UndeadBishop (4) CrowdingBishop (4) PiggybackKing (1) JockeyQueen (10) 
+
+------------------------
+Game Ended
+Pawn Bot (White) vs (Black) Idiot
+White Won by Checkmate
+The match took 68 turns
+Penalties: Pawn Bot: 0, Idiot: 0
+Pawn Bot started with 57.5pts
+Idiot started with 63.5pts
+Pawn Bot pieces:
+LandminePawn (4) TwoPawnUDLR (1) TwoPawnULURDLDR (1) TwoPawnLite (0) TwoPawn (1) OnePawnULUUR (1) DefuserPawn (1.5) ProtectivePawn (2.5) StackingRook (9) GhoulRook (5.5) RoyalKnight (5) DelayedKnight (1) LandmineBishop (6) GhostBishop (5) FreezingKing (4) LandmineQueen (10) 
+Idiot pieces:
+Octapawn (2.5) UndeadPawn (0.5) FragilePawn (0.5) ElectricPawn (1.5) OneTwoPawnLite (0) SpontaneouslyCombustingPawn (-2) DelayedPawn (0) DoublePawn (2) MonochromeRook (2) PortalRook (7.5) InfiniteKnight (9) ElectricKnight (5) ColorChangingBishop (4) InfiniteBishop (9) StackingKing (9) AmazonQueen (12) 
+
+------------------------
+Game Ended
+5x Random Bot (White) vs (Black) Bottus Maximus
+ Draw by Stalemate
+The match took 30 turns
+Penalties: 5x Random Bot: 0, Bottus Maximus: 0
+5x Random Bot started with 51pts
+Bottus Maximus started with 63pts
+5x Random Bot pieces:
+SpontaneouslyCombustingPawn (-2) StackingPawn (3) AtomicPawn (4) One-TwoPawn (2) Octapawn (2.5) TwoPawnDLDR (0) OnePawnU (0) PiggybackPawn (1.5) DefuserRook (6) HungryRook (5) UndeadKnight (4) SpittingKnight (3) LandmineBishop (6) HungryBishop (4) SlidingKing (0) AmazonQueen (12) 
+Bottus Maximus pieces:
+TwoPawnUDLDR (1) DefuserPawn (1.5) OnePawnULURD (1) SuperGhostPawn (2.5) OneTwoPawnLite (0) OnePawnDLDR (0) ShieldPawn (2) FourPawn (0.5) GhostRook (6.5) LandmineRook (8) LongKnight (5) SpiderKnight (6) GhostBishop (5) FreezingBishop (4) StackingKing (9) BouncingQueen (11) 
+
+------------------------
+Game Ended
+Shield Bot (White) vs (Black) BOTential
+ Draw by Moves Without Capture
+The match took 57 turns
+Penalties: Shield Bot: 0, BOTential: 0
+Shield Bot started with 51pts
+BOTential started with 44pts
+Shield Bot pieces:
+OnePawnULUURLR (1) ProtectivePawn (2.5) UndeadPawn (0.5) OneTwoPawnLite (0) TwoPawnULURD (1) Octapawn (2.5) Pawn (1) GhoulPawn (2) PortalRook (7.5) OneTimeRook (1) RoyalKnight (5) LiteKnight (0) BouncingBishop (5) DefuserBishop (4) FreezingKing (4) PortalQueen (14) 
+BOTential pieces:
+CrowdingPawn (1.5) UpperPawn (2) TwoPawnULUUR (1) TwoPawnD (0) OneTwoPawnDLDR (1) TwoPawnLR (0) TwoPawnULURLR (1) OnePawnULUUR (1) JockeyRook (6) InfiniteRook (10) DisabledKnight (2) Knight (3) PortalBishop (6) RoyalBishop (4.5) FreezingKing (4) OneTimeQueen (1) 
+
+------------------------
+Game Ended
+Assassin Bot (White) vs (Black) Bloodbot
+Black Won by Checkmate
+The match took 25 turns
+Penalties: Assassin Bot: 0, Bloodbot: 0
+Assassin Bot started with 36.5pts
+Bloodbot started with 46.5pts
+Assassin Bot pieces:
+InfinitePawn (4) FreezingPawn (2) FourPawn (0.5) BackwardPawn (-0.5) TwoPawnULUUR (1) GhoulPawn (2) ManPawn (3) TwoPawnDLDR (0) SpittingRook (5) JailRook (1) GhoulKnight (3.5) LiteKnight (0) CaptureTheFlagBishop (5) PortalBishop (6) DelayedKing (-5) Queen (9) 
+Bloodbot pieces:
+ProtectivePawn (2.5) OneTwoPawnLR (1) TwoPawnULURDLDR (1) FreezingPawn (2) OnePawnU (0) ManPawn (3) One-TwoPawn (2) SpontaneouslyCombustingPawn (-2) FragileRook (3) GhoulRook (5.5) StackingKnight (7) Knight (3) CloningBishop (6) OneTimeBishop (1) HungryKing (1) UndeadQueen (10.5) 
+
+------------------------
+Game Ended
+5x Random Bot (White) vs (Black) Pawn Bot
+Black Won by Checkmate
+The match took 26 turns
+Penalties: 5x Random Bot: 0, Pawn Bot: 0
+5x Random Bot started with 45pts
+Pawn Bot started with 49.5pts
+5x Random Bot pieces:
+SpittingPawn (1.5) FreezingPawn (2) TwoPawn (1) AtomicPawn (4) OnePawnULURD (1) BackwardPawn (-0.5) TwoPawnULUUR (1) CrowdingPawn (1.5) DelayedRook (3) Rook (5) HungryKnight (4) AtomicKnight (6.5) JailBishop (1) UndeadBishop (4) SlidingKing (0) DefuserQueen (10) 
+Pawn Bot pieces:
+OnePawnDLDDR (1) TwoPawnD (0) OnePawnLite (0) DiagonalSquarePawn (1.5) CloningPawn (2.5) TwoPawnLite (0) TwoPawn (1) OneTwoPawnU (0) PiggybackRook (6) SpittingRook (5) PromotionKnight (4) FragileKnight (2) LiteBishop (0) AtomicBishop (7) StackingKing (9) GhostQueen (10.5) 
+
+------------------------
+Game Ended
+Bottus Maximus (White) vs (Black) Shield Bot
+White Won by Checkmate
+The match took 39 turns
+Penalties: Bottus Maximus: 0, Shield Bot: 0
+Bottus Maximus started with 49.5pts
+Shield Bot started with 44pts
+Bottus Maximus pieces:
+SquarePawn (2) TwoPawnUD (0) One-TwoPawn (2) CrowdingPawn (1.5) AtomicPawn (4) OnePawnD (0) RightPawn (0.5) PiggybackPawn (1.5) RoyalRook (7) Rook (5) DefuserKnight (4) JailKnight (1) BishopPrincess (5) PromotionBishop (4) UndeadKing (2) LandmineQueen (10) 
+Shield Bot pieces:
+TwoPawnLR (0) OneTwoPawnULUUR (1) OctapawnLite (1.5) TwoPawnULUUR (1) ThreePawn (0.5) TwoPawnUD (0) SquarePawn (2) ForwardPawn (1) LandmineRook (8) UndeadRook (6) FreezingKnight (4) DisabledKnight (2) DefuserBishop (4) PortalBishop (6) FastKing (-2) Queen (9) 
+
+------------------------
+Game Ended
+Idiot (White) vs (Black) Assassin Bot
+Black Won by Opposing King Death
+The match took 25 turns
+Penalties: Idiot: 0, Assassin Bot: 0
+Idiot started with 33.5pts
+Assassin Bot started with 61.5pts
+Idiot pieces:
+TwoPawn (1) SplittingPawn (1.5) ZombiePawn (0.5) OnePawnUD (0) AtomicPawn (4) InfinitePawn (4) OneTwoPawnD (0) SpontaneouslyCombustingPawn (-2) PortalRook (7.5) JailRook (1) PromotionKnight (4) FreezingKnight (4) OneTimeBishop (1) JailBishop (1) PortalKing (5) MinisterQueen (1) 
+Assassin Bot pieces:
+UpperPawn (2) TwoPawnUDLDR (1) OctapawnLite (1.5) HungryPawn (1.5) PromotingPawn (1.5) TwoPawnDLDDR (1) ProtectivePawn (2.5) PromotionPawn (0) LandmineRook (8) PromotionRook (6) UndeadKnight (4) StackingKnight (7) CaptureTheFlagBishop (5) RoyalBishop (4.5) ScaredyKing (6) HungryQueen (10) 
+
+------------------------
+Game Ended
+BOTential (White) vs (Black) Bloodbot
+Black Won by Checkmate
+The match took 44 turns
+Penalties: BOTential: 0, Bloodbot: 0
+BOTential started with 35pts
+Bloodbot started with 49.5pts
+BOTential pieces:
+TwoPawnULUURLR (1) OnePawnULUUR (1) OnePawnULURLR (1) TwoPawnDLDR (0) RightPawn (0.5) TwoPawnUDLDR (1) PawnLite (-0.5) One-TwoPawn (2) MonochromeRook (2) JailRook (1) ElectricKnight (5) PromotionKnight (4) CrowdingBishop (4) ColorChangingBishop (4) SwitchingKing (0) SpittingQueen (9) 
+Bloodbot pieces:
+StackingPawn (3) OnePawnUDLDR (1) ForwardPawn (1) TwoPawnU (0) OneTwoPawnD (0) OneTwoPawnLR (1) ShieldPawn (2) TwoPawnULURD (1) MurderousRook (5) GhoulRook (5.5) LiteKnight (0) FragileKnight (2) PiggybackBishop (4) LandmineBishop (6) Overlord (8) DefuserQueen (10) 
+
+------------------------

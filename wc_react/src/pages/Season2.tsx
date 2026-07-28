@@ -1,5 +1,4 @@
 import '../App.css'
-import { useEffect, useState } from "react";
 import PageButton from '../Button';
 
 function Season2() {

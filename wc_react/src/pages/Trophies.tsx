@@ -93,7 +93,7 @@ function getPoints(trophy: string, adjustType: boolean, adjustSeason: boolean) {
 function Trophies() {
 
   const [bots, setBots] = useState<TrophyBot[]>([]);
-  const [sortType, setSortType] = useState<string>("Total");
+  const [, setSortType] = useState<string>("Total");
   const [adjustType, setAdjustType] = useState<boolean>(true);
   const [adjustSeason, setAdjustSeason] = useState<boolean>(false);
 
