@@ -31,7 +31,7 @@
       "S3_Bronze",
       "ACC_S2_Bronze",
       "FCC_S1_Gold",
-      "S4_Bronze"
+      "S4_Bronze", "WCTourney_S3_Silver"
     ],
     "Class": "OneMove"
   },
@@ -367,7 +367,7 @@
       "WCTourney_S2_Silver",
       "S4_Silver",
       "NCC_S3_Bronze",
-      "LCC_S1_Bronze"
+      "LCC_S1_Bronze", "WCTourney_S3_Bronze"
     ],
     "Class": "TwoMove"
   },
@@ -396,7 +396,7 @@
     "Creator": "Jaden",
     "PeakElo": 1172,
     "MinElo": 1000,
-    "Trophies": ["NCC_S3_Gold"],
+    "Trophies": ["NCC_S3_Gold", "WCTourney_S3_Gold"],
     "Class": "OnePointFiveMove"
   },
   {

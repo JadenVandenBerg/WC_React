@@ -139,6 +139,16 @@
             "Creator": "Jaden",
             "Trophies": ["WCTourney_S2_Gold"],
             "RunnerUp": ["Two Move Bot", "Restrictor Bot"]
+        },
+        {
+            "Id": "3",
+            "Season": "Season 3",
+            "Name": "Botnia and Herzebotvina",
+            "Profile": "img/BotniaAndHerzebotvina.png",
+            "Elo": 0,
+            "Creator": "Jaden",
+            "Trophies": ["WCTourney_S3_Gold"],
+            "RunnerUp": ["Bottus Maximus", "Two Move Bot"]
         }
     ]
 }

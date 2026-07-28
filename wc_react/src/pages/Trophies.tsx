@@ -37,7 +37,7 @@ function getCategory(trophy: string) {
 }
 
 
-function getPoints(trophy: string) {
+function getPoints(trophy: string, adjustType: boolean, adjustSeason: boolean) {
 
   let medalPoints = 0;
 
@@ -51,17 +51,36 @@ function getPoints(trophy: string) {
     medalPoints = 1;
   }
 
-
   const category = getCategory(trophy);
 
 
-  if (category === "WCC") {
-    return medalPoints * 3;
+  if (category === "WCC" && adjustType) {
+    medalPoints *= 3;
   }
 
 
-  if (category === "NCC") {
-    return medalPoints * 2;
+  if (category === "NCC" && adjustType) {
+    medalPoints *= 2;
+  }
+
+  if (adjustSeason) {
+    if (trophy.includes("S2")) {
+      medalPoints += 0.1;
+    } else if (trophy.includes("S3")) {
+      medalPoints += 0.2;
+    } else if (trophy.includes("S4")) {
+      medalPoints += 0.4;
+    } else if (trophy.includes("S5")) {
+      medalPoints += 0.5;
+    } else if (trophy.includes("S6")) {
+      medalPoints += 0.6;
+    } else if (trophy.includes("S7")) {
+      medalPoints += 0.7;
+    } else if (trophy.includes("S8")) {
+      medalPoints += 0.8;
+    } else if (trophy.includes("S9")) {
+      medalPoints += 0.9;
+    }
   }
 
 
@@ -75,7 +94,8 @@ function Trophies() {
 
   const [bots, setBots] = useState<TrophyBot[]>([]);
   const [sortType, setSortType] = useState<string>("Total");
-
+  const [adjustType, setAdjustType] = useState<boolean>(true);
+  const [adjustSeason, setAdjustSeason] = useState<boolean>(false);
 
 
   useEffect(() => {
@@ -95,7 +115,7 @@ function Trophies() {
           bot.Trophies.forEach(trophy => {
 
             const category = getCategory(trophy);
-            const points = getPoints(trophy);
+            const points = getPoints(trophy, adjustType, adjustSeason);
 
 
             if (!categories[category]) {
@@ -128,7 +148,7 @@ function Trophies() {
 
       });
 
-  }, []);
+  }, [adjustSeason, adjustType]);
 
 
 
@@ -159,23 +179,40 @@ function Trophies() {
   return (
     <>
       <PageButton />
-
+      <button
+        onClick={() => setAdjustType(!adjustType)}
+        style={{
+          width: "120px",
+          height: "40px",
+          position: "absolute",
+          top: 10,
+          right: 10,
+          backgroundColor: adjustType ? "limegreen" : "red"
+        }}
+      >
+        Type
+      </button>
+      <button
+        onClick={() => setAdjustSeason(!adjustSeason)}
+        style={{
+          width: "120px",
+          height: "40px",
+          position: "absolute",
+          top: 60,
+          right: 10,
+          backgroundColor: adjustSeason ? "limegreen" : "red"
+        }}
+      >
+        Season
+      </button>
       <h1>Trophy Rankings</h1>
-
-
       <table id="seasonTable">
-
         <thead>
-
           <tr>
-
             <th>#</th>
             <th>Bot</th>
             <th>Profile</th>
-
-
             {trophyCategories.map(category => (
-
               <th
                 key={category}
                 onClick={() => sortBy(category)}
@@ -183,39 +220,24 @@ function Trophies() {
               >
                 {category}
               </th>
-
             ))}
-
-
             <th
               onClick={() => sortBy("Total")}
               style={{cursor:"pointer"}}
             >
               Points
             </th>
-
           </tr>
-
         </thead>
-
-
-
         <tbody>
-
           {bots.map((bot,index) => (
-
             <tr key={bot.Id}>
-
               <td>
                 {index + 1}
               </td>
-
-
               <td>
                 {bot.Name}
               </td>
-
-
               <td>
                 <img
                   className="botImg"
@@ -223,16 +245,11 @@ function Trophies() {
                   alt={bot.Name}
                 />
               </td>
-
-
-
               {trophyCategories.map(category => (
-
                 <td
                   key={category}
                   className="trophyCell"
                 >
-
                   {bot.categories[category]?.map(trophy => (
 
                     <img
@@ -241,40 +258,23 @@ function Trophies() {
                       src={`/img/Trophy/${trophy}.png`}
                       alt={trophy}
                     />
-
                   ))}
-
-
                   {bot.categoryPoints[category] &&
                     <div>
-                      {bot.categoryPoints[category]} pts
+                      {adjustSeason ? bot.categoryPoints[category].toFixed(2) : bot.categoryPoints[category]} pts
                     </div>
                   }
-
-
                 </td>
-
               ))}
-
-
-
               <td>
-                {bot.points}
+                {adjustSeason ? bot.points.toFixed(2) : bot.points}
               </td>
-
-
             </tr>
-
           ))}
-
-
         </tbody>
-
       </table>
-
     </>
   );
-
 }
 
 
