@@ -107,6 +107,7 @@ function Elo() {
       else if (sortBy === 'Adjusted Win %') result = getAWinPct(b) - getAWinPct(a);
       else if (sortBy === 'Trophies') result = getTrophies(b) - getTrophies(a);
       else if (sortBy === 'Depth') result = getClass(b) - getClass(a);
+      else if (sortBy === 'Peak') result = getDistanceToPeak(b) - getDistanceToPeak(a);
       else result = b.Elo - a.Elo;
       return sortOrder === 'Descending' ? result : -result;
     });
@@ -142,6 +143,10 @@ function Elo() {
     return class_;
   }
 
+  function getDistanceToPeak(bot: any) {
+    return bot.PeakElo - bot.Elo;
+  }
+
   return (
     <>
       <PageButton/>
@@ -159,6 +164,7 @@ function Elo() {
             const range = getRange(bot);
             const winLoss = getWinLoss(bot).toFixed(2);
             const winDrawLoss = getWinDrawLoss(bot).toFixed(2);
+            const distanceToPeak = getDistanceToPeak(bot);
 
             const botInfoClassName = "botInfo " + bot.Class;
 
@@ -186,9 +192,9 @@ function Elo() {
                 )}</div>
                   <div className="botMeta">
                     <div><b>Elo: {bot.Elo}</b><span style={{ float: 'right' }}>Range: {bot.PeakElo} - {bot.MinElo} ({range})</span></div>
-                    <div>AW%: {awinPct}%<span style={{ float: 'right' }}>Creator: {bot.Creator}</span></div>
+                    <div>AW%: {awinPct}%<span style={{ float: 'right' }}>Peak Distance: {distanceToPeak}</span></div>
                     <div>W/D/L (%): {bot.WinsTotal} ({winPct}%), {bot.DrawsTotal} ({drawPct}%), {bot.LossesTotal} ({lossPct}%)<span style={{ float: 'right' }}>Depth: {mapClass(bot.Class)}</span></div>
-                    <div>W/L: {winLoss}, WD/L: {winDrawLoss}.<span style={{ float: 'right' }}>G: {games}</span></div>
+                    <div>W/L: {winLoss}, WD/L: {winDrawLoss}.<span style={{ float: 'right' }}>Creator: {bot.Creator}, Games: {games}</span></div>
                   </div>
                 </div>
               </div>
@@ -212,6 +218,7 @@ function Elo() {
           <option value="Range">Range</option>
           <option value="Trophies">Trophies</option>
           <option value="Depth">Depth</option>
+          <option value="Peak">Distance to Peak</option>
         </select>
         <label htmlFor="sortOrder" style={{ marginLeft: '12px' }}><b>Order: </b></label>
         <select id="sortOrder" value={sortOrder} onChange={(e) => setSortOrder(e.target.value)}>
