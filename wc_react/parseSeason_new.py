@@ -1,6 +1,8 @@
 import sys
 from parseSeason import normalize_path
 from dataclasses import dataclass, field
+import json
+import os
 
 @dataclass
 class Bot:
@@ -24,6 +26,7 @@ class Bot:
 
     winReasons: dict = field(default_factory=dict)
     lossReasons: dict = field(default_factory=dict)
+    drawReasons: dict = field(default_factory=dict)
 
     piecesPlayed: dict = field(default_factory=dict)
 
@@ -108,6 +111,9 @@ def parse_bots(games):
             white.draws += 1
             black.draws += 1
 
+            black.drawReasons[reason] = black.drawReasons.get(reason, 0) + 1
+            white.drawReasons[reason] = white.drawReasons.get(reason, 0) + 1
+
     return bots
 
 def print_bots(bots):
@@ -126,11 +132,47 @@ def print_bots(bots):
         print("Average Starting Points:", round(bot.totalStartingPoints / bot.games, 2) if bot.games else 0)
         print("Total Penalties:", bot.totalPenalties)
         print("Win Reasons:", bot.winReasons)
+        print("Draw Reasons:", bot.drawReasons)
         print("Loss Reasons:", bot.lossReasons)
         print("Pieces Played:")
 
         for piece, count in bot.piecesPlayed.items():
             print(f"  {piece}: {count}")
+
+
+def write_bots_json(bots):
+    input_file = sys.argv[1]
+    output_file = os.path.splitext(input_file)[0] + ".json"
+
+    data = {}
+
+    for bot in bots.values():
+        data[bot.name] = {
+            "games": bot.games,
+            "record": {
+                "wins": bot.wins,
+                "losses": bot.losses,
+                "draws": bot.draws,
+            },
+            "whiteGames": bot.whiteGames,
+            "blackGames": bot.blackGames,
+            "whiteWins": bot.whiteWins,
+            "blackWins": bot.blackWins,
+            "totalTurns": bot.totalTurns,
+            "averageTurns": round(bot.totalTurns / bot.games, 2) if bot.games else 0,
+            "totalStartingPoints": bot.totalStartingPoints,
+            "averageStartingPoints": round(bot.totalStartingPoints / bot.games, 2) if bot.games else 0,
+            "totalPenalties": bot.totalPenalties,
+            "winReasons": bot.winReasons,
+            "lossReasons": bot.lossReasons,
+            "drawReasons": bot.drawReasons,
+            "piecesPlayed": bot.piecesPlayed,
+        }
+
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=4)
+
+    print(f"Wrote bot statistics to {output_file}")
 
 def parse_game(game):
     lines = game.split('\n')
@@ -178,4 +220,4 @@ if __name__ == "__main__":
 
     bots = parse_bots(data)
 
-    print_bots(bots)
+    write_bots_json(bots)

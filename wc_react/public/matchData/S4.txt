@@ -1,30 +1,4 @@
 Game Ended
-Counting Bot (White) vs (Black) Laser Bot
-Black Won by Opposing King Death
-The match took 12 turns
-Penalties: Counting Bot: 0, Laser Bot: 0
-Counting Bot started with 39.5pts
-Laser Bot started with 48.5pts
-Counting Bot pieces:
-OnePawnULUURLR (1) PiggybackPawn (1.5) OnePawnU (0) LandminePawn (4) OnePawnUDLDR (1) One-TwoPawn (2) TwoPawnLR (0) OppressivePawn (3) JailRook (1) FragileRook (3) StackingKnight (7) SinisterMinisterKnight (4) UndeadBishop (4) OneTimeBishop (1) HeartbrokenKing (-2) AtomicQueen (9) 
-Laser Bot pieces:
-Octapawn (2.5) TwoPawnLite (0) OnePawnU (0) TwoPawnUDLR (1) TwoPawnULURD (1) JailPawn (0) DefuserPawn (1.5) FourPawn (0.5) JockeyRook (6) CaptureTheFlagRook (7) KnightElephant (2) StackingKnight (7) JailBishop (1) FusionBishop (6) LandmineKing (1) PhantomQueen (12) 
-
-------------------------
-Game Ended
-Counting Bot (White) vs (Black) Migrating Bot
- Draw by Moves Without Capture
-The match took 67 turns
-Penalties: Counting Bot: 0, Migrating Bot: 0
-Counting Bot started with 46pts
-Migrating Bot started with 56pts
-Counting Bot pieces:
-SuperGhostPawn (2.5) One-Two-ForwardPawn (1.5) AtomicPawn (4) ShieldPawn (2) Pawn (1) OnePawnDLDR (0) OneTwoPawnUD (1) PAWN (1.5) RoyalRook (7) FreezeBombRook (6.5) UndeadKnight (4) PromotionKnight (4) SpittingBishop (3) PiggybackBishop (4) SlidingKing (0) FragileQueen (4) 
-Migrating Bot pieces:
-TwoPawnUDLR (1) OnePawnUDLDR (1) ForwardPawn (1) ProtectivePawn (2.5) TwoPawn (1) TwoPawnLite (0) PromotingPawn (1.5) OctapawnLite (1.5) AtomicRook (7) CrowdingRook (6) Knight (3) FreezingKnight (4) PhantomBishop (5) ElectricBishop (4.5) ScaredyKing (6) BouncingQueen (11) 
-
-------------------------
-Game Ended
 Random Bot (White) vs (Black) Equality Bot
 White Won by Opposing King Death
 The match took 22 turns

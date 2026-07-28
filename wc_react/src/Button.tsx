@@ -15,6 +15,13 @@ function PageButton() {
     { name: "Season 4", route: "/Season4" },
   ];
 
+  const seasons = [
+    { id: 1, name: "Season 1" },
+    { id: 2, name: "Season 2" },
+    { id: 3, name: "Season 3" },
+    { id: 4, name: "Season 4" },
+  ];
+
   return (
     <div
       style={{
@@ -41,18 +48,54 @@ function PageButton() {
         {visible ? "−" : "+"}
       </button>
 
-      {visible &&
-        pages.map((page) => (
-          <button
-            key={page.route}
-            onClick={() => navigate(page.route)}
+      {visible && (
+        <>
+          {pages.map((page) => (
+            <button
+              key={page.route}
+              onClick={() => navigate(page.route)}
+              style={{
+                width: "150px",
+              }}
+            >
+              {page.name}
+            </button>
+          ))}
+
+          <select
+            defaultValue=""
+            onChange={(e) => {
+              if (e.target.value) {
+                navigate(`/seasonDetails/${e.target.value}`);
+                e.target.value = "";
+              }
+            }}
             style={{
-              width: "120px",
+              width: "150px",
+              borderRadius: "8px",
+              border: "1px solid transparent",
+              padding: "0.6em 1.2em",
+              fontSize: "1em",
+              fontWeight: 500,
+              fontFamily: "inherit",
+              backgroundColor: "#1a1a1a",
+              color: "white",
+              cursor: "pointer",
+              transition: "border-color 0.25s",
+              textAlign: "center"
             }}
           >
-            {page.name}
-          </button>
-        ))}
+            <option value="" disabled>
+              Dashboard
+            </option>
+            {seasons.map((season) => (
+              <option key={season.id} value={season.id}>
+                {season.name}
+              </option>
+            ))}
+          </select>
+        </>
+      )}
     </div>
   );
 }
