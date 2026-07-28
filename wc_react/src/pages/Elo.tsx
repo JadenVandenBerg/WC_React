@@ -8,7 +8,7 @@ function Elo() {
   const [sortBy, setSortBy] = useState('Elo');
   const [sortOrder, setSortOrder] = useState('Descending');
 
-  const [dataFile, setDataFile] = useState("/data.json");
+  const [dataFile, setDataFile] = useState("/officialData.json");
 
   useEffect(() => {
     const fetchBots = async () => {
