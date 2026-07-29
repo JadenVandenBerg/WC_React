@@ -1,12 +1,10 @@
 import '../App.css'
 import { useEffect, useState, useMemo } from "react";
-import { useParams } from "react-router-dom";
 import PageButton from '../Button';
 
 function GameTable() {
-	const [games, setGames] = useState([]);
 
-	const [rawData, setRawData] = useState([]);
+	const [rawData, setRawData] = useState<string[]>([]);
 
 	const [sort, setSort] = useState({
 	  column: null,
@@ -58,7 +56,16 @@ function GameTable() {
 
 	    const splitData = rawData[i].split("\n");
 
-	    let game = {};
+	    let game = {
+			"white": "",
+			"black": "",
+			"length": 0,
+			"result": "",
+			"season": "",
+			"whitePoints": 0,
+			"blackPoints": 0,
+			"upset": "",
+		};
 
 	    game.white = splitData[1].split("(")[0].trim();
 	    game.black = splitData[1].split("(Black)")[1].trim();
@@ -83,10 +90,10 @@ function GameTable() {
 	    game.blackPoints = blackPoints;
 
 	    if (game.result.includes("White Won")) {
-	      game.upset = whitePoints - blackPoints;
+	      game.upset = (whitePoints - blackPoints).toString();
 	      game.result = game.result.replace("White", "(" + game.white + ") White");
 	    } else if (game.result.includes("Black Won")) {
-	      game.upset = blackPoints - whitePoints;
+	      game.upset = (blackPoints - whitePoints).toString();
 	      game.result = game.result.replace("Black", "(" + game.black + ") Black");
 	    } else {
 	      game.upset = "-";
@@ -125,8 +132,8 @@ function GameTable() {
 	        if (aIsDraw && bIsDraw) return 0;
 	      }
 
-	      const aVal = a[sort.column];
-	      const bVal = b[sort.column];
+	      const aVal = a[sort.column ?? "length"];
+	      const bVal = b[sort.column ?? "length"];
 
 	      return sort.direction === "asc" ? aVal - bVal : bVal - aVal;
 	    });
@@ -135,8 +142,8 @@ function GameTable() {
 	  return data;
 	}, [rawData, filters, sort]);
 
-	const toggleSort = (column) => {
-	  setSort((prev) => ({
+	const toggleSort = (column: any) => {
+	  setSort((prev): any => ({
 	    column,
 	    direction:
 	      prev.column === column && prev.direction === "asc"
