@@ -9,7 +9,7 @@ function PageButton() {
     { name: "Elo", route: "/" },
     { name: "Victors", route: "/Victors" },
     { name: "Trophies", route: "/Trophies" },
-    //{ name: "Database", route: "/GameTable" },
+    { name: "Database", route: "/GameTable" },
     { name: "Season 1", route: "/Season1" },
     { name: "Season 2", route: "/Season2" },
     { name: "Season 3", route: "/Season3" },
