@@ -298,3 +298,16 @@ tbody {
   border-collapse: collapse;
   padding: 15px;
 }
+
+.gameTable input {
+  height: 35px;
+  background-color: #ffffff80;
+  color: black;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.gameTable input::placeholder {
+  color: white;
+}
+

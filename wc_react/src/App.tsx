@@ -9,6 +9,7 @@ import Dashboard from "./Dashboard";
 import Victors from './pages/Victors';
 import Trophies from './pages/Trophies';
 import SeasonDetails from './pages/SeasonDetails';
+import GameTable from './pages/GameTable';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
             <Route path="/season3" element={<Season3 />} />
             <Route path="/season4" element={<Season4 />} />
             <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/gameTable" element={<GameTable />} />
         </Routes>
       </BrowserRouter>
     </div>
