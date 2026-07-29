@@ -32,6 +32,7 @@ function PageButton() {
         display: "flex",
         flexDirection: "column",
         gap: "8px",
+        zIndex: 1000000,
       }}
     >
       <button
@@ -44,9 +45,10 @@ function PageButton() {
           border: "none",
           cursor: "pointer",
           padding: 0,
+          zIndex: 1000000,
         }}
       >
-        {visible ? "−" : "+"}
+        {visible ? "-" : "+"}
       </button>
 
       {visible && (
