@@ -14,8 +14,6 @@ function Victors() {
     };
 
     fetchVictors();
-    const interval = setInterval(fetchVictors, 1000);
-    return () => clearInterval(interval);
   }, []);
 
   if (!victors) {
