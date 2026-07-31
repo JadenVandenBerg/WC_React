@@ -38,7 +38,7 @@
             "Elo": 1254,
             "Creator": "Jaden",
             "Trophies": ["S4_Gold"],
-            "RunnerUp": ["Two Move Bot", "Botnia and Herzebotvina"]
+            "RunnerUp": ["Two Move Bot", "Bottus Maximus"]
         }
     ],
     "NCC": [
@@ -93,6 +93,16 @@
             "Creator": "Jaden",
             "Trophies": ["ACC_S2_Gold"],
             "RunnerUp": ["Hitman Bot", "Bottus Maximus"]
+        },
+        {
+            "Id": "3",
+            "Season": "Season 3",
+            "Name": "Thinking Bot",
+            "Profile": "img/ThinkingBot.png",
+            "Elo": 1237,
+            "Creator": "Jaden",
+            "Trophies": ["ACC_S3_Gold"],
+            "RunnerUp": ["Pawn Bot", "Hitman Bot"]
         }
     ],
     "FCC": [

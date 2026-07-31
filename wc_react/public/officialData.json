@@ -11,7 +11,8 @@
     "PeakElo": 1098,
     "MinElo": 948,
     "Trophies": [
-      "S1_Bronze"
+      "S1_Bronze",
+      "ACC_S3_Silver"
     ],
     "Class": "OneMove"
   },
@@ -272,7 +273,8 @@
       "NCC_S2_Bronze",
       "ACC_S2_Gold",
       "WCTourney_S2_Gold",
-      "NCC_S3_Silver"
+      "NCC_S3_Silver",
+      "ACC_S3_Gold"
     ],
     "Class": "TwoMove"
   },
@@ -347,7 +349,8 @@
     "PeakElo": 1055,
     "MinElo": 994,
     "Trophies": [
-      "ACC_S2_Silver"
+      "ACC_S2_Silver",
+      "ACC_S3_Bronze"
     ],
     "Class": "OneMove"
   },

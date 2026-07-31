@@ -1,11 +1,11 @@
 Match,Turns,Winner,Result
-Equality Bot vs Botdefender,183,-, Draw by Moves Without Capture
-G2EBot vs Bottus Maximus,177,-, Draw by Moves Without Capture
-Equality Bot vs Shield Bot,128,-, Draw by Repetition
-Botdefender vs Abilibot,107,-, Draw by Moves Without Capture
-Bot Ross vs Idiot,97,Bot Ross,White Won by Checkmate
-Counting Bot vs Migrating Bot,95,-, Draw by Stalemate
-Counting Bot vs Bots United,93,-, Draw by Moves Without Capture
-Bot Ross vs 5x Random Bot,92,-, Draw by Stalemate
-Idiot vs Abilibot,92,-, Draw by Stalemate
-Savage Beastbot vs Restrictor Bot,91,-, Draw by Moves Without Capture
+Bot Ross vs Idiot,100,-, Draw by Moves Without Capture
+Bot Ross vs 5x Random Bot,77,5x Random Bot,Black Won by Checkmate
+Random Bot vs Bot Ross,76,Random Bot,White Won by Opposing King Death
+Shield Bot vs Equality Bot,62,-, Draw by Moves Without Capture
+Bot Ross vs BOTential,56,-, Draw by Moves Without Capture
+Idiot vs Lobotomy,52,-, Draw by Moves Without Capture
+Abilibot vs Equality Bot,49,-, Draw by Moves Without Capture
+One Piece Random Bot vs Bot Ross,46,One Piece Random Bot,White Won by Opposing King Death
+G2EBot vs One Move Bot,45,-, Draw by Moves Without Capture
+Shield Bot vs Pawn Bot,43,Pawn Bot,Black Won by Opposing King Death
