@@ -205,7 +205,7 @@ function Trophies() {
       >
         Season
       </button>
-      <h1>Trophy Rankings</h1>
+      <h2>Trophy Rankings</h2>
       <table id="seasonTable">
         <thead>
           <tr>

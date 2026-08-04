@@ -9,6 +9,7 @@ function PageButton() {
     { name: "Elo", route: "/" },
     { name: "Victors", route: "/Victors" },
     { name: "Trophies", route: "/Trophies" },
+    { name: "Ranking", route: "/TotalRanking" },
     { name: "Database", route: "/GameTable" },
     { name: "Season 1", route: "/Season1" },
     { name: "Season 2", route: "/Season2" },
@@ -77,14 +78,13 @@ function PageButton() {
               width: "150px",
               borderRadius: "8px",
               border: "1px solid transparent",
-              padding: "0.6em 1.2em",
+              borderRight: "8px solid transparent",
+              padding: "0.6em",
               fontSize: "1em",
-              fontWeight: 500,
               fontFamily: "inherit",
               backgroundColor: "#1a1a1a",
               color: "white",
               cursor: "pointer",
-              transition: "border-color 0.25s",
               textAlign: "center"
             }}
           >

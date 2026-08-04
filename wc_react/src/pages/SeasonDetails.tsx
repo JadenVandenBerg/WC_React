@@ -209,7 +209,7 @@ function SeasonDetails() {
   return (
     <>
       <PageButton/>
-      <h1>Season {id} Dashboard</h1>
+      <h2>Season {id} Dashboard</h2>
       <section id="chartGrid">
         <div>
           <h3 style={{ textAlign: "center" }}>

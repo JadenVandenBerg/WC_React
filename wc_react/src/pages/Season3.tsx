@@ -6,7 +6,7 @@ function Season3() {
   return (
     <>
       <PageButton/>
-      <h1>Season 3</h1>
+      <h2>Season 3</h2>
       <table id="seasonTable">
         <tbody>
           <tr>

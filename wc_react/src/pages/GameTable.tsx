@@ -155,7 +155,7 @@ function GameTable() {
 	return (
 		<>
       		<PageButton/>
-			<h1>Game Database</h1>
+			<h2>Game Database</h2>
 			<table className="detailsTable gameTable">
             <thead>
               <tr>
