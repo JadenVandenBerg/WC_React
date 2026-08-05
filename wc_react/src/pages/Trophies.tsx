@@ -7,6 +7,7 @@ interface Bot {
   Name: string;
   Profile: string;
   Trophies: string[];
+  points?: number
 }
 
 interface TrophyBot extends Bot {
@@ -131,6 +132,9 @@ function Trophies() {
 
           });
 
+          if (totalPoints > 0) {
+
+          }
 
           return {
             ...bot,
@@ -141,10 +145,18 @@ function Trophies() {
 
         });
 
-
         trophyData.sort((a,b) => b.points - a.points);
 
-        setBots(trophyData);
+        let returnData: TrophyBot[] = [];
+
+        for(let i = 0; i < trophyData.length; i++) {
+          let bot: TrophyBot = trophyData[i];
+          if (bot.points > 0) {
+            returnData.push(bot);
+          }
+        }
+
+        setBots(returnData);
 
       });
 
