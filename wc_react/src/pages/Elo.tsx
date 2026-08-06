@@ -8,6 +8,7 @@ function Elo() {
   const [sortBy, setSortBy] = useState('Elo');
   const [sortOrder, setSortOrder] = useState('Descending');
   const [filterCreator, setFilterCreator] = useState("");
+  const [filterDepth, setFilterDepth] = useState("");
 
   const [dataFile, setDataFile] = useState("/officialData.json");
 
@@ -170,7 +171,7 @@ function Elo() {
             const botInfoClassName = "botInfo " + bot.Class;
 
             return (
-              <div className={"botRow " + ((filterCreator == "" || filterCreator == bot.Creator) ? "" : "hidden")} key={bot.Id}>
+              <div className={"botRow " + (((filterCreator == "" || filterCreator == bot.Creator) && (filterDepth == "" || filterDepth == mapClass(bot.Class))) ? "" : "hidden")} key={bot.Id}>
                 <img src={bot.Profile} alt={bot.Name} className="botProfile" />
                 <div className={botInfoClassName}>
                   <div className="botTitle">#{rank} - {bot.Name}{bot.Trophies?.length > 0 && (
@@ -252,6 +253,20 @@ function Elo() {
           <option value="Jaden">Jaden</option>
           <option value="Carter">Carter</option>
           <option value="Tazel">Tazel</option>
+        </select><br />
+        <label htmlFor="filterDepth"><b>Filter Depth: </b></label>
+        <select
+          id="filterDepth"
+          value={filterDepth}
+          onChange={(e) => setFilterDepth(e.target.value)}
+        >
+          <option value="">None</option>
+          <option value="0">0</option>
+          <option value="0.5">0.5</option>
+          <option value="1">1</option>
+          <option value="1.5">1.5</option>
+          <option value="2">2</option>
+          <option value="2.5">2.5</option>
         </select>
       </div>
     </>
