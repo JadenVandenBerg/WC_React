@@ -1,0 +1,169 @@
+{
+    "1": {
+        "Name": "Pawn Bot",
+        "Profile": "img/PawnBot.png",
+        "WCC": {
+            "Position": "3",
+            "Season": "1"
+        },
+        "NCC": {
+            "Position": "-",
+            "Season": "-"
+        },
+        "WCTourney": {
+            "Position": "5-7",
+            "Season": "1"
+        },
+        "ACC": {
+            "Position": "2",
+            "Season": "3"
+        },
+        "FCC": {
+            "Position": "-",
+            "Season": "-"
+        },
+        "LCC": {
+            "Position": "-",
+            "Season": "-"
+        }
+    },
+    "2": {
+        "Name": "Bottus Maximus",
+        "Profile": "img/BottusMaximus.png",
+        "WCC": {
+            "Position": "3",
+            "Season": "3"
+        },
+        "NCC": {
+            "Position": "6",
+            "Season": "3"
+        },
+        "WCTourney": {
+            "Position": "2",
+            "Season": "3"
+        },
+        "ACC": {
+            "Position": "3",
+            "Season": "1"
+        },
+        "FCC": {
+            "Position": "1",
+            "Season": "1"
+        },
+        "LCC": {
+            "Position": "-",
+            "Season": "-"
+        }
+    },
+    "3": {
+        "Name": "5x Random Bot",
+        "Profile": "img/5xRandomBot.png",
+        "WCC": {
+            "Position": "6",
+            "Season": "1"
+        },
+        "NCC": {
+            "Position": "8",
+            "Season": "1"
+        },
+        "WCTourney": {
+            "Position": "8",
+            "Season": "1"
+        },
+        "ACC": {
+            "Position": "2",
+            "Season": "1"
+        },
+        "FCC": {
+            "Position": "-",
+            "Season": "-"
+        },
+        "LCC": {
+            "Position": "-",
+            "Season": "-"
+        }
+    },
+    "4": {
+        "Name": "Idiot Bot",
+        "Profile": "img/IdiotBot.png",
+        "WCC": {
+            "Position": "8",
+            "Season": "1"
+        },
+        "NCC": {
+            "Position": "-",
+            "Season": "-"
+        },
+        "WCTourney": {
+            "Position": "13-16",
+            "Season": "1"
+        },
+        "ACC": {
+            "Position": "7",
+            "Season": "1"
+        },
+        "FCC": {
+            "Position": "-",
+            "Season": "-"
+        },
+        "LCC": {
+            "Position": "8",
+            "Season": "1"
+        }
+    },
+    "5": {
+        "Name": "BOTential",
+        "Profile": "img/BOTential.png",
+        "WCC": {
+            "Position": "5",
+            "Season": "2"
+        },
+        "NCC": {
+            "Position": "16",
+            "Season": "3"
+        },
+        "WCTourney": {
+            "Position": "4",
+            "Season": "1"
+        },
+        "ACC": {
+            "Position": "4",
+            "Season": "1"
+        },
+        "FCC": {
+            "Position": "8",
+            "Season": "1"
+        },
+        "LCC": {
+            "Position": "8",
+            "Season": "1"
+        }
+    },
+    "16": {
+        "Name": "Random Bot",
+        "WCC": {
+            "Position": "10",
+            "Season": "2"
+        },
+        "NCC": {
+            "Position": "5",
+            "Season": "1"
+        },
+        "WCTourney": {
+            "Position": "13-16",
+            "Season": "1"
+        },
+        "ACC": {
+            "Position": "14",
+            "Season": "2"
+        },
+        "FCC": {
+            "Position": "-",
+            "Season": "-"
+        },
+        "LCC": {
+            "Position": "-",
+            "Season": "-"
+        }
+    }
+}
