@@ -1,604 +1,817 @@
 {
   "bot_rankings": [
     {
-      "bot": "Botnia and Herzebotvina",
-      "wins": 7,
+      "bot": "Equality Bot",
+      "wins": 6,
       "draws": 0,
+      "losses": 1,
+      "avg_points": 47.57142857142857
+    },
+    {
+      "bot": "Migrating Bot",
+      "wins": 5,
+      "draws": 2,
+      "losses": 0,
+      "avg_points": 40.142857142857146
+    },
+    {
+      "bot": "Thinking Bot",
+      "wins": 5,
+      "draws": 2,
       "losses": 0,
       "avg_points": 47.5
     },
     {
-      "bot": "One Piece Random Bot",
-      "wins": 6,
-      "draws": 1,
-      "losses": 0,
-      "avg_points": 47.0
-    },
-    {
-      "bot": "Thinking Bot",
-      "wins": 6,
-      "draws": 1,
-      "losses": 0,
-      "avg_points": 49.214285714285715
-    },
-    {
-      "bot": "Pawn Bot",
+      "bot": "Botkrieg",
       "wins": 5,
       "draws": 2,
       "losses": 0,
-      "avg_points": 50.642857142857146
+      "avg_points": 48.0
     },
     {
-      "bot": "5x Random Bot",
+      "bot": "Botnia and Herzebotvina",
+      "wins": 5,
+      "draws": 2,
+      "losses": 0,
+      "avg_points": 51.285714285714285
+    },
+    {
+      "bot": "Christopher Columbot",
+      "wins": 5,
+      "draws": 2,
+      "losses": 0,
+      "avg_points": 53.57142857142857
+    },
+    {
+      "bot": "Kamikaze Bot",
       "wins": 5,
       "draws": 1,
       "losses": 1,
-      "avg_points": 45.5
-    },
-    {
-      "bot": "Bloodbot",
-      "wins": 4,
-      "draws": 3,
-      "losses": 0,
-      "avg_points": 45.857142857142854
-    },
-    {
-      "bot": "Random Bot",
-      "wins": 4,
-      "draws": 3,
-      "losses": 0,
-      "avg_points": 47.642857142857146
+      "avg_points": 51.714285714285715
     },
     {
       "bot": "Two Move Bot",
       "wins": 4,
       "draws": 3,
       "losses": 0,
-      "avg_points": 48.642857142857146
+      "avg_points": 44.0
     },
     {
-      "bot": "Hitman Bot",
+      "bot": "Bloodbot",
       "wins": 4,
       "draws": 3,
       "losses": 0,
-      "avg_points": 48.714285714285715
-    },
-    {
-      "bot": "Restrictor Bot",
-      "wins": 4,
-      "draws": 3,
-      "losses": 0,
-      "avg_points": 51.5
-    },
-    {
-      "bot": "G2EBot",
-      "wins": 4,
-      "draws": 2,
-      "losses": 1,
-      "avg_points": 47.142857142857146
-    },
-    {
-      "bot": "BOTential",
-      "wins": 4,
-      "draws": 2,
-      "losses": 1,
-      "avg_points": 49.142857142857146
+      "avg_points": 52.0
     },
     {
       "bot": "Savage Beastbot",
-      "wins": 3,
-      "draws": 3,
+      "wins": 4,
+      "draws": 2,
       "losses": 1,
-      "avg_points": 47.42857142857143
+      "avg_points": 48.357142857142854
     },
     {
-      "bot": "Bottus Maximus",
-      "wins": 3,
+      "bot": "Counting Bot",
+      "wins": 4,
       "draws": 2,
-      "losses": 2,
+      "losses": 1,
       "avg_points": 49.642857142857146
     },
     {
+      "bot": "Thinking Bot II",
+      "wins": 4,
+      "draws": 2,
+      "losses": 1,
+      "avg_points": 52.92857142857143
+    },
+    {
+      "bot": "Bots United",
+      "wins": 4,
+      "draws": 1,
+      "losses": 2,
+      "avg_points": 42.5
+    },
+    {
+      "bot": "Abilibot",
+      "wins": 4,
+      "draws": 1,
+      "losses": 2,
+      "avg_points": 48.92857142857143
+    },
+    {
+      "bot": "Bot 618",
+      "wins": 4,
+      "draws": 0,
+      "losses": 3,
+      "avg_points": 51.214285714285715
+    },
+    {
+      "bot": "One Move Bot",
+      "wins": 3,
+      "draws": 3,
+      "losses": 1,
+      "avg_points": 43.357142857142854
+    },
+    {
       "bot": "Assassin Bot",
+      "wins": 3,
+      "draws": 3,
+      "losses": 1,
+      "avg_points": 44.714285714285715
+    },
+    {
+      "bot": "Pawn Bot",
+      "wins": 3,
+      "draws": 2,
+      "losses": 2,
+      "avg_points": 47.0
+    },
+    {
+      "bot": "Balance Bot",
+      "wins": 3,
+      "draws": 2,
+      "losses": 2,
+      "avg_points": 49.92857142857143
+    },
+    {
+      "bot": "Mercenary Bot",
       "wins": 2,
-      "draws": 5,
-      "losses": 0,
-      "avg_points": 52.214285714285715
+      "draws": 4,
+      "losses": 1,
+      "avg_points": 50.785714285714285
+    },
+    {
+      "bot": "One Piece Random Bot",
+      "wins": 2,
+      "draws": 3,
+      "losses": 2,
+      "avg_points": 49.714285714285715
+    },
+    {
+      "bot": "Laser Bot",
+      "wins": 2,
+      "draws": 3,
+      "losses": 2,
+      "avg_points": 51.285714285714285
+    },
+    {
+      "bot": "Marching Bot",
+      "wins": 2,
+      "draws": 2,
+      "losses": 3,
+      "avg_points": 42.42857142857143
+    },
+    {
+      "bot": "Shield Bot",
+      "wins": 2,
+      "draws": 1,
+      "losses": 4,
+      "avg_points": 45.642857142857146
+    },
+    {
+      "bot": "Hitman Bot",
+      "wins": 2,
+      "draws": 1,
+      "losses": 4,
+      "avg_points": 47.0
     },
     {
       "bot": "Adventurous King Bot",
       "wins": 2,
-      "draws": 3,
-      "losses": 2,
-      "avg_points": 45.142857142857146
+      "draws": 1,
+      "losses": 4,
+      "avg_points": 53.57142857142857
     },
     {
-      "bot": "Equality Bot",
-      "wins": 2,
-      "draws": 3,
-      "losses": 2,
-      "avg_points": 45.92857142857143
-    },
-    {
-      "bot": "Counting Bot",
+      "bot": "Restrictor Bot",
       "wins": 1,
       "draws": 6,
       "losses": 0,
-      "avg_points": 49.5
-    },
-    {
-      "bot": "One Move Bot",
-      "wins": 1,
-      "draws": 5,
-      "losses": 1,
-      "avg_points": 52.0
-    },
-    {
-      "bot": "Lobotomy",
-      "wins": 1,
-      "draws": 5,
-      "losses": 1,
-      "avg_points": 54.714285714285715
-    },
-    {
-      "bot": "Abilibot",
-      "wins": 1,
-      "draws": 4,
-      "losses": 2,
-      "avg_points": 42.714285714285715
+      "avg_points": 53.0
     },
     {
       "bot": "Bot Ross",
       "wins": 1,
-      "draws": 3,
-      "losses": 3,
-      "avg_points": 45.285714285714285
+      "draws": 5,
+      "losses": 1,
+      "avg_points": 50.785714285714285
     },
     {
-      "bot": "Shield Bot",
-      "wins": 0,
-      "draws": 6,
+      "bot": "G2EBot",
+      "wins": 1,
+      "draws": 5,
       "losses": 1,
-      "avg_points": 49.642857142857146
+      "avg_points": 51.714285714285715
+    },
+    {
+      "bot": "Botfish",
+      "wins": 1,
+      "draws": 4,
+      "losses": 2,
+      "avg_points": 42.142857142857146
+    },
+    {
+      "bot": "5x Random Bot",
+      "wins": 1,
+      "draws": 4,
+      "losses": 2,
+      "avg_points": 44.357142857142854
+    },
+    {
+      "bot": "Bottus Maximus",
+      "wins": 1,
+      "draws": 4,
+      "losses": 2,
+      "avg_points": 45.214285714285715
+    },
+    {
+      "bot": "Botdefender",
+      "wins": 1,
+      "draws": 3,
+      "losses": 3,
+      "avg_points": 46.07142857142857
+    },
+    {
+      "bot": "Bot With a Plot",
+      "wins": 1,
+      "draws": 3,
+      "losses": 3,
+      "avg_points": 51.285714285714285
+    },
+    {
+      "bot": "Lobotomy",
+      "wins": 1,
+      "draws": 2,
+      "losses": 4,
+      "avg_points": 45.92857142857143
     },
     {
       "bot": "Idiot",
+      "wins": 1,
+      "draws": 1,
+      "losses": 5,
+      "avg_points": 46.714285714285715
+    },
+    {
+      "bot": "BOTential",
+      "wins": 0,
+      "draws": 7,
+      "losses": 0,
+      "avg_points": 41.857142857142854
+    },
+    {
+      "bot": "Random Bot",
       "wins": 0,
       "draws": 5,
       "losses": 2,
-      "avg_points": 50.785714285714285
+      "avg_points": 51.5
+    },
+    {
+      "bot": "Lazy Bot",
+      "wins": 0,
+      "draws": 4,
+      "losses": 3,
+      "avg_points": 47.57142857142857
+    },
+    {
+      "bot": "Speedrunner Bot",
+      "wins": 0,
+      "draws": 1,
+      "losses": 6,
+      "avg_points": 45.285714285714285
     }
   ],
   "top_pieces": [
     {
-      "piece": "CaptureTheFlagPawn",
-      "count": 24
+      "piece": "OnePawnULURLR",
+      "count": 40
     },
     {
-      "piece": "StackingPawn",
-      "count": 24
-    },
-    {
-      "piece": "SquarePawn",
-      "count": 22
+      "piece": "SpontaneouslyCombustingPawn",
+      "count": 35
     },
     {
       "piece": "TwoPawnLR",
-      "count": 22
+      "count": 34
     },
     {
-      "piece": "OnePawnUD",
-      "count": 21
+      "piece": "OppressivePawn",
+      "count": 33
     },
     {
-      "piece": "DelayedPawn",
-      "count": 21
+      "piece": "ProtectivePawn",
+      "count": 32
     },
     {
-      "piece": "Two-ForwardPawn",
-      "count": 21
+      "piece": "TwoPawn",
+      "count": 32
     },
     {
-      "piece": "AtomicPawn",
-      "count": 21
+      "piece": "PromotionPawn",
+      "count": 31
     },
     {
-      "piece": "OnePawnUDLDR",
-      "count": 21
+      "piece": "CaptureTheFlagPawn",
+      "count": 31
     },
     {
-      "piece": "RightPawn",
-      "count": 20
+      "piece": "Forward-SidePawn",
+      "count": 31
+    },
+    {
+      "piece": "TwoPawnU",
+      "count": 29
     }
   ],
   "turns": [
     {
-      "bot": "Bot Ross",
-      "avg_turns": 58.285714285714285
+      "bot": "One Piece Random Bot",
+      "avg_turns": 65.71428571428571
     },
     {
-      "bot": "Idiot",
-      "avg_turns": 30.571428571428573
+      "bot": "Botdefender",
+      "avg_turns": 52.42857142857143
     },
     {
-      "bot": "Random Bot",
-      "avg_turns": 29.571428571428573
+      "bot": "Lazy Bot",
+      "avg_turns": 51.42857142857143
     },
     {
       "bot": "Equality Bot",
-      "avg_turns": 28.857142857142858
+      "avg_turns": 49.714285714285715
+    },
+    {
+      "bot": "Idiot",
+      "avg_turns": 49.42857142857143
     },
     {
       "bot": "5x Random Bot",
-      "avg_turns": 27.714285714285715
+      "avg_turns": 49.142857142857146
     },
     {
-      "bot": "Shield Bot",
-      "avg_turns": 25.571428571428573
-    },
-    {
-      "bot": "Bottus Maximus",
-      "avg_turns": 25.285714285714285
-    },
-    {
-      "bot": "Lobotomy",
-      "avg_turns": 24.0
-    },
-    {
-      "bot": "Savage Beastbot",
-      "avg_turns": 23.0
-    },
-    {
-      "bot": "G2EBot",
-      "avg_turns": 22.714285714285715
-    },
-    {
-      "bot": "BOTential",
-      "avg_turns": 21.285714285714285
-    },
-    {
-      "bot": "One Move Bot",
-      "avg_turns": 21.285714285714285
+      "bot": "Speedrunner Bot",
+      "avg_turns": 48.142857142857146
     },
     {
       "bot": "Pawn Bot",
-      "avg_turns": 20.714285714285715
-    },
-    {
-      "bot": "One Piece Random Bot",
-      "avg_turns": 19.428571428571427
-    },
-    {
-      "bot": "Adventurous King Bot",
-      "avg_turns": 19.428571428571427
+      "avg_turns": 47.42857142857143
     },
     {
       "bot": "Abilibot",
-      "avg_turns": 18.714285714285715
+      "avg_turns": 47.285714285714285
     },
     {
-      "bot": "Thinking Bot",
-      "avg_turns": 14.714285714285714
+      "bot": "Laser Bot",
+      "avg_turns": 46.57142857142857
+    },
+    {
+      "bot": "Adventurous King Bot",
+      "avg_turns": 45.42857142857143
+    },
+    {
+      "bot": "Bot With a Plot",
+      "avg_turns": 44.57142857142857
+    },
+    {
+      "bot": "G2EBot",
+      "avg_turns": 43.57142857142857
+    },
+    {
+      "bot": "Random Bot",
+      "avg_turns": 43.285714285714285
+    },
+    {
+      "bot": "Lobotomy",
+      "avg_turns": 42.857142857142854
+    },
+    {
+      "bot": "Shield Bot",
+      "avg_turns": 42.714285714285715
+    },
+    {
+      "bot": "Bot 618",
+      "avg_turns": 42.57142857142857
     },
     {
       "bot": "Hitman Bot",
-      "avg_turns": 12.857142857142858
+      "avg_turns": 42.0
     },
     {
-      "bot": "Two Move Bot",
-      "avg_turns": 11.857142857142858
+      "bot": "Botfish",
+      "avg_turns": 41.285714285714285
+    },
+    {
+      "bot": "Marching Bot",
+      "avg_turns": 40.714285714285715
+    },
+    {
+      "bot": "Bots United",
+      "avg_turns": 39.142857142857146
+    },
+    {
+      "bot": "One Move Bot",
+      "avg_turns": 38.714285714285715
     },
     {
       "bot": "Counting Bot",
-      "avg_turns": 11.142857142857142
+      "avg_turns": 38.285714285714285
     },
     {
-      "bot": "Restrictor Bot",
-      "avg_turns": 10.714285714285714
+      "bot": "Bot Ross",
+      "avg_turns": 38.0
     },
     {
-      "bot": "Bloodbot",
-      "avg_turns": 10.571428571428571
+      "bot": "Migrating Bot",
+      "avg_turns": 34.857142857142854
     },
     {
-      "bot": "Assassin Bot",
-      "avg_turns": 9.0
+      "bot": "Balance Bot",
+      "avg_turns": 34.57142857142857
+    },
+    {
+      "bot": "Thinking Bot II",
+      "avg_turns": 27.857142857142858
     },
     {
       "bot": "Botnia and Herzebotvina",
-      "avg_turns": 7.571428571428571
+      "avg_turns": 26.285714285714285
+    },
+    {
+      "bot": "Assassin Bot",
+      "avg_turns": 25.285714285714285
+    },
+    {
+      "bot": "Thinking Bot",
+      "avg_turns": 25.285714285714285
+    },
+    {
+      "bot": "Mercenary Bot",
+      "avg_turns": 24.428571428571427
+    },
+    {
+      "bot": "Kamikaze Bot",
+      "avg_turns": 22.571428571428573
+    },
+    {
+      "bot": "BOTential",
+      "avg_turns": 22.571428571428573
+    },
+    {
+      "bot": "Christopher Columbot",
+      "avg_turns": 22.285714285714285
+    },
+    {
+      "bot": "Bloodbot",
+      "avg_turns": 19.571428571428573
+    },
+    {
+      "bot": "Two Move Bot",
+      "avg_turns": 18.428571428571427
+    },
+    {
+      "bot": "Bottus Maximus",
+      "avg_turns": 17.285714285714285
+    },
+    {
+      "bot": "Botkrieg",
+      "avg_turns": 12.142857142857142
+    },
+    {
+      "bot": "Restrictor Bot",
+      "avg_turns": 12.142857142857142
+    },
+    {
+      "bot": "Savage Beastbot",
+      "avg_turns": 10.857142857142858
     }
   ],
   "highest_games": [
     {
-      "bot": "Bottus Maximus",
-      "points": 73.0
+      "bot": "Balance Bot",
+      "points": 70.0
     },
     {
-      "bot": "One Move Bot",
+      "bot": "Random Bot",
       "points": 69.0
     },
     {
-      "bot": "Idiot",
-      "points": 69.0
+      "bot": "Bot With a Plot",
+      "points": 67.5
     },
     {
-      "bot": "Lobotomy",
+      "bot": "G2EBot",
       "points": 66.0
     },
     {
-      "bot": "Counting Bot",
+      "bot": "Thinking Bot",
+      "points": 65.5
+    },
+    {
+      "bot": "Balance Bot",
+      "points": 65.5
+    },
+    {
+      "bot": "Kamikaze Bot",
       "points": 64.5
     },
     {
-      "bot": "BOTential",
+      "bot": "Bot 618",
       "points": 64.0
     },
     {
-      "bot": "Assassin Bot",
-      "points": 63.5
+      "bot": "Adventurous King Bot",
+      "points": 63.0
     },
     {
-      "bot": "Thinking Bot",
-      "points": 62.0
-    },
-    {
-      "bot": "Bot Ross",
-      "points": 62.0
-    },
-    {
-      "bot": "5x Random Bot",
-      "points": 61.5
+      "bot": "Idiot",
+      "points": 63.0
     }
   ],
   "lowest_games": [
     {
-      "bot": "Abilibot",
-      "points": 26.0
-    },
-    {
-      "bot": "Thinking Bot",
-      "points": 26.0
-    },
-    {
-      "bot": "5x Random Bot",
-      "points": 32.5
-    },
-    {
-      "bot": "5x Random Bot",
-      "points": 33.0
+      "bot": "Bottus Maximus",
+      "points": 25.0
     },
     {
       "bot": "Equality Bot",
-      "points": 33.0
+      "points": 26.5
     },
     {
-      "bot": "One Piece Random Bot",
-      "points": 34.5
+      "bot": "Two Move Bot",
+      "points": 28.0
     },
     {
-      "bot": "Bottus Maximus",
-      "points": 34.5
+      "bot": "Assassin Bot",
+      "points": 28.0
     },
     {
-      "bot": "One Piece Random Bot",
-      "points": 35.5
+      "bot": "Bots United",
+      "points": 29.0
     },
     {
-      "bot": "Bloodbot",
-      "points": 35.5
+      "bot": "Thinking Bot",
+      "points": 29.5
+    },
+    {
+      "bot": "Lobotomy",
+      "points": 30.5
+    },
+    {
+      "bot": "Marching Bot",
+      "points": 30.5
     },
     {
       "bot": "Hitman Bot",
-      "points": 36.0
+      "points": 30.5
+    },
+    {
+      "bot": "Migrating Bot",
+      "points": 31.5
     }
   ],
   "upsets": [
     {
-      "winner": "One Piece Random Bot",
-      "loser": "Lobotomy",
-      "winner_pts": 35.5,
-      "loser_pts": 66.0,
-      "diff": -30.5
+      "winner": "Bots United",
+      "loser": "Abilibot",
+      "winner_pts": 29.0,
+      "loser_pts": 57.0,
+      "diff": -28.0
     },
     {
-      "winner": "5x Random Bot",
-      "loser": "Idiot",
-      "winner_pts": 47.0,
-      "loser_pts": 69.0,
-      "diff": -22.0
-    },
-    {
-      "winner": "Thinking Bot",
-      "loser": "Savage Beastbot",
-      "winner_pts": 26.0,
-      "loser_pts": 47.5,
-      "diff": -21.5
-    },
-    {
-      "winner": "Restrictor Bot",
-      "loser": "One Move Bot",
-      "winner_pts": 48.0,
-      "loser_pts": 69.0,
-      "diff": -21.0
-    },
-    {
-      "winner": "Random Bot",
-      "loser": "Bot Ross",
-      "winner_pts": 44.0,
-      "loser_pts": 62.0,
-      "diff": -18.0
-    },
-    {
-      "winner": "5x Random Bot",
-      "loser": "BOTential",
-      "winner_pts": 32.5,
+      "winner": "Equality Bot",
+      "loser": "Botdefender",
+      "winner_pts": 26.5,
       "loser_pts": 50.5,
-      "diff": -18.0
+      "diff": -24.0
     },
     {
-      "winner": "Adventurous King Bot",
-      "loser": "Idiot",
+      "winner": "Abilibot",
+      "loser": "Bot Ross",
+      "winner_pts": 32.5,
+      "loser_pts": 56.0,
+      "diff": -23.5
+    },
+    {
+      "winner": "Marching Bot",
+      "loser": "One Piece Random Bot",
+      "winner_pts": 30.5,
+      "loser_pts": 50.0,
+      "diff": -19.5
+    },
+    {
+      "winner": "Botfish",
+      "loser": "Random Bot",
       "winner_pts": 38.0,
       "loser_pts": 56.0,
       "diff": -18.0
     },
     {
-      "winner": "Adventurous King Bot",
-      "loser": "BOTential",
-      "winner_pts": 48.0,
-      "loser_pts": 64.0,
+      "winner": "Migrating Bot",
+      "loser": "Botdefender",
+      "winner_pts": 31.5,
+      "loser_pts": 49.5,
+      "diff": -18.0
+    },
+    {
+      "winner": "Abilibot",
+      "loser": "Idiot",
+      "winner_pts": 42.0,
+      "loser_pts": 59.5,
+      "diff": -17.5
+    },
+    {
+      "winner": "Equality Bot",
+      "loser": "Random Bot",
+      "winner_pts": 53.0,
+      "loser_pts": 69.0,
       "diff": -16.0
     },
     {
-      "winner": "Hitman Bot",
-      "loser": "Shield Bot",
-      "winner_pts": 36.0,
-      "loser_pts": 52.0,
-      "diff": -16.0
-    },
-    {
-      "winner": "Bot Ross",
-      "loser": "Lobotomy",
-      "winner_pts": 42.5,
-      "loser_pts": 57.5,
+      "winner": "Shield Bot",
+      "loser": "Bot Ross",
+      "winner_pts": 47.5,
+      "loser_pts": 62.5,
       "diff": -15.0
+    },
+    {
+      "winner": "Botkrieg",
+      "loser": "Savage Beastbot",
+      "winner_pts": 41.5,
+      "loser_pts": 56.0,
+      "diff": -14.5
     }
   ],
   "longest_games": [
     {
-      "match": "Bot Ross vs Idiot",
-      "turns": 100,
+      "match": "Laser Bot vs G2EBot",
+      "turns": 148,
       "winner": "-",
       "result": " Draw by Moves Without Capture"
     },
     {
-      "match": "Bot Ross vs 5x Random Bot",
-      "turns": 77,
-      "winner": "5x Random Bot",
-      "result": "Black Won by Checkmate"
-    },
-    {
-      "match": "Random Bot vs Bot Ross",
-      "turns": 76,
-      "winner": "Random Bot",
-      "result": "White Won by Opposing King Death"
-    },
-    {
-      "match": "Shield Bot vs Equality Bot",
-      "turns": 62,
+      "match": "Equality Bot vs One Piece Random Bot",
+      "turns": 132,
       "winner": "-",
-      "result": " Draw by Moves Without Capture"
+      "result": " Draw by Stalemate"
     },
     {
-      "match": "Bot Ross vs BOTential",
-      "turns": 56,
-      "winner": "-",
-      "result": " Draw by Moves Without Capture"
-    },
-    {
-      "match": "Idiot vs Lobotomy",
-      "turns": 52,
-      "winner": "-",
-      "result": " Draw by Moves Without Capture"
-    },
-    {
-      "match": "Abilibot vs Equality Bot",
-      "turns": 49,
-      "winner": "-",
-      "result": " Draw by Moves Without Capture"
-    },
-    {
-      "match": "One Piece Random Bot vs Bot Ross",
-      "turns": 46,
+      "match": "One Piece Random Bot vs Botdefender",
+      "turns": 124,
       "winner": "One Piece Random Bot",
-      "result": "White Won by Opposing King Death"
+      "result": "White Won by Checkmate"
     },
     {
-      "match": "G2EBot vs One Move Bot",
-      "turns": 45,
+      "match": "Lobotomy vs 5x Random Bot",
+      "turns": 98,
       "winner": "-",
       "result": " Draw by Moves Without Capture"
     },
     {
-      "match": "Shield Bot vs Pawn Bot",
-      "turns": 43,
-      "winner": "Pawn Bot",
-      "result": "Black Won by Opposing King Death"
+      "match": "Kamikaze Bot vs Thinking Bot II",
+      "turns": 96,
+      "winner": "-",
+      "result": " Draw by Moves Without Capture"
+    },
+    {
+      "match": "Lazy Bot vs Bot With a Plot",
+      "turns": 92,
+      "winner": "-",
+      "result": " Draw by Moves Without Capture"
+    },
+    {
+      "match": "Bots United vs Shield Bot",
+      "turns": 87,
+      "winner": "-",
+      "result": " Draw by Moves Without Capture"
+    },
+    {
+      "match": "Abilibot vs Adventurous King Bot",
+      "turns": 86,
+      "winner": "-",
+      "result": " Draw by Moves Without Capture"
+    },
+    {
+      "match": "Lazy Bot vs Bot 618",
+      "turns": 83,
+      "winner": "-",
+      "result": " Draw by Stalemate"
+    },
+    {
+      "match": "Idiot vs 5x Random Bot",
+      "turns": 82,
+      "winner": "-",
+      "result": " Draw by Moves Without Capture"
     }
   ],
   "shortest_games": [
     {
-      "match": "Idiot vs One Piece Random Bot",
-      "turns": 3,
-      "winner": "One Piece Random Bot",
-      "result": "Black Won by Opposing King Death"
+      "match": "Shield Bot vs 5x Random Bot",
+      "turns": 1,
+      "winner": "Shield Bot",
+      "result": "White Won by Opposing King Death"
     },
     {
-      "match": "Counting Bot vs Two Move Bot",
+      "match": "Savage Beastbot vs Thinking Bot II",
+      "turns": 3,
+      "winner": "Savage Beastbot",
+      "result": "White Won by Checkmate"
+    },
+    {
+      "match": "Bottus Maximus vs Two Move Bot",
       "turns": 3,
       "winner": "Two Move Bot",
       "result": "Black Won by Opposing King Death"
     },
     {
-      "match": "Restrictor Bot vs Botnia and Herzebotvina",
-      "turns": 3,
-      "winner": "Botnia and Herzebotvina",
+      "match": "Christopher Columbot vs Botkrieg",
+      "turns": 4,
+      "winner": "Christopher Columbot",
+      "result": "White Won by Checkmate"
+    },
+    {
+      "match": "Restrictor Bot vs Kamikaze Bot",
+      "turns": 4,
+      "winner": "Kamikaze Bot",
       "result": "Black Won by Opposing King Death"
     },
     {
-      "match": "Assassin Bot vs Restrictor Bot",
-      "turns": 3,
-      "winner": "Assassin Bot",
+      "match": "Savage Beastbot vs Kamikaze Bot",
+      "turns": 4,
+      "winner": "Savage Beastbot",
       "result": "White Won by Opposing King Death"
     },
     {
-      "match": "Abilibot vs Shield Bot",
-      "turns": 3,
-      "winner": "Abilibot",
+      "match": "Restrictor Bot vs Botkrieg",
+      "turns": 4,
+      "winner": "Botkrieg",
+      "result": "Black Won by Opposing King Death"
+    },
+    {
+      "match": "Equality Bot vs Botfish",
+      "turns": 5,
+      "winner": "Equality Bot",
       "result": "White Won by Opposing King Death"
     },
     {
-      "match": "Savage Beastbot vs Thinking Bot",
-      "turns": 3,
-      "winner": "Thinking Bot",
-      "result": "Black Won by Opposing King Death"
+      "match": "Pawn Bot vs Hitman Bot",
+      "turns": 5,
+      "winner": "Hitman Bot",
+      "result": "Black Won by Checkmate"
     },
     {
-      "match": "Lobotomy vs BOTential",
-      "turns": 4,
-      "winner": "BOTential",
-      "result": "Black Won by Opposing King Death"
-    },
-    {
-      "match": "Assassin Bot vs Bloodbot",
-      "turns": 4,
-      "winner": "Bloodbot",
-      "result": "Black Won by Opposing King Death"
-    },
-    {
-      "match": "Bloodbot vs Counting Bot",
-      "turns": 4,
-      "winner": "Bloodbot",
-      "result": "White Won by Opposing King Death"
-    },
-    {
-      "match": "Restrictor Bot vs Bloodbot",
-      "turns": 4,
-      "winner": "Bloodbot",
+      "match": "Savage Beastbot vs Botkrieg",
+      "turns": 5,
+      "winner": "Botkrieg",
       "result": "Black Won by Opposing King Death"
     }
   ],
   "matchups": {
-    "Bot Ross": {
+    "Idiot": {
+      "Bots United": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "Adventurous King Bot": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "Abilibot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
       "Lobotomy": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "5x Random Bot": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "Bot Ross": {
         "wins": 1,
         "losses": 0,
         "draws": 0
       },
-      "One Piece Random Bot": {
+      "Shield Bot": {
         "wins": 0,
-        "losses": 1,
+        "losses": 0,
+        "draws": 1
+      }
+    },
+    "Bots United": {
+      "Idiot": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "Bot Ross": {
+        "wins": 1,
+        "losses": 0,
         "draws": 0
       },
       "5x Random Bot": {
@@ -606,44 +819,76 @@
         "losses": 1,
         "draws": 0
       },
-      "Idiot": {
+      "Shield Bot": {
         "wins": 0,
         "losses": 0,
         "draws": 1
       },
-      "Random Bot": {
-        "wins": 0,
-        "losses": 1,
+      "Lobotomy": {
+        "wins": 1,
+        "losses": 0,
         "draws": 0
+      },
+      "Adventurous King Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Abilibot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      }
+    },
+    "Shield Bot": {
+      "Lobotomy": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "5x Random Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Bot Ross": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Bots United": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
       },
       "Adventurous King Bot": {
         "wins": 0,
         "losses": 0,
         "draws": 1
       },
-      "BOTential": {
+      "Abilibot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Idiot": {
         "wins": 0,
         "losses": 0,
         "draws": 1
       }
     },
     "Lobotomy": {
-      "Bot Ross": {
+      "Shield Bot": {
         "wins": 0,
-        "losses": 1,
-        "draws": 0
+        "losses": 0,
+        "draws": 1
+      },
+      "Abilibot": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
       },
       "Adventurous King Bot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "Random Bot": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "BOTential": {
         "wins": 0,
         "losses": 1,
         "draws": 0
@@ -653,673 +898,419 @@
         "losses": 0,
         "draws": 1
       },
-      "One Piece Random Bot": {
+      "Bots United": {
         "wins": 0,
         "losses": 1,
         "draws": 0
       },
       "5x Random Bot": {
         "wins": 0,
-        "losses": 1,
+        "losses": 0,
+        "draws": 1
+      },
+      "Bot Ross": {
+        "wins": 1,
+        "losses": 0,
         "draws": 0
       }
     },
-    "BOTential": {
+    "Abilibot": {
+      "5x Random Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Lobotomy": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
       "Idiot": {
         "wins": 1,
         "losses": 0,
         "draws": 0
       },
-      "Random Bot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
       "Adventurous King Bot": {
         "wins": 0,
-        "losses": 1,
-        "draws": 0
+        "losses": 0,
+        "draws": 1
       },
-      "Lobotomy": {
+      "Bot Ross": {
         "wins": 1,
         "losses": 0,
         "draws": 0
       },
-      "One Piece Random Bot": {
+      "Shield Bot": {
         "wins": 1,
         "losses": 0,
         "draws": 0
       },
-      "5x Random Bot": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "Bot Ross": {
-        "wins": 0,
-        "losses": 0,
-        "draws": 1
-      }
-    },
-    "Idiot": {
-      "BOTential": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "5x Random Bot": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "One Piece Random Bot": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "Bot Ross": {
-        "wins": 0,
-        "losses": 0,
-        "draws": 1
-      },
-      "Lobotomy": {
-        "wins": 0,
-        "losses": 0,
-        "draws": 1
-      },
-      "Random Bot": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "Adventurous King Bot": {
+      "Bots United": {
         "wins": 0,
         "losses": 1,
         "draws": 0
       }
     },
     "5x Random Bot": {
-      "Random Bot": {
-        "wins": 1,
-        "losses": 0,
+      "Abilibot": {
+        "wins": 0,
+        "losses": 1,
         "draws": 0
       },
-      "Idiot": {
+      "Shield Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Bots United": {
         "wins": 1,
         "losses": 0,
         "draws": 0
       },
       "Bot Ross": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "One Piece Random Bot": {
         "wins": 0,
         "losses": 1,
         "draws": 0
       },
-      "Adventurous King Bot": {
+      "Idiot": {
         "wins": 0,
         "losses": 0,
         "draws": 1
       },
-      "BOTential": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
       "Lobotomy": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      }
-    },
-    "Random Bot": {
-      "5x Random Bot": {
         "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "BOTential": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "Lobotomy": {
-        "wins": 1,
         "losses": 0,
-        "draws": 0
+        "draws": 1
       },
       "Adventurous King Bot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "Bot Ross": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "Idiot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "One Piece Random Bot": {
         "wins": 0,
         "losses": 1,
-        "draws": 0
-      }
-    },
-    "One Piece Random Bot": {
-      "Adventurous King Bot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "Bot Ross": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "Idiot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "5x Random Bot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "BOTential": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "Lobotomy": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "Random Bot": {
-        "wins": 1,
-        "losses": 0,
         "draws": 0
       }
     },
     "Adventurous King Bot": {
-      "One Piece Random Bot": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "Lobotomy": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "BOTential": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "Random Bot": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "5x Random Bot": {
-        "wins": 0,
-        "losses": 0,
-        "draws": 1
-      },
       "Bot Ross": {
         "wins": 0,
         "losses": 0,
         "draws": 1
       },
       "Idiot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      }
-    },
-    "One Move Bot": {
-      "Counting Bot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "Bloodbot": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "Assassin Bot": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "G2EBot": {
         "wins": 0,
         "losses": 0,
         "draws": 1
       },
-      "Restrictor Bot": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "Botnia and Herzebotvina": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "Two Move Bot": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      }
-    },
-    "Counting Bot": {
-      "One Move Bot": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "Botnia and Herzebotvina": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "Two Move Bot": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "Restrictor Bot": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "Assassin Bot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "Bloodbot": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "G2EBot": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      }
-    },
-    "Restrictor Bot": {
-      "G2EBot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "Two Move Bot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "Botnia and Herzebotvina": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "Counting Bot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "One Move Bot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "Assassin Bot": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "Bloodbot": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      }
-    },
-    "G2EBot": {
-      "Restrictor Bot": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "Assassin Bot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "Bloodbot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "One Move Bot": {
-        "wins": 0,
-        "losses": 0,
-        "draws": 1
-      },
-      "Botnia and Herzebotvina": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "Two Move Bot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "Counting Bot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      }
-    },
-    "Two Move Bot": {
-      "Assassin Bot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "Restrictor Bot": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "Counting Bot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "Botnia and Herzebotvina": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "Bloodbot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "G2EBot": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "One Move Bot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      }
-    },
-    "Assassin Bot": {
-      "Two Move Bot": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "G2EBot": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "One Move Bot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "Bloodbot": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "Counting Bot": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "Restrictor Bot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "Botnia and Herzebotvina": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      }
-    },
-    "Botnia and Herzebotvina": {
-      "Bloodbot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "Counting Bot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "Restrictor Bot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "Two Move Bot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "G2EBot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "One Move Bot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "Assassin Bot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      }
-    },
-    "Bloodbot": {
-      "Botnia and Herzebotvina": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "One Move Bot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "G2EBot": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "Assassin Bot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "Two Move Bot": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "Counting Bot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "Restrictor Bot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      }
-    },
-    "Thinking Bot": {
-      "Equality Bot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "Bottus Maximus": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "Shield Bot": {
+      "Lobotomy": {
         "wins": 1,
         "losses": 0,
         "draws": 0
       },
       "Abilibot": {
-        "wins": 1,
+        "wins": 0,
         "losses": 0,
-        "draws": 0
+        "draws": 1
       },
-      "Savage Beastbot": {
-        "wins": 1,
+      "Shield Bot": {
+        "wins": 0,
         "losses": 0,
-        "draws": 0
+        "draws": 1
       },
-      "Pawn Bot": {
+      "Bots United": {
         "wins": 0,
         "losses": 1,
         "draws": 0
       },
-      "Hitman Bot": {
+      "5x Random Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      }
+    },
+    "Bot Ross": {
+      "Adventurous King Bot": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "Bots United": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Shield Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "5x Random Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Abilibot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Idiot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Lobotomy": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      }
+    },
+    "Migrating Bot": {
+      "Botfish": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Random Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Equality Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Marching Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Counting Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "One Piece Random Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Botdefender": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      }
+    },
+    "Botfish": {
+      "Migrating Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "One Piece Random Bot": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "Botdefender": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Counting Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Equality Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Random Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Marching Bot": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      }
+    },
+    "Marching Bot": {
+      "Counting Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Equality Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Random Bot": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "Migrating Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "One Piece Random Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Botdefender": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "Botfish": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      }
+    },
+    "Counting Bot": {
+      "Marching Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Botdefender": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "One Piece Random Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Botfish": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Migrating Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Equality Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Random Bot": {
         "wins": 1,
         "losses": 0,
         "draws": 0
       }
     },
     "Equality Bot": {
-      "Thinking Bot": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "Pawn Bot": {
+      "Botdefender": {
         "wins": 1,
         "losses": 0,
         "draws": 0
       },
-      "Hitman Bot": {
+      "Marching Bot": {
         "wins": 1,
         "losses": 0,
         "draws": 0
       },
-      "Savage Beastbot": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "Shield Bot": {
-        "wins": 0,
-        "losses": 0,
-        "draws": 1
-      },
-      "Bottus Maximus": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "Abilibot": {
-        "wins": 0,
-        "losses": 0,
-        "draws": 1
-      }
-    },
-    "Savage Beastbot": {
-      "Abilibot": {
+      "Migrating Bot": {
         "wins": 1,
         "losses": 0,
         "draws": 0
       },
-      "Hitman Bot": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "Pawn Bot": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "Equality Bot": {
+      "Random Bot": {
         "wins": 1,
         "losses": 0,
         "draws": 0
       },
-      "Thinking Bot": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "Shield Bot": {
+      "Botfish": {
         "wins": 1,
         "losses": 0,
         "draws": 0
       },
-      "Bottus Maximus": {
+      "Counting Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "One Piece Random Bot": {
         "wins": 0,
         "losses": 0,
         "draws": 1
       }
     },
-    "Abilibot": {
-      "Savage Beastbot": {
+    "Botdefender": {
+      "Equality Bot": {
         "wins": 0,
         "losses": 1,
         "draws": 0
       },
-      "Shield Bot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "Bottus Maximus": {
+      "Counting Bot": {
         "wins": 0,
         "losses": 0,
         "draws": 1
       },
-      "Thinking Bot": {
+      "Botfish": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "One Piece Random Bot": {
         "wins": 0,
         "losses": 1,
         "draws": 0
       },
-      "Pawn Bot": {
+      "Random Bot": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "Marching Bot": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "Migrating Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      }
+    },
+    "One Piece Random Bot": {
+      "Random Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Botfish": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "Counting Bot": {
         "wins": 0,
         "losses": 1,
         "draws": 0
       },
-      "Hitman Bot": {
+      "Botdefender": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Marching Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Migrating Bot": {
         "wins": 0,
         "losses": 1,
         "draws": 0
@@ -1328,52 +1319,681 @@
         "wins": 0,
         "losses": 0,
         "draws": 1
+      }
+    },
+    "Random Bot": {
+      "One Piece Random Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Migrating Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Marching Bot": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "Equality Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Botdefender": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "Botfish": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Counting Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      }
+    },
+    "Bot 618": {
+      "One Move Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Lazy Bot": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "Hitman Bot": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "Bot With a Plot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Pawn Bot": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "Speedrunner Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Balance Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      }
+    },
+    "One Move Bot": {
+      "Bot 618": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Speedrunner Bot": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "Balance Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Pawn Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Hitman Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Lazy Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Bot With a Plot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      }
+    },
+    "Pawn Bot": {
+      "Bot With a Plot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Balance Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Speedrunner Bot": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "One Move Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Bot 618": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "Hitman Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Lazy Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      }
+    },
+    "Bot With a Plot": {
+      "Pawn Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Hitman Bot": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "Lazy Bot": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "Bot 618": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Speedrunner Bot": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "Balance Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "One Move Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
       }
     },
     "Hitman Bot": {
-      "Shield Bot": {
+      "Balance Bot": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "Bot With a Plot": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "Bot 618": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "Lazy Bot": {
         "wins": 1,
         "losses": 0,
         "draws": 0
       },
-      "Savage Beastbot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "Equality Bot": {
+      "One Move Bot": {
         "wins": 0,
         "losses": 1,
         "draws": 0
+      },
+      "Pawn Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Speedrunner Bot": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      }
+    },
+    "Balance Bot": {
+      "Hitman Bot": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
       },
       "Pawn Bot": {
         "wins": 0,
         "losses": 1,
         "draws": 0
       },
-      "Bottus Maximus": {
+      "One Move Bot": {
         "wins": 1,
         "losses": 0,
         "draws": 0
       },
-      "Abilibot": {
+      "Speedrunner Bot": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "Lazy Bot": {
         "wins": 1,
         "losses": 0,
         "draws": 0
       },
-      "Thinking Bot": {
+      "Bot With a Plot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Bot 618": {
         "wins": 0,
         "losses": 1,
         "draws": 0
       }
     },
-    "Shield Bot": {
+    "Lazy Bot": {
+      "Speedrunner Bot": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "Bot 618": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "Bot With a Plot": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
       "Hitman Bot": {
         "wins": 0,
         "losses": 1,
         "draws": 0
       },
-      "Abilibot": {
+      "Balance Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "One Move Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Pawn Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      }
+    },
+    "Speedrunner Bot": {
+      "Lazy Bot": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "One Move Bot": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "Pawn Bot": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "Balance Bot": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "Bot With a Plot": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "Bot 618": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Hitman Bot": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      }
+    },
+    "Kamikaze Bot": {
+      "Botkrieg": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "BOTential": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Thinking Bot II": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "Restrictor Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Mercenary Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Christopher Columbot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Savage Beastbot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      }
+    },
+    "Botkrieg": {
+      "Kamikaze Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Christopher Columbot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Savage Beastbot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Mercenary Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Thinking Bot II": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "BOTential": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Restrictor Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      }
+    },
+    "Mercenary Bot": {
+      "Restrictor Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Savage Beastbot": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "Christopher Columbot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Botkrieg": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Kamikaze Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Thinking Bot II": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "BOTential": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      }
+    },
+    "Restrictor Bot": {
+      "Mercenary Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Thinking Bot II": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "BOTential": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Kamikaze Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Christopher Columbot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Savage Beastbot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Botkrieg": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      }
+    },
+    "Savage Beastbot": {
+      "Thinking Bot II": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Mercenary Bot": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "Botkrieg": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Christopher Columbot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "BOTential": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Restrictor Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Kamikaze Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      }
+    },
+    "Thinking Bot II": {
+      "Savage Beastbot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Restrictor Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Kamikaze Bot": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "BOTential": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Botkrieg": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Mercenary Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Christopher Columbot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      }
+    },
+    "Christopher Columbot": {
+      "BOTential": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Botkrieg": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Mercenary Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Savage Beastbot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Restrictor Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Kamikaze Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Thinking Bot II": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      }
+    },
+    "BOTential": {
+      "Christopher Columbot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Kamikaze Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Restrictor Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Thinking Bot II": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Savage Beastbot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Botkrieg": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Mercenary Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      }
+    },
+    "Laser Bot": {
+      "G2EBot": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "Bottus Maximus": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "Botnia and Herzebotvina": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Assassin Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Thinking Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Bloodbot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Two Move Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      }
+    },
+    "G2EBot": {
+      "Laser Bot": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 1
+      },
+      "Bloodbot": {
         "wins": 0,
         "losses": 1,
         "draws": 0
@@ -1383,96 +2003,244 @@
         "losses": 1,
         "draws": 0
       },
-      "Bottus Maximus": {
+      "Two Move Bot": {
         "wins": 0,
         "losses": 1,
         "draws": 0
       },
-      "Equality Bot": {
+      "Assassin Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Bottus Maximus": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Botnia and Herzebotvina": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      }
+    },
+    "Assassin Bot": {
+      "Two Move Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Botnia and Herzebotvina": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Bottus Maximus": {
         "wins": 0,
         "losses": 0,
         "draws": 1
       },
-      "Savage Beastbot": {
+      "Laser Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "G2EBot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Thinking Bot": {
         "wins": 0,
         "losses": 1,
         "draws": 0
       },
-      "Pawn Bot": {
+      "Bloodbot": {
         "wins": 0,
         "losses": 1,
+        "draws": 0
+      }
+    },
+    "Two Move Bot": {
+      "Assassin Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Thinking Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Bloodbot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "G2EBot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Bottus Maximus": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Botnia and Herzebotvina": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Laser Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      }
+    },
+    "Thinking Bot": {
+      "Botnia and Herzebotvina": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Two Move Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "G2EBot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Bloodbot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Laser Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Assassin Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Bottus Maximus": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      }
+    },
+    "Botnia and Herzebotvina": {
+      "Thinking Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Assassin Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Laser Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Bottus Maximus": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Bloodbot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Two Move Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "G2EBot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      }
+    },
+    "Bloodbot": {
+      "Bottus Maximus": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "G2EBot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Two Move Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Thinking Bot": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Botnia and Herzebotvina": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0
+      },
+      "Laser Bot": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "Assassin Bot": {
+        "wins": 1,
+        "losses": 0,
         "draws": 0
       }
     },
     "Bottus Maximus": {
-      "Pawn Bot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "Thinking Bot": {
+      "Bloodbot": {
         "wins": 0,
         "losses": 1,
         "draws": 0
       },
-      "Abilibot": {
+      "Laser Bot": {
         "wins": 0,
         "losses": 0,
         "draws": 1
       },
-      "Shield Bot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "Hitman Bot": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "Equality Bot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "Savage Beastbot": {
+      "Assassin Bot": {
         "wins": 0,
         "losses": 0,
         "draws": 1
-      }
-    },
-    "Pawn Bot": {
-      "Bottus Maximus": {
+      },
+      "Botnia and Herzebotvina": {
         "wins": 0,
         "losses": 1,
         "draws": 0
       },
-      "Equality Bot": {
+      "Two Move Bot": {
         "wins": 0,
         "losses": 1,
         "draws": 0
       },
-      "Savage Beastbot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "Hitman Bot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "Abilibot": {
-        "wins": 1,
-        "losses": 0,
+      "G2EBot": {
+        "wins": 0,
+        "losses": 1,
         "draws": 0
       },
       "Thinking Bot": {
-        "wins": 1,
-        "losses": 0,
-        "draws": 0
-      },
-      "Shield Bot": {
         "wins": 1,
         "losses": 0,
         "draws": 0

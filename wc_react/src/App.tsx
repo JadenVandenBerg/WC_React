@@ -11,6 +11,7 @@ import Trophies from './pages/Trophies';
 import SeasonDetails from './pages/SeasonDetails';
 import GameTable from './pages/GameTable';
 import TotalRanking from './pages/TotalRanking';
+import Season5 from './pages/Season5';
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
             <Route path="/season2" element={<Season2 />} />
             <Route path="/season3" element={<Season3 />} />
             <Route path="/season4" element={<Season4 />} />
+            <Route path="/season5" element={<Season5 />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/gameTable" element={<GameTable />} />
             <Route path="/totalRanking" element={<TotalRanking />} />

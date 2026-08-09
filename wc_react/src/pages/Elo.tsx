@@ -159,9 +159,9 @@ function Elo() {
           {divisionBots.map((bot: any, index) => {
             const rank = divisionIndex * DIVISION_SIZE + index + 1;
             const games = getGames(bot);
-            const winPct = getWinPct(bot).toFixed(2);
-            const drawPct = getDrawPct(bot).toFixed(2);
-            const lossPct = getLossPct(bot).toFixed(2);
+            const winPct = getWinPct(bot).toFixed(1);
+            const drawPct = getDrawPct(bot).toFixed(1);
+            const lossPct = getLossPct(bot).toFixed(1);
             const awinPct = getAWinPct(bot).toFixed(2);
             const range = getRange(bot);
             const winLoss = getWinLoss(bot).toFixed(2);

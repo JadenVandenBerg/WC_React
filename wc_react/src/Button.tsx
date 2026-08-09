@@ -15,6 +15,7 @@ function PageButton() {
     { name: "Season 2", route: "/Season2" },
     { name: "Season 3", route: "/Season3" },
     { name: "Season 4", route: "/Season4" },
+    { name: "Season 5", route: "/Season5" },
   ];
 
   const seasons = [
@@ -22,6 +23,7 @@ function PageButton() {
     { id: 2, name: "Season 2" },
     { id: 3, name: "Season 3" },
     { id: 4, name: "Season 4" },
+    { id: 5, name: "Season 5" },
   ];
 
   return (
