@@ -273,13 +273,13 @@ function Trophies() {
                   ))}
                   {bot.categoryPoints[category] &&
                     <div>
-                      {adjustSeason ? bot.categoryPoints[category].toFixed(2) : bot.categoryPoints[category]} pts
+                      {adjustSeason ? bot.categoryPoints[category].toFixed(1) : bot.categoryPoints[category]} pts
                     </div>
                   }
                 </td>
               ))}
               <td>
-                {adjustSeason ? bot.points.toFixed(2) : bot.points}
+                {adjustSeason ? bot.points.toFixed(1) : bot.points}
               </td>
             </tr>
           ))}
