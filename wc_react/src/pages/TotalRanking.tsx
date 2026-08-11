@@ -28,13 +28,25 @@ function TotalRanking() {
 	const [lcc] = useState("/lccData.json");
 	const [fcc] = useState("/fccData.json");
 
-	const [sortBy, setSortBy] = useState<string>("Points");
+	const [sortBy, setSortBy] = useState<string>("Elo");
 
 	const [filterCreator, setFilterCreator] = useState("");
 	const [filterCompeted, setFilterCompeted] = useState<number>();
+	const [filterHasntCompeted, setFilterHasntCompeted] = useState("");
+	const [adjustElo, setAdjustElo] = useState(true);
 
 	const [totalData, setTotalData] = useState<Record<string, Bot>>({});
 	const [displayData, setDisplayData] = useState<Bot[]>([]);
+
+	function preSetFilterHasntCompeted(event: any) {
+		setFilterHasntCompeted(event);
+		setAdjustElo(false);
+	}
+
+	function preSetAdjustElo(adjustElo: boolean) {
+		setFilterHasntCompeted("");
+		setAdjustElo(adjustElo);
+	}
 
 
 	const files = useMemo(() => {
@@ -107,14 +119,40 @@ function TotalRanking() {
 				parseData(data, file, combined);
 			}
 
-			setTotalData(combined);
+			if (adjustElo) {
+				for (const bot of Object.values(combined)) {
+					if (bot.WCCElo === undefined) {
+						bot.WCCElo = 1000;
+						bot.elo += 1000;
+					}
 
-			console.log(combined)
+					if (bot.NCCElo === undefined) {
+						bot.NCCElo = 1000;
+						bot.elo += 1000;
+					}
+
+					if (bot.ACCElo === undefined) {
+						bot.ACCElo = 1000;
+						bot.elo += 1000;
+					}
+
+					if (bot.LCCElo === undefined) {
+						bot.LCCElo = 1000;
+						bot.elo += 1000;
+					}
+
+					if (bot.FCCElo === undefined) {
+						bot.FCCElo = 1000;
+						bot.elo += 1000;
+					}
+				}
+			}
+
+			setTotalData(combined);
 		};
 
 		loadData();
-	}, [files]);
-
+	}, [files, adjustElo]);
 
 	useEffect(() => {
 		let sorted;
@@ -152,13 +190,46 @@ function TotalRanking() {
 		return competed;
 	}
 
+	function getCompetedArr(bot: Bot) {
+		let competed: string[] = [];
+		if (bot.WCCElo) {
+			competed.push("WCC");
+		}
+		if (bot.NCCElo) {
+			competed.push("NCC");
+		}
+		if (bot.ACCElo) {
+			competed.push("ACC");
+		}
+		if (bot.FCCElo) {
+			competed.push("FCC");
+		}
+		if (bot.LCCElo) {
+			competed.push("LCC");
+		}
+		return competed;
+	}
+
 	return (
 		<>
 			<PageButton />
+			<button
+				onClick={() => preSetAdjustElo(!adjustElo)}
+				style={{
+					width: "120px",
+					height: "40px",
+					position: "absolute",
+					top: 10,
+					right: 10,
+					backgroundColor: adjustElo ? "limegreen" : "red"
+				}}
+			>
+				Adjust Elo
+			</button>
   			<h2>Overall Rankings</h2>
 			<div className="divisionContainer">
 				{displayData.map((bot, rank) => (
-					<div className={"botRow " + ((filterCreator == "" || filterCreator == bot.creator) ? "" : "hidden") + ((filterCompeted == undefined || filterCompeted.toString() == "" || filterCompeted.toString() == getCompeted(bot).toString()) ? "" : "hidden")} key={bot.name}>
+					<div className={"botRow " + ((filterHasntCompeted == "" || !(getCompetedArr(bot).includes(filterHasntCompeted))) ? "" : "hidden") + ((filterCreator == "" || filterCreator == bot.creator) ? "" : "hidden") + ((filterCompeted == undefined || filterCompeted.toString() == "" || filterCompeted.toString() == getCompeted(bot).toString()) ? "" : "hidden")} key={bot.name}>
 						<img src={bot.profile} alt={bot.name} className="botProfile" />
 
 						<div className="botInfo">
@@ -232,6 +303,18 @@ function TotalRanking() {
 		          <option value="3">Three</option>
 		          <option value="4">Four</option>
 		          <option value="5">Five</option>
+		        </select><br />
+				<label htmlFor="filterHasntCompeted"><b>Filter Hasn't Competed: </b></label>
+		        <select
+		          id="filterHasntCompeted"
+		          value={filterHasntCompeted}
+		          onChange={(e) => preSetFilterHasntCompeted(e.target.value)}
+		        >
+		          <option value="">None</option>
+		          <option value="NCC">NCC</option>
+		          <option value="ACC">ACC</option>
+		          <option value="LCC">LCC</option>
+		          <option value="FCC">FCC</option>
 		        </select>
 			</div>
 		</>
