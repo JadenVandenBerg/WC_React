@@ -12,6 +12,7 @@ function PageButton() {
     { name: "Ranking", route: "/TotalRanking" },
     { name: "Database", route: "/GameTable" },
     { name: "Season LB", route: "/SeasonTable" },
+    { name: "Combined Elo", route: "/CombinedElo" },
     { name: "Season 1", route: "/Season1" },
     { name: "Season 2", route: "/Season2" },
     { name: "Season 3", route: "/Season3" },

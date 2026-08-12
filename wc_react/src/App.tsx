@@ -13,6 +13,7 @@ import GameTable from './pages/GameTable';
 import SeasonTable from './pages/SeasonTable';
 import TotalRanking from './pages/TotalRanking';
 import Season5 from './pages/Season5';
+import CombinedElo from './pages/CombinedElo';
 
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
             <Route path="/gameTable" element={<GameTable />} />
             <Route path="/seasonTable" element={<SeasonTable />} />
             <Route path="/totalRanking" element={<TotalRanking />} />
+            <Route path="/combinedElo" element={<CombinedElo />} />
         </Routes>
       </BrowserRouter>
     </div>
