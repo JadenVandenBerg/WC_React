@@ -208,6 +208,7 @@ function mapFile(file: string) {
                   <div className="botTitle">#{rank} - {bot.Name} ({bot.dataFile}) {bot.Trophies?.length > 0 && (
                   <div className='trophies' style={{ marginLeft: '8px' }}>
                     {bot.Trophies.map((trophy: string, i: number) => (
+                        bot.dataFile == "WCC" && !trophy.includes("NCC") && !trophy.includes("ACC") && !trophy.includes("FCC") && !trophy.includes("LCC") && !trophy.includes("WCTourney") &&
                       <img
                         key={i}
                         src={`./../img/Trophy/${trophy}.png`}
