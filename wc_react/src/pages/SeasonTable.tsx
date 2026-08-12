@@ -7,6 +7,9 @@ interface BotData {
     season: string;
     length: number;
     points: number;
+	wins: number;
+	draws: number;
+	losses: number;
 }
 
 interface GameData {
@@ -20,7 +23,7 @@ interface GameData {
     upset: string;
 }
 
-type SortColumn = "length" | "points" | null;
+type SortColumn = "length" | "points" | "record" | null;
 
 interface SortState {
     column: SortColumn;
@@ -128,27 +131,77 @@ function SeasonTable() {
 	    if (game.white in data) {
 	    	data[game.white].length += game.length;
 	    	data[game.white].points += game.whitePoints;
+
+			if (game.result.includes("White")) {
+				data[game.white].wins += 1;
+			}
+			else if (game.result.includes("Black")) {
+				data[game.white].losses += 1;
+			}
+			else {
+				
+				data[game.white].draws += 1;
+			}
 	    }
 	    else {
 	    	data[game.white] = {
 	    		"length": game.length,
 	    		"points": game.whitePoints,
 	    		"season": season,
-	    		"name": game.white
+	    		"name": game.white,
+				"wins": 0,
+				"draws": 0,
+				"losses": 0
 	    	}
+
+			if (game.result.includes("White")) {
+				data[game.white].wins = 1;
+			}
+			else if (game.result.includes("Black")) {
+				data[game.white].losses = 1;
+			}
+			else {
+				
+				data[game.white].draws = 1;
+			}
 	    }
 
 	    if (game.black in data) {
 	    	data[game.black].length += game.length;
 	    	data[game.black].points += game.blackPoints;
+
+			if (game.result.includes("Black")) {
+				data[game.black].wins += 1;
+			}
+			else if (game.result.includes("White")) {
+				data[game.black].losses += 1;
+			}
+			else {
+				
+				data[game.black].draws += 1;
+			}
 	    }
 	    else {
 	    	data[game.black] = {
 	    		"length": game.length,
 	    		"points": game.blackPoints,
 	    		"season": season,
-	    		"name": game.black
+	    		"name": game.black,
+				"wins": 0,
+				"draws": 0,
+				"losses": 0
 	    	}
+
+			if (game.result.includes("Black")) {
+				data[game.black].wins = 1;
+			}
+			else if (game.result.includes("White")) {
+				data[game.black].losses = 1;
+			}
+			else {
+				
+				data[game.black].draws = 1;
+			}
 	    }
 	  }
 
@@ -186,21 +239,36 @@ function SeasonTable() {
 	    }
 
 	    return [...filtered].sort((a, b) => {
-	        const aValue = a[column];
-	        const bValue = b[column];
+			let comparison = 0;
 
-	        if (aValue === bValue) return 0;
+			if (column === "record") {
+				if (a.wins !== b.wins) {
+					comparison = a.wins - b.wins;
+				}
+				else if (a.draws !== b.draws) {
+					comparison = a.draws - b.draws;
+				}
+				else {
+					comparison = b.losses - a.losses;
+				}
+			}
+			else {
+				const aValue = a[column];
+				const bValue = b[column];
 
-	        const comparison = aValue > bValue ? 1 : -1;
+				if (aValue === bValue) return 0;
 
-	        return sort.direction === "asc"
-	            ? comparison
-	            : -comparison;
-	    });
+				comparison = aValue > bValue ? 1 : -1;
+			}
+
+			return sort.direction === "asc"
+				? comparison
+				: -comparison;
+		});
 	}, [seasonData, filters, sort]);
 
 
-	const toggleSort = (column: "length" | "points") => {
+	const toggleSort = (column: "length" | "points" | "record") => {
 	    setSort(prev => ({
 	        column,
 	        direction:
@@ -233,6 +301,12 @@ function SeasonTable() {
 						>
 							Points {sort.column === "points" ? (sort.direction === "asc" ? "▲" : "▼") : ""}
 						</th>
+						<th
+							style={{ cursor: "pointer" }}
+							onClick={() => toggleSort("record")}
+						>
+							Record {sort.column === "record" ? (sort.direction === "asc" ? "▲" : "▼") : ""}
+						</th>
 					</tr>
             	</thead>
             	<tbody>
@@ -259,7 +333,7 @@ function SeasonTable() {
 							style={{ width: "100%" }}
 						/>
 					</td>
-
+				  <td></td>
 				  <td></td>
 				  <td></td>
 				</tr>
@@ -271,6 +345,7 @@ function SeasonTable() {
 	            				<td>{bot.season}</td>
 	            				<td>{(bot.length / 7).toFixed(2)}</td>
 	            				<td>{(bot.points / 7).toFixed(2)}</td>
+	            				<td>{bot.wins + "-" + bot.draws + "-" + bot.losses}</td>
 	            			</tr>
             			);
             		})}
