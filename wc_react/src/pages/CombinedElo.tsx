@@ -202,13 +202,13 @@ function mapFile(file: string) {
             const botInfoClassName = "botInfo " + bot.Class;
 
             return (
-              <div className={"botRow " + (((filterCreator == "" || filterCreator == bot.Creator) && (filterDepth == "" || filterDepth == mapClass(bot.Class))) ? "" : "hidden")} key={bot.Id}>
+              <div className={"botRow " + (((filterCreator == "" || filterCreator == bot.Creator) && (filterDepth == "" || filterDepth == mapClass(bot.Class))) ? "" : "hidden")} key={bot.Name + bot.dataFile}>
                 <img src={bot.Profile} alt={bot.Name} className="botProfile" />
                 <div className={botInfoClassName}>
                   <div className="botTitle">#{rank} - {bot.Name} ({bot.dataFile}) {bot.Trophies?.length > 0 && (
                   <div className='trophies' style={{ marginLeft: '8px' }}>
                     {bot.Trophies.map((trophy: string, i: number) => (
-                        bot.dataFile == "WCC" && !trophy.includes("NCC") && !trophy.includes("ACC") && !trophy.includes("FCC") && !trophy.includes("LCC") && !trophy.includes("WCTourney") &&
+                        (bot.dataFile == "WCC" && (!trophy.includes("NCC") && !trophy.includes("ACC") && !trophy.includes("FCC") && !trophy.includes("LCC") && !trophy.includes("WCTourney")) || bot.dataFile != "WCC") &&
                       <img
                         key={i}
                         src={`./../img/Trophy/${trophy}.png`}
