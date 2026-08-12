@@ -11,6 +11,7 @@ function PageButton() {
     { name: "Trophies", route: "/Trophies" },
     { name: "Ranking", route: "/TotalRanking" },
     { name: "Database", route: "/GameTable" },
+    { name: "Season LB", route: "/SeasonTable" },
     { name: "Season 1", route: "/Season1" },
     { name: "Season 2", route: "/Season2" },
     { name: "Season 3", route: "/Season3" },

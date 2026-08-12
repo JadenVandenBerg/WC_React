@@ -268,6 +268,7 @@ function Trophies() {
                       key={trophy}
                       className="trophyImg"
                       src={`/img/Trophy/${trophy}.png`}
+                      title={trophy.replaceAll("_", " ")}
                       alt={trophy}
                     />
                   ))}

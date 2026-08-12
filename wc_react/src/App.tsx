@@ -10,6 +10,7 @@ import Victors from './pages/Victors';
 import Trophies from './pages/Trophies';
 import SeasonDetails from './pages/SeasonDetails';
 import GameTable from './pages/GameTable';
+import SeasonTable from './pages/SeasonTable';
 import TotalRanking from './pages/TotalRanking';
 import Season5 from './pages/Season5';
 
@@ -38,6 +39,7 @@ function App() {
             <Route path="/season5" element={<Season5 />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/gameTable" element={<GameTable />} />
+            <Route path="/seasonTable" element={<SeasonTable />} />
             <Route path="/totalRanking" element={<TotalRanking />} />
         </Routes>
       </BrowserRouter>
