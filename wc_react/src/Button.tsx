@@ -13,11 +13,7 @@ function PageButton() {
     { name: "Database", route: "/GameTable" },
     { name: "Season LB", route: "/SeasonTable" },
     { name: "Combined Elo", route: "/CombinedElo" },
-    { name: "Season 1", route: "/Season1" },
-    { name: "Season 2", route: "/Season2" },
-    { name: "Season 3", route: "/Season3" },
-    { name: "Season 4", route: "/Season4" },
-    { name: "Season 5", route: "/Season5" },
+    { name: "Highest Peaks", route: "/HighestPeaks" },
   ];
 
   const seasons = [
@@ -69,6 +65,38 @@ function PageButton() {
               {page.name}
             </button>
           ))}
+
+          <select
+            defaultValue=""
+            onChange={(e) => {
+              if (e.target.value) {
+                navigate(e.target.value);
+                e.target.value = "";
+              }
+            }}
+            style={{
+              width: "150px",
+              borderRadius: "8px",
+              border: "1px solid transparent",
+              borderRight: "8px solid transparent",
+              padding: "0.6em",
+              fontSize: "1em",
+              fontFamily: "inherit",
+              backgroundColor: "#1a1a1a",
+              color: "white",
+              cursor: "pointer",
+              textAlign: "center"
+            }}
+          >
+            <option value="" disabled>
+              Season
+            </option>
+            <option key={1} value="/Season1">Season 1</option>
+            <option key={2} value="/Season2">Season 2</option>
+            <option key={3} value="/Season3">Season 3</option>
+            <option key={4} value="/Season4">Season 4</option>
+            <option key={5} value="/Season5">Season 5</option>
+          </select>
 
           <select
             defaultValue=""
