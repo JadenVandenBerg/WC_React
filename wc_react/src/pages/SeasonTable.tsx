@@ -10,6 +10,7 @@ interface BotData {
 	wins: number;
 	draws: number;
 	losses: number;
+	score: number;
 }
 
 interface GameData {
@@ -23,7 +24,7 @@ interface GameData {
     upset: string;
 }
 
-type SortColumn = "length" | "points" | "record" | null;
+type SortColumn = "length" | "points" | "record" | "score" | null;
 
 interface SortState {
     column: SortColumn;
@@ -134,6 +135,7 @@ function SeasonTable() {
 
 			if (game.result.includes("White")) {
 				data[game.white].wins += 1;
+				data[game.white].score += 1;
 			}
 			else if (game.result.includes("Black")) {
 				data[game.white].losses += 1;
@@ -141,6 +143,7 @@ function SeasonTable() {
 			else {
 				
 				data[game.white].draws += 1;
+				data[game.white].score += 0.5;
 			}
 	    }
 	    else {
@@ -151,11 +154,13 @@ function SeasonTable() {
 	    		"name": game.white,
 				"wins": 0,
 				"draws": 0,
-				"losses": 0
+				"losses": 0,
+				"score": 0,
 	    	}
 
 			if (game.result.includes("White")) {
 				data[game.white].wins = 1;
+				data[game.white].score += 1;
 			}
 			else if (game.result.includes("Black")) {
 				data[game.white].losses = 1;
@@ -163,6 +168,7 @@ function SeasonTable() {
 			else {
 				
 				data[game.white].draws = 1;
+				data[game.white].score += 0.5;
 			}
 	    }
 
@@ -172,6 +178,7 @@ function SeasonTable() {
 
 			if (game.result.includes("Black")) {
 				data[game.black].wins += 1;
+				data[game.black].score += 1;
 			}
 			else if (game.result.includes("White")) {
 				data[game.black].losses += 1;
@@ -179,6 +186,7 @@ function SeasonTable() {
 			else {
 				
 				data[game.black].draws += 1;
+				data[game.black].score += 0.5;
 			}
 	    }
 	    else {
@@ -189,11 +197,13 @@ function SeasonTable() {
 	    		"name": game.black,
 				"wins": 0,
 				"draws": 0,
-				"losses": 0
+				"losses": 0,
+				"score": 0,
 	    	}
 
 			if (game.result.includes("Black")) {
 				data[game.black].wins = 1;
+				data[game.black].score += 1;
 			}
 			else if (game.result.includes("White")) {
 				data[game.black].losses = 1;
@@ -201,6 +211,7 @@ function SeasonTable() {
 			else {
 				
 				data[game.black].draws = 1;
+				data[game.black].score += 0.5;
 			}
 	    }
 	  }
@@ -268,7 +279,7 @@ function SeasonTable() {
 	}, [seasonData, filters, sort]);
 
 
-	const toggleSort = (column: "length" | "points" | "record") => {
+	const toggleSort = (column: "length" | "points" | "record" | "score") => {
 	    setSort(prev => ({
 	        column,
 	        direction:
@@ -307,6 +318,12 @@ function SeasonTable() {
 						>
 							Record {sort.column === "record" ? (sort.direction === "asc" ? "▲" : "▼") : ""}
 						</th>
+						<th
+							style={{ cursor: "pointer" }}
+							onClick={() => toggleSort("score")}
+						>
+							Score {sort.column === "score" ? (sort.direction === "asc" ? "▲" : "▼") : ""}
+						</th>
 					</tr>
             	</thead>
             	<tbody>
@@ -336,6 +353,7 @@ function SeasonTable() {
 				  <td></td>
 				  <td></td>
 				  <td></td>
+				  <td></td>
 				</tr>
             		{sortedSeasonData.map((bot, index) => {
             			return(
@@ -346,6 +364,7 @@ function SeasonTable() {
 	            				<td>{(bot.length / 7).toFixed(2)}</td>
 	            				<td>{(bot.points / 7).toFixed(2)}</td>
 	            				<td>{bot.wins + "-" + bot.draws + "-" + bot.losses}</td>
+	            				<td>{bot.score}</td>
 	            			</tr>
             			);
             		})}
