@@ -33,7 +33,8 @@
       "ACC_S2_Bronze",
       "FCC_S1_Gold",
       "S4_Bronze",
-      "WCTourney_S3_Silver"
+      "WCTourney_S3_Silver",
+      "LCC_S2_Silver"
     ],
     "Class": "OneMove"
   },
@@ -151,7 +152,8 @@
       "S3_Silver",
       "NCC_S2_Silver",
       "FCC_S1_Bronze",
-      "S4_Gold"
+      "S4_Gold",
+      "WCTourney_S4_Silver"
     ],
     "Class": "OneMove"
   },
@@ -277,7 +279,8 @@
       "NCC_S3_Silver",
       "ACC_S3_Gold",
       "S5_Bronze",
-      "NCC_S4_Gold"
+      "NCC_S4_Gold",
+      "WCTourney_S4_Bronze"
     ],
     "Class": "TwoMove"
   },
@@ -376,7 +379,8 @@
       "LCC_S1_Bronze",
       "WCTourney_S3_Bronze",
       "S5_Silver",
-      "NCC_S4_Bronze"
+      "NCC_S4_Bronze",
+      "LCC_S2_Bronze"
     ],
     "Class": "TwoMove"
   },
@@ -409,7 +413,8 @@
       "NCC_S3_Gold",
       "WCTourney_S3_Gold",
       "S5_Gold",
-      "NCC_S4_Silver"
+      "NCC_S4_Silver",
+      "WCTourney_S4_Gold"
     ],
     "Class": "OnePointFiveMove"
   },
@@ -522,7 +527,7 @@
     "Creator": "Jaden",
     "PeakElo": 1072,
     "MinElo": 969,
-    "Trophies": [],
+    "Trophies": ["LCC_S2_Gold"],
     "Class": "TwoMove"
   },
   {

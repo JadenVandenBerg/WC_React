@@ -147,6 +147,16 @@
             "Creator": "Jaden",
             "Trophies": ["LCC_S1_Gold"],
             "RunnerUp": ["Restrictor Bot", "Two Move Bot"]
+        },
+        {
+            "Id": "2",
+            "Season": "Season 2",
+            "Name": "Thinking Bot II",
+            "Profile": "img/ThinkingBotII.png",
+            "Elo": 1134,
+            "Creator": "Jaden",
+            "Trophies": ["LCC_S2_Gold"],
+            "RunnerUp": ["Bottus Maximus", "Two Move Bot"]
         }
     ],
     "WCTourney": [
@@ -179,6 +189,16 @@
             "Creator": "Jaden",
             "Trophies": ["WCTourney_S3_Gold"],
             "RunnerUp": ["Bottus Maximus", "Two Move Bot"]
+        },
+        {
+            "Id": "4",
+            "Season": "Season 4",
+            "Name": "Botnia and Herzebotvina",
+            "Profile": "img/BotniaAndHerzebotvina.png",
+            "Elo": 0,
+            "Creator": "Jaden",
+            "Trophies": ["WCTourney_S4_Gold"],
+            "RunnerUp": ["G2 E-Bot", "Thinking Bot"]
         }
     ]
 }

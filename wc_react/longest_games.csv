@@ -1,11 +1,11 @@
 Match,Turns,Winner,Result
-Laser Bot vs G2EBot,148,-, Draw by Moves Without Capture
-Equality Bot vs One Piece Random Bot,132,-, Draw by Stalemate
-One Piece Random Bot vs Botdefender,124,One Piece Random Bot,White Won by Checkmate
-Lobotomy vs 5x Random Bot,98,-, Draw by Moves Without Capture
-Kamikaze Bot vs Thinking Bot II,96,-, Draw by Moves Without Capture
-Lazy Bot vs Bot With a Plot,92,-, Draw by Moves Without Capture
-Bots United vs Shield Bot,87,-, Draw by Moves Without Capture
-Abilibot vs Adventurous King Bot,86,-, Draw by Moves Without Capture
-Lazy Bot vs Bot 618,83,-, Draw by Stalemate
-Idiot vs 5x Random Bot,82,-, Draw by Moves Without Capture
+Random Bot vs Idiot,82,-, Draw by Moves Without Capture
+Idiot vs Lobotomy,70,Lobotomy,Black Won by Opposing King Death
+Savage Beastbot vs Hitman Bot,54,-, Draw by Moves Without Capture
+Equality Bot vs Savage Beastbot,54,-, Draw by Moves Without Capture
+Random Bot vs BOTential,50,-, Draw by Moves Without Capture
+Pawn Bot vs BOTential,47,-, Draw by Moves Without Capture
+Bottus Maximus vs Equality Bot,46,Bottus Maximus,White Won by Opposing King Death
+BOTential vs One Piece Random Bot,40,-, Draw by Repetition
+Thinking Bot II vs Restrictor Bot,39,Thinking Bot II,White Won by Opposing King Death
+Migrating Bot vs Two Move Bot,30,Two Move Bot,Black Won by Opposing King Death
