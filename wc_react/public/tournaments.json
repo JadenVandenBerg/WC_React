@@ -49,6 +49,16 @@
             "Creator": "Jaden",
             "Trophies": ["S5_Gold"],
             "RunnerUp": ["Two Move Bot", "Thinking Bot"]
+        },
+        {
+            "Id": "6",
+            "Season": "Season 6",
+            "Name": "Thinking Bot",
+            "Profile": "img/ThinkingBot.png",
+            "Elo": 1318,
+            "Creator": "Jaden",
+            "Trophies": ["S6_Gold"],
+            "RunnerUp": ["Botnia and Herzebotvina", "Two Move Bot"]
         }
     ],
     "NCC": [

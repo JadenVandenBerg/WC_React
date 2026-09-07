@@ -82,7 +82,7 @@ function Elo() {
   }
 
   const getClass = (bot: any) => {
-    let classes = ["ZeroMove", "PointFiveMove", "OneMove", "OnePointFiveMove", "TwoMove", "TwoPointFiveMove", "ThreeMove", "ThreePointFiveMove", "FourMove"];
+    let classes = ["ZeroMove", "PointFiveMove", "OneMove", "OnePointFiveMove", "TwoMove", "TwoPointFiveMove", "ThreeMove", "ThreePointFiveMove", "FourMove", "FourPointFiveMove", "FiveMove", "FivePointFiveMove", "SixMove", "SixPointFiveMove", "SevenMove", "SevenPointFiveMove", "EightMove", "EightPointFiveMove", "NineMove", "NinePointFiveMove", "TenMove", "TenPointFiveMove"];
     
     for(let i = 0; i < classes.length; i++) {
       if (classes[i] == bot.Class) {
@@ -140,6 +140,34 @@ function Elo() {
       return 3.0;
     } else if (class_ == "ThreePointFiveMove") {
       return 3.5;
+    } else if (class_ == "FourMove") {
+      return 4.0;
+    } else if (class_ == "FourPointFiveMove") {
+      return 4.5;
+    } else if (class_ == "FiveMove") {
+      return 5.0;
+    } else if (class_ == "FivePointFiveMove") {
+      return 5.5;
+    } else if (class_ == "SixMove") {
+      return 6.0;
+    } else if (class_ == "SixPointFiveMove") {
+      return 6.5;
+    } else if (class_ == "SevenMove") {
+      return 7.0;
+    } else if (class_ == "SevenPointFiveMove") {
+      return 7.5;
+    } else if (class_ == "EightMove") {
+      return 8.0;
+    } else if (class_ == "EightPointFiveMove") {
+      return 8.5;
+    } else if (class_ == "NineMove") {
+      return 9.0;
+    } else if (class_ == "NinePointFiveMove") {
+      return 9.5;
+    } else if (class_ == "TenMove") {
+      return 10.0;
+    } else if (class_ == "TenPointFiveMove") {
+      return 10.5;
     }
 
     return class_;

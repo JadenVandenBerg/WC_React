@@ -15,6 +15,7 @@ import TotalRanking from './pages/TotalRanking';
 import Season5 from './pages/Season5';
 import CombinedElo from './pages/CombinedElo';
 import HighestPeaks from './pages/HighestPeaks';
+import Season6 from './pages/Season6';
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
             <Route path="/season3" element={<Season3 />} />
             <Route path="/season4" element={<Season4 />} />
             <Route path="/season5" element={<Season5 />} />
+            <Route path="/season6" element={<Season6 />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/gameTable" element={<GameTable />} />
             <Route path="/seasonTable" element={<SeasonTable />} />

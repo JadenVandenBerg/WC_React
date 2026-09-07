@@ -163,9 +163,9 @@ function Season5() {
             <td><img className="botImg" src="/img/BottusMaximus.png" alt="BottusMaximus" /></td>
             <td>1088</td>
             {formatEloGain(1088, 1167)}
-            <td>{11 - 11}</td>
-            <td>{14 - 14}</td>
-            <td>{3 - 2}</td>
+            <td>{12 - 11}</td>
+            <td>{16 - 14}</td>
+            <td>{7 - 3}</td>
           </tr>
           <tr>
             <td>12</td>
