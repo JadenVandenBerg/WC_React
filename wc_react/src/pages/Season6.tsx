@@ -86,7 +86,7 @@ function Season6() {
             <td><img className="botImg" src="/img/TwoMoveBot.png" alt="TwoMoveBot" /></td>
             <td>1192</td>
             {formatEloGain(1192, 1204)}
-            <td>{14 - 14}</td>
+            <td>{17 - 14}</td>
             <td>{4 - 2}</td>
             <td>{7 - 5}</td>
           </tr>

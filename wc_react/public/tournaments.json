@@ -101,6 +101,16 @@
             "Creator": "Jaden",
             "Trophies": ["NCC_S4_Gold"],
             "RunnerUp": ["Botnia and Herzebotvina", "Two Move Bot"]
+        },
+        {
+            "Id": "5",
+            "Season": "Season 5",
+            "Name": "Botnia and Herzebotvina",
+            "Profile": "img/BotniaAndHerzebotvina.png",
+            "Elo": 1314,
+            "Creator": "Jaden",
+            "Trophies": ["NCC_S5_Gold"],
+            "RunnerUp": ["Botfish", "Two Move Bot"]
         }
     ],
     "ACC": [

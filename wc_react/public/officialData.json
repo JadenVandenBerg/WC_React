@@ -382,7 +382,8 @@
       "S5_Silver",
       "NCC_S4_Bronze",
       "LCC_S2_Bronze",
-      "S6_Bronze"
+      "S6_Bronze",
+      "NCC_S5_Bronze"
     ],
     "Class": "TwoMove"
   },
@@ -417,7 +418,8 @@
       "S5_Gold",
       "NCC_S4_Silver",
       "WCTourney_S4_Gold",
-      "S6_Silver"
+      "S6_Silver",
+      "NCC_S5_Gold"
     ],
     "Class": "OnePointFiveMove"
   },
@@ -502,7 +504,7 @@
     "Creator": "Jaden",
     "PeakElo": 1003,
     "MinElo": 813,
-    "Trophies": [],
+    "Trophies": ["NCC_S5_Silver"],
     "Class": "TwoMove"
   },
   {

@@ -15,6 +15,7 @@ import TotalRanking from './pages/TotalRanking';
 import Season5 from './pages/Season5';
 import CombinedElo from './pages/CombinedElo';
 import HighestPeaks from './pages/HighestPeaks';
+import HeadToHead from './pages/HeadToHead';
 import Season6 from './pages/Season6';
 
 
@@ -47,6 +48,7 @@ function App() {
             <Route path="/totalRanking" element={<TotalRanking />} />
             <Route path="/combinedElo" element={<CombinedElo />} />
             <Route path="/highestPeaks" element={<HighestPeaks />} />
+            <Route path="/headToHead" element={<HeadToHead />} />
         </Routes>
       </BrowserRouter>
     </div>

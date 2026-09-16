@@ -62,6 +62,13 @@
     border-radius: 10px;
   }
 
+  .botProfileSmall {
+    width: 85px !important;
+    max-height: calc(85px * 9 / 16) !important;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
   .botTitle {
     font-size: 11px !important;
   }
@@ -179,7 +186,7 @@ tbody {
 .divisionContainer {
   margin-bottom: 40px;
   width: 40vw;
-  min-width: 800px;
+  min-width: 810px;
   align-self: center;
 }
 
@@ -201,6 +208,14 @@ tbody {
   max-height: calc(270px * 9 / 16);
   object-fit: cover;
   border-radius: 10px;
+}
+
+.botProfileSmall {
+  width: 135px;
+  max-height: calc(135px * 9 / 16);
+  object-fit: cover;
+  border-radius: 10px;
+	object-fit: contain;
 }
 
 .botInfo {
@@ -392,4 +407,54 @@ tbody {
 
 .hidden {
   display: none;
+}
+
+.floatRight {
+  float: right;
+}
+
+.h2hContainer {
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+.h2hContainer .matchup {
+	flex: 1;
+	text-align: center;
+}
+
+.h2hContainer .rightProfile {
+	margin-left: auto;
+}
+
+.matchup {
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+
+.score {
+	display: inline-block;
+  font-size: x-large;
+}
+
+.whiteName {
+	position: absolute;
+	right: calc(50% + 80px);
+	top: 50%;
+	transform: translateY(-50%);
+	white-space: nowrap;
+}
+
+.blackName {
+	position: absolute;
+	left: calc(50% + 80px);
+	top: 50%;
+	transform: translateY(-50%);
+	white-space: nowrap;
+}
+
+.h2hFilter {
+  margin-bottom: 10px;
 }

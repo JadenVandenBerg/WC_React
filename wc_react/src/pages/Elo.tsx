@@ -21,9 +21,12 @@ function Elo() {
 
     fetchBots();
 
-    const interval = setInterval(fetchBots, 1000);
+    if (dataFile.includes("data")) {
+      const interval = setInterval(fetchBots, 1000);
 
-    return () => clearInterval(interval);
+      return () => clearInterval(interval);
+    }
+    
   }, [dataFile]);
 
   const getWinPct = (bot: any) => {
@@ -63,24 +66,6 @@ function Elo() {
 
   const getGames = (bot: any) => bot.WinsTotal + bot.LossesTotal + bot.DrawsTotal;
 
-  const getTrophies = (bot: any) => {
-    let trophies = 0;
-
-    bot.Trophies.forEach((trophy: any) => {
-      console.log(trophy);
-      if (trophy.includes("Gold")) {
-        trophies += 3;
-      }
-      else if (trophy.includes("Silver")) {
-        trophies += 2;
-      } else if (trophy.includes("Bronze")) {
-        trophies += 1;
-      }
-    });
-
-    return trophies;
-  }
-
   const getClass = (bot: any) => {
     let classes = ["ZeroMove", "PointFiveMove", "OneMove", "OnePointFiveMove", "TwoMove", "TwoPointFiveMove", "ThreeMove", "ThreePointFiveMove", "FourMove", "FourPointFiveMove", "FiveMove", "FivePointFiveMove", "SixMove", "SixPointFiveMove", "SevenMove", "SevenPointFiveMove", "EightMove", "EightPointFiveMove", "NineMove", "NinePointFiveMove", "TenMove", "TenPointFiveMove"];
     
@@ -107,7 +92,7 @@ function Elo() {
       else if (sortBy === 'Max Elo') result = b.PeakElo - a.PeakElo;
       else if (sortBy === 'Min Elo') result = b.MinElo - a.MinElo;
       else if (sortBy === 'Adjusted Win %') result = getAWinPct(b) - getAWinPct(a);
-      else if (sortBy === 'Trophies') result = getTrophies(b) - getTrophies(a);
+      else if (sortBy === 'Trophies') result = parseInt(getTrophiesValue(b.Trophies)) - parseInt(getTrophiesValue(a.Trophies));
       else if (sortBy === 'Depth') result = getClass(b) - getClass(a);
       else if (sortBy === 'Peak') result = getDistanceToPeak(b) - getDistanceToPeak(a);
       else result = b.Elo - a.Elo;
@@ -120,6 +105,50 @@ function Elo() {
   const divisions = [];
   for (let i = 0; i < sortedBots.length; i += DIVISION_SIZE) {
     divisions.push(sortedBots.slice(i, i + DIVISION_SIZE));
+  }
+
+  function getDisplayTrophies(trophies: any) {
+    return trophies.sort((a: any, b: any) => {return getTrophyValue(b) - getTrophyValue(a)}).slice(0, 5);
+  }
+
+  function getTrophiesValue(trophies: any) {
+    console.log(trophies);
+    if (trophies == null) {
+      trophies = [];
+    }
+    let value = 0;
+    trophies.forEach((element: any) => {
+      value += getTrophyValue(element);
+    });
+
+    return value.toFixed(0);
+  }
+
+  function getTrophyValue(trophy: string): number {
+    let value = 0;
+    let val = 1;
+    if (trophy.includes("NCC")) {
+      value = 2;
+    }
+    else if (trophy.includes("WCTourney") || trophy.includes("LCC") || trophy.includes("ACC") || trophy.includes("FCC")) {
+      value = 1;
+    }
+    else {
+      value = 3;
+      val = 0;
+    }
+
+    if (trophy.includes("Gold")) {
+      value = value * 3;
+    }
+    else if (trophy.includes("Silver")) {
+      value = value * 2;
+    }
+
+    let season = parseInt(trophy.split("_")[val].split("S")[1]);
+    value = value + ((season / 10) - 0.1);
+
+    return parseFloat(value.toFixed(1));
   }
 
   function mapClass(class_: string) {
@@ -204,7 +233,7 @@ function Elo() {
                 <div className={botInfoClassName}>
                   <div className="botTitle">#{rank} - {bot.Name}{bot.Trophies?.length > 0 && (
                   <div className='trophies' style={{ marginLeft: '8px' }}>
-                    {bot.Trophies.map((trophy: string, i: number) => (
+                    {getDisplayTrophies(bot.Trophies).map((trophy: string, i: number) => (
                       <img
                         key={i}
                         src={`./../img/Trophy/${trophy}.png`}
@@ -217,7 +246,7 @@ function Elo() {
                           marginRight: '4px'
                         }}
                       />
-                    ))}
+                    ))}({getTrophiesValue(bot.Trophies)})
                   </div>
                 )}</div>
                   <div className="botMeta">

@@ -14,6 +14,7 @@ function PageButton() {
     { name: "Season LB", route: "/SeasonTable" },
     { name: "Combined Elo", route: "/CombinedElo" },
     { name: "Highest Peaks", route: "/HighestPeaks" },
+    { name: "Head To Head", route: "/HeadToHead" },
   ];
 
   const seasons = [
