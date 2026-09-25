@@ -177,6 +177,16 @@
             "Creator": "Jaden",
             "Trophies": ["LCC_S2_Gold"],
             "RunnerUp": ["Bottus Maximus", "Two Move Bot"]
+        },
+        {
+            "Id": "3",
+            "Season": "Season 3",
+            "Name": "Balance Bot",
+            "Profile": "img/BalanceBot.png",
+            "Elo": 1167,
+            "Creator": "Carter",
+            "Trophies": ["LCC_S3_Gold"],
+            "RunnerUp": ["Thinking Bot II", "Hitman Bot"]
         }
     ],
     "WCTourney": [

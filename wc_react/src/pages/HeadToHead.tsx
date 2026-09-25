@@ -100,10 +100,20 @@ function HeadToHead() {
 			}
 		}
 		else {
-			h2h["whitePoints"] += game.whitePoints;
-			h2h["blackPoints"] += game.blackPoints;
-			h2h["totalH2H"] += 1;
+			if (game.white === h2h.white) {
+				h2h.whitePoints += game.whitePoints;
+				h2h.blackPoints += game.blackPoints;
+			}
+			else {
+				h2h.whitePoints += game.blackPoints;
+				h2h.blackPoints += game.whitePoints;
+			}
+
+			h2h.totalH2H += 1;
 		}
+
+		console.log(game);
+		console.log(h2h);
 		
 	    data[key] = h2h;
 	  }

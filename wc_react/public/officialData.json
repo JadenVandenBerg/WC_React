@@ -357,7 +357,8 @@
     "MinElo": 932,
     "Trophies": [
       "ACC_S2_Silver",
-      "ACC_S3_Bronze"
+      "ACC_S3_Bronze",
+      "LCC_S3_Bronze"
     ],
     "Class": "OneMove"
   },
@@ -533,7 +534,8 @@
     "PeakElo": 1221,
     "MinElo": 969,
     "Trophies": [
-      "LCC_S2_Gold"
+      "LCC_S2_Gold",
+      "LCC_S3_Silver"
     ],
     "Class": "TwoMove"
   },
@@ -604,7 +606,7 @@
     "Creator": "Carter",
     "PeakElo": 1054,
     "MinElo": 969,
-    "Trophies": [],
+    "Trophies": ["LCC_S3_Gold"],
     "Class": "OnePointFiveMove"
   },
   {

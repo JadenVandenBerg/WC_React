@@ -423,5 +423,19 @@
     "MinElo": 750,
     "Trophies": [],
     "Class": "PointFiveMove"
+  },
+  {
+    "Id": "30",
+    "Name": "Bot by the Book",
+    "Elo": 1000,
+    "Profile": "img/BotbytheBook.png",
+    "WinsTotal": 0,
+    "LossesTotal": 0,
+    "DrawsTotal": 0,
+    "Creator": "Jaden",
+    "PeakElo": 1000,
+    "MinElo": 1000,
+    "Trophies": [],
+    "Class": "?"
   }
 ]
