@@ -149,13 +149,13 @@ function HeadToHead() {
 					Object.values(parsedData).filter((h2h: any) =>
 						h2h.white.toLowerCase().includes(filter.toLowerCase()) ||
 						h2h.black.toLowerCase().includes(filter.toLowerCase())
-					).sort((a: any, b: any) => b.totalH2H - a.totalH2H).map((h2h: any) => {
+					).sort((a: any, b: any) => Math.abs(b.whitePoints - b.blackPoints) - Math.abs(a.whitePoints - a.blackPoints)).map((h2h: any) => {
 						const filterLower = filter.toLowerCase();
 
 						const whiteMatches = h2h.white.toLowerCase().includes(filterLower);
 						const blackMatches = h2h.black.toLowerCase().includes(filterLower);
 
-						const swap = filter !== "" && blackMatches && !whiteMatches;
+						const swap = filter !== "" ? blackMatches && !whiteMatches : h2h.blackPoints > h2h.whitePoints;
 
 						const white = swap ? h2h.black : h2h.white;
 						const black = swap ? h2h.white : h2h.black;
@@ -164,8 +164,8 @@ function HeadToHead() {
 						const blackPoints = swap ? h2h.whitePoints : h2h.blackPoints;
 
 						const whiteBot = officialData.find((bot: any) => bot.Name === mapName(white));
-
 						const blackBot = officialData.find((bot: any) => bot.Name === mapName(black));
+
 
 						return (
 							<div className='h2hContainer botRow'>

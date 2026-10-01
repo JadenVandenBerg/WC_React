@@ -92,7 +92,7 @@ function Elo() {
       else if (sortBy === 'Max Elo') result = b.PeakElo - a.PeakElo;
       else if (sortBy === 'Min Elo') result = b.MinElo - a.MinElo;
       else if (sortBy === 'Adjusted Win %') result = getAWinPct(b) - getAWinPct(a);
-      else if (sortBy === 'Trophies') result = parseInt(getTrophiesValue(b.Trophies)) - parseInt(getTrophiesValue(a.Trophies));
+      else if (sortBy === 'Trophies') result = parseInt(getTrophiesValue(getDisplayTrophies(b.Trophies))) - parseInt(getTrophiesValue(getDisplayTrophies(a.Trophies)));
       else if (sortBy === 'Depth') result = getClass(b) - getClass(a);
       else if (sortBy === 'Peak') result = getDistanceToPeak(b) - getDistanceToPeak(a);
       else result = b.Elo - a.Elo;
@@ -112,7 +112,7 @@ function Elo() {
   }
 
   function getTrophiesValue(trophies: any) {
-    console.log(trophies);
+    trophies = getDisplayTrophies(trophies);
     if (trophies == null) {
       trophies = [];
     }

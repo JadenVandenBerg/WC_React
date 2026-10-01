@@ -281,7 +281,8 @@
       "S5_Bronze",
       "NCC_S4_Gold",
       "WCTourney_S4_Bronze",
-      "S6_Gold"
+      "S6_Gold",
+      "ACC_S4_Gold"
     ],
     "Class": "TwoMove"
   },
@@ -358,7 +359,8 @@
     "Trophies": [
       "ACC_S2_Silver",
       "ACC_S3_Bronze",
-      "LCC_S3_Bronze"
+      "LCC_S3_Bronze",
+      "ACC_S4_Bronze"
     ],
     "Class": "OneMove"
   },
@@ -420,7 +422,8 @@
       "NCC_S4_Silver",
       "WCTourney_S4_Gold",
       "S6_Silver",
-      "NCC_S5_Gold"
+      "NCC_S5_Gold",
+      "ACC_S4_Silver"
     ],
     "Class": "OnePointFiveMove"
   },

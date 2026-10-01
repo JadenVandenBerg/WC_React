@@ -143,6 +143,16 @@
             "Creator": "Jaden",
             "Trophies": ["ACC_S3_Gold"],
             "RunnerUp": ["Pawn Bot", "Hitman Bot"]
+        },
+        {
+            "Id": "4",
+            "Season": "Season 4",
+            "Name": "Thinking Bot",
+            "Profile": "img/ThinkingBot.png",
+            "Elo": 1296,
+            "Creator": "Jaden",
+            "Trophies": ["ACC_S4_Gold"],
+            "RunnerUp": ["Botnia and Herzebotvina", "Hitman Bot"]
         }
     ],
     "FCC": [
