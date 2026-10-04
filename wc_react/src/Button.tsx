@@ -25,6 +25,7 @@ function PageButton() {
     { id: 4, name: "Season 4" },
     { id: 5, name: "Season 5" },
     { id: 6, name: "Season 6" },
+    { id: 7, name: "Season 7" },
   ];
 
   return (
