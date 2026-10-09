@@ -101,6 +101,7 @@ function PageButton() {
             <option key={4} value="/Season4">Season 4</option>
             <option key={5} value="/Season5">Season 5</option>
             <option key={6} value="/Season6">Season 6</option>
+            <option key={6} value="/Season7">Season 7</option>
           </select>
 
           <select
