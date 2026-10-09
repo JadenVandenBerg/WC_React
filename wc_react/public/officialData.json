@@ -283,7 +283,8 @@
       "WCTourney_S4_Bronze",
       "S6_Gold",
       "ACC_S4_Gold",
-      "S7_Silver"
+      "S7_Silver",
+      "NCC_S6_Bronze"
     ],
     "Class": "TwoMove"
   },
@@ -425,7 +426,8 @@
       "S6_Silver",
       "NCC_S5_Gold",
       "ACC_S4_Silver",
-      "S7_Gold"
+      "S7_Gold",
+      "NCC_S6_Silver"
     ],
     "Class": "OnePointFiveMove"
   },
@@ -511,7 +513,8 @@
     "PeakElo": 1003,
     "MinElo": 813,
     "Trophies": [
-      "NCC_S5_Silver"
+      "NCC_S5_Silver",
+      "NCC_S6_Gold"
     ],
     "Class": "TwoMove"
   },
