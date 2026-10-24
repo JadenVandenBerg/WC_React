@@ -2,146 +2,233 @@
   {
     "Id": "19",
     "Name": "Abilibot",
-    "Elo": 1011,
+    "Elo": 981,
     "Profile": "img/Abilibot.png",
-    "WinsTotal": 1,
-    "LossesTotal": 1,
-    "DrawsTotal": 5,
+    "WinsTotal": 3,
+    "LossesTotal": 5,
+    "DrawsTotal": 6,
     "Creator": "Jaden",
     "PeakElo": 1021,
-    "MinElo": 968,
-    "Competing": [
-      "S3"
-    ],
+    "MinElo": 944,
     "Trophies": [],
-    "Class": null
+    "Class": "OneMove"
   },
   {
     "Id": "18",
     "Name": "Restrictor Bot",
-    "Elo": 940,
+    "Elo": 1036,
     "Profile": "img/RestrictorBot.png",
-    "WinsTotal": 1,
+    "WinsTotal": 4,
     "LossesTotal": 3,
-    "DrawsTotal": 3,
+    "DrawsTotal": 7,
     "Creator": "Carter",
-    "PeakElo": 1003,
+    "PeakElo": 1048,
     "MinElo": 927,
-    "Competing": [
-      "S3"
-    ],
-    "Trophies": [
-    ],
-    "Class": null
+    "Trophies": [],
+    "Class": "PointFiveMove"
   },
   {
     "Id": "7",
     "Name": "Bloodbot",
-    "Elo": 954,
+    "Elo": 1090,
     "Profile": "img/Bloodbot.png",
-    "WinsTotal": 1,
+    "WinsTotal": 6,
     "LossesTotal": 3,
-    "DrawsTotal": 3,
+    "DrawsTotal": 5,
     "Creator": "Jaden",
-    "PeakElo": 1000,
+    "PeakElo": 1090,
     "MinElo": 911,
-    "Competing": [
-      "S1"
-    ],
-    "Trophies": [
-    ],
-    "Class": null
+    "Trophies": [],
+    "Class": "OneMove"
   },
   {
     "Id": "14",
     "Name": "Adventurous King Bot",
-    "Elo": 995,
+    "Elo": 924,
     "Profile": "img/AdventurousKingBot.png",
-    "WinsTotal": 1,
-    "LossesTotal": 2,
-    "DrawsTotal": 4,
+    "WinsTotal": 2,
+    "LossesTotal": 6,
+    "DrawsTotal": 6,
     "Creator": "Carter",
     "PeakElo": 1000,
-    "MinElo": 945,
-    "Competing": [
-      "S2"
-    ],
+    "MinElo": 910,
     "Trophies": [],
-    "Class": null
+    "Class": "OneMove"
   },
   {
     "Id": "5",
     "Name": "BOTential",
-    "Elo": 919,
+    "Elo": 1024,
     "Profile": "img/BOTential.png",
-    "WinsTotal": 1,
-    "LossesTotal": 4,
-    "DrawsTotal": 2,
+    "WinsTotal": 5,
+    "LossesTotal": 5,
+    "DrawsTotal": 4,
     "Creator": "Carter",
-    "PeakElo": 1000,
+    "PeakElo": 1024,
     "MinElo": 919,
-    "Competing": [
-      "S1"
-    ],
     "Trophies": [],
-    "Class": null
+    "Class": "OneMove"
   },
   {
     "Id": "2",
     "Name": "Bottus Maximus",
-    "Elo": 1075,
+    "Elo": 1151,
     "Profile": "img/BottusMaximus.png",
-    "WinsTotal": 3,
+    "WinsTotal": 7,
     "LossesTotal": 0,
-    "DrawsTotal": 4,
+    "DrawsTotal": 7,
     "Creator": "Jaden",
-    "PeakElo": 1084,
+    "PeakElo": 1151,
     "MinElo": 1000,
-    "Competing": [
-      "S1",
-      "S2"
-    ],
     "Trophies": [
-      "FCC_S1_Gold"
+      "FCC_S1_Gold",
+      "FCC_S2_Gold"
     ],
-    "Class": null
+    "Class": "OneMove"
   },
   {
     "Id": "9",
     "Name": "G2 E-Bot",
-    "Elo": 1043,
+    "Elo": 1080,
     "Profile": "img/G2-EBot.png",
-    "WinsTotal": 4,
-    "LossesTotal": 2,
-    "DrawsTotal": 1,
+    "WinsTotal": 8,
+    "LossesTotal": 4,
+    "DrawsTotal": 2,
     "Creator": "Jaden",
-    "PeakElo": 1092,
+    "PeakElo": 1119,
     "MinElo": 1000,
-    "Competing": [
-      "S2"
-    ],
     "Trophies": [
-      "FCC_S1_Bronze"
+      "FCC_S1_Bronze",
+      "FCC_S2_Silver"
     ],
-    "Class": null
+    "Class": "OneMove"
   },
   {
     "Id": "12",
     "Name": "Savage Beastbot",
-    "Elo": 1063,
+    "Elo": 1000,
     "Profile": "img/SavageBeastBot.png",
     "WinsTotal": 4,
-    "LossesTotal": 1,
-    "DrawsTotal": 2,
+    "LossesTotal": 3,
+    "DrawsTotal": 7,
     "Creator": "Jaden",
     "PeakElo": 1085,
     "MinElo": 1000,
-    "Competing": [
-      "S2"
-    ],
     "Trophies": [
       "FCC_S1_Silver"
     ],
-    "Class": null
+    "Class": "OneMove"
+  },
+  {
+    "Id": "20",
+    "Name": "Christopher Columbot",
+    "Elo": 1039,
+    "Profile": "img/ChristopherColumbot.png",
+    "WinsTotal": 2,
+    "LossesTotal": 1,
+    "DrawsTotal": 4,
+    "Creator": "Carter",
+    "PeakElo": 1039,
+    "MinElo": 1000,
+    "Trophies": [],
+    "Class": "OneMove"
+  },
+  {
+    "Id": "6",
+    "Name": "Assassin Bot",
+    "Elo": 961,
+    "Profile": "img/AssassinBot.png",
+    "WinsTotal": 2,
+    "LossesTotal": 3,
+    "DrawsTotal": 2,
+    "Creator": "Carter",
+    "PeakElo": 1070,
+    "MinElo": 961,
+    "Trophies": [],
+    "Class": "OneMove"
+  },
+  {
+    "Id": "31",
+    "Name": "Botfish",
+    "Elo": 934,
+    "Profile": "img/Botfish.png",
+    "WinsTotal": 0,
+    "LossesTotal": 3,
+    "DrawsTotal": 4,
+    "Creator": "Jaden",
+    "PeakElo": 1006,
+    "MinElo": 934,
+    "Trophies": [],
+    "Class": "TwoMove"
+  },
+  {
+    "Id": "8",
+    "Name": "Shield Bot",
+    "Elo": 1046,
+    "Profile": "img/ShieldBot.png",
+    "WinsTotal": 3,
+    "LossesTotal": 2,
+    "DrawsTotal": 2,
+    "Creator": "Carter",
+    "PeakElo": 1046,
+    "MinElo": 974,
+    "Trophies": ["FCC_S2_Bronze"],
+    "Class": "OneMove"
+  },
+  {
+    "Id": "50",
+    "Name": "Aggro Bot",
+    "Elo": 950,
+    "Profile": "img/AggroBot.png",
+    "WinsTotal": 2,
+    "LossesTotal": 3,
+    "DrawsTotal": 2,
+    "Creator": "Tazel",
+    "PeakElo": 1025,
+    "MinElo": 950,
+    "Trophies": [],
+    "Class": "OneMove"
+  },
+  {
+    "Id": "55",
+    "Name": "Amazeing Bot",
+    "Elo": 902,
+    "Profile": "img/AmazeingBot.png",
+    "WinsTotal": 1,
+    "LossesTotal": 4,
+    "DrawsTotal": 2,
+    "Creator": "Tazel",
+    "PeakElo": 1000,
+    "MinElo": 902,
+    "Trophies": [],
+    "Class": "OneMove"
+  },
+  {
+    "Id": "28",
+    "Name": "Marching Bot",
+    "Elo": 955,
+    "Profile": "img/MarchingBot.png",
+    "WinsTotal": 2,
+    "LossesTotal": 4,
+    "DrawsTotal": 1,
+    "Creator": "Jaden",
+    "PeakElo": 1000,
+    "MinElo": 877,
+    "Trophies": [],
+    "Class": "OneMove"
+  },
+  {
+    "Id": "15",
+    "Name": "Bot Ross",
+    "Elo": 927,
+    "Profile": "img/BotRoss.png",
+    "WinsTotal": 1,
+    "LossesTotal": 3,
+    "DrawsTotal": 3,
+    "Creator": "Jaden",
+    "PeakElo": 1032,
+    "MinElo": 927,
+    "Trophies": [],
+    "Class": "PointFiveMove"
   }
 ]

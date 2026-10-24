@@ -121,6 +121,16 @@
             "Creator": "Jaden",
             "Trophies": ["NCC_S5_Gold"],
             "RunnerUp": ["Botfish", "Two Move Bot"]
+        },
+        {
+            "Id": "65",
+            "Season": "Season 6",
+            "Name": "Botfish",
+            "Profile": "img/Botfish.png",
+            "Elo": 1369,
+            "Creator": "Jaden",
+            "Trophies": ["NCC_S5_Gold"],
+            "RunnerUp": ["Botnia and Herzebotvina", "Thinking Bot"]
         }
     ],
     "ACC": [
@@ -175,6 +185,16 @@
             "Creator": "Jaden",
             "Trophies": ["FCC_S1_Gold"],
             "RunnerUp": ["Savage Beastbot", "G2 E-Bot"]
+        },
+        {
+            "Id": "2",
+            "Season": "Season 2",
+            "Name": "Bottus Maximus",
+            "Profile": "img/BottusMaximus.png",
+            "Elo": 1151,
+            "Creator": "Jaden",
+            "Trophies": ["FCC_S2_Gold"],
+            "RunnerUp": ["G2 E-Bot", "Shield Bot"]
         }
     ],
     "LCC": [
@@ -249,6 +269,16 @@
             "Creator": "Jaden",
             "Trophies": ["WCTourney_S4_Gold"],
             "RunnerUp": ["G2 E-Bot", "Thinking Bot"]
+        },
+        {
+            "Id": "5",
+            "Season": "Season 5",
+            "Name": "Thinking Bot",
+            "Profile": "img/ThinkingBot.png",
+            "Elo": 0,
+            "Creator": "Jaden",
+            "Trophies": ["WCTourney_S5_Gold"],
+            "RunnerUp": ["Botkrieg", "Botnia and Herzebotvina"]
         }
     ]
 }

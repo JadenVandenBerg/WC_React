@@ -92,7 +92,7 @@ function Elo() {
       else if (sortBy === 'Max Elo') result = b.PeakElo - a.PeakElo;
       else if (sortBy === 'Min Elo') result = b.MinElo - a.MinElo;
       else if (sortBy === 'Adjusted Win %') result = getAWinPct(b) - getAWinPct(a);
-      else if (sortBy === 'Trophies') result = parseInt(getTrophiesValue(getDisplayTrophies(b.Trophies))) - parseInt(getTrophiesValue(getDisplayTrophies(a.Trophies)));
+      else if (sortBy === 'Trophies') result = parseFloat(getTrophiesValue(getDisplayTrophies(b.Trophies))) - parseFloat(getTrophiesValue(getDisplayTrophies(a.Trophies)));
       else if (sortBy === 'Depth') result = getClass(b) - getClass(a);
       else if (sortBy === 'Peak') result = getDistanceToPeak(b) - getDistanceToPeak(a);
       else result = b.Elo - a.Elo;
@@ -121,7 +121,7 @@ function Elo() {
       value += getTrophyValue(element);
     });
 
-    return value.toFixed(0);
+    return value.toFixed(1);
   }
 
   function getTrophyValue(trophy: string): number {
@@ -148,7 +148,7 @@ function Elo() {
     let season = parseInt(trophy.split("_")[val].split("S")[1]);
     value = value + ((season / 10) - 0.1);
 
-    return parseFloat(value.toFixed(1));
+    return value;
   }
 
   function mapClass(class_: string) {
