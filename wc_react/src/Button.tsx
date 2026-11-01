@@ -26,6 +26,7 @@ function PageButton() {
     { id: 5, name: "Season 5" },
     { id: 6, name: "Season 6" },
     { id: 7, name: "Season 7" },
+    { id: 8, name: "Season 8" },
   ];
 
   return (
@@ -101,7 +102,8 @@ function PageButton() {
             <option key={4} value="/Season4">Season 4</option>
             <option key={5} value="/Season5">Season 5</option>
             <option key={6} value="/Season6">Season 6</option>
-            <option key={6} value="/Season7">Season 7</option>
+            <option key={7} value="/Season7">Season 7</option>
+            <option key={8} value="/Season8">Season 8</option>
           </select>
 
           <select

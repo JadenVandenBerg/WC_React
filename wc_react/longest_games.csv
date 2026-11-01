@@ -1,11 +1,11 @@
 Match,Turns,Winner,Result
-Lobotomy vs Random Bot,128,-, Draw by Moves Without Capture
-G2EBot vs Bot That Does Stuff,121,-, Draw by Stalemate
-Bloodbot vs Thinking Bot,120,-, Draw by Moves Without Capture
-Bloodbot vs Thinking Bot II,111,-, Draw by Moves Without Capture
-Botdefender vs BOTential,99,-, Draw by Stalemate
-Idiot vs Lobotomy,99,Idiot,White Won by Checkmate
-Random Bot vs Bothoven,97,Bothoven,Black Won by Opposing King Death
-Counting Bot vs Balance Bot,94,-, Draw by Moves Without Capture
-Counting Bot vs One Move Bot,94,One Move Bot,Black Won by Checkmate
-Botfish vs Marching Bot,91,-, Draw by Moves Without Capture
+Random Bot vs Idiot,147,-, Draw by Moves Without Capture
+Weighting Bot vs 1.5 Move Bot,131,-, Draw by Moves Without Capture
+Idiot vs Lobotomy,123,-, Draw by Moves Without Capture
+Idiot vs Negative One Move Bot,123,-, Draw by Moves Without Capture
+Bottom vs Inequality Bot,122,-, Draw by Moves Without Capture
+Bot Ross vs Idiot,121,-, Draw by Moves Without Capture
+Balance Bot vs Botdefender,121,Botdefender,Black Won by Opposing King Death
+Botdefender vs Shield Bot,118,-, Draw by Moves Without Capture
+Random Bot vs Bot Ross,116,Random Bot,White Won by Checkmate
+Lobotomy vs Negative One Move Bot,110,-, Draw by Moves Without Capture

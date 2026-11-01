@@ -284,9 +284,9 @@ function Season7() {
             <td><img className="botImg" src="/img/HitmanBot.png" alt="HitmanBot" /></td>
             <td>1031</td>
             {formatEloGain(1031, 1062)}
-            <td>{12 - 12}</td>
-            <td>{6 - 6}</td>
-            <td>{10 - 10}</td>
+            <td>{14 - 12}</td>
+            <td>{7 - 6}</td>
+            <td>{14 - 10}</td>
           </tr>
           <tr>
             <td>23</td>

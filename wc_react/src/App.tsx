@@ -19,6 +19,7 @@ import HeadToHead from './pages/HeadToHead';
 import Season6 from './pages/Season6';
 import LowestLows from './pages/LowestLows';
 import Season7 from './pages/Season7';
+import Season8 from './pages/Season8';
 
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
             <Route path="/season5" element={<Season5 />} />
             <Route path="/season6" element={<Season6 />} />
             <Route path="/season7" element={<Season7 />} />
+            <Route path="/season8" element={<Season8 />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/gameTable" element={<GameTable />} />
             <Route path="/seasonTable" element={<SeasonTable />} />

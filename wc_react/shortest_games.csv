@@ -1,11 +1,11 @@
 Match,Turns,Winner,Result
-Balance Bot vs 5x Random Bot,1,Balance Bot,White Won by Opposing King Death
-Weighting Bot vs Virus Bot,2,Virus Bot,Black Won by Checkmate
-Colin McBot vs Virus Bot,2,Colin McBot,White Won by Checkmate
-Equality Bot vs Bot by the Book,3,Bot by the Book,Black Won by Checkmate
-Two Move Bot vs Bloodbot,3,Two Move Bot,White Won by Checkmate
-Botnia and Herzebotvina vs Two Move Bot,3,Botnia and Herzebotvina,White Won by Checkmate
-Speedrunner Bot vs Bot With a Plot,4,Speedrunner Bot,White Won by Opposing King Death
-Speedrunner Bot vs 5x Random Bot,4,Speedrunner Bot,White Won by Opposing King Death
-Bot With a Clock vs Botkrieg,4,Botkrieg,Black Won by Checkmate
-1.5 Move Bot vs Thinking Bot II,4,Thinking Bot II,Black Won by Opposing King Death
+Colin McBot vs Assassin Bot,1,Colin McBot,White Won by Opposing King Death
+G2EBot vs Bot by the Book,1,Bot by the Book,Black Won by Checkmate
+Abilibot vs Migrating Bot,2,Abilibot,White Won by Checkmate
+Speedrunner Bot vs Restrictor Bot,3,Speedrunner Bot,White Won by Opposing King Death
+Speedrunner Bot vs Aggro Bot,3,Speedrunner Bot,White Won by Opposing King Death
+Self Absorbed Bot vs Bottom,3,Self Absorbed Bot,White Won by Opposing King Death
+Sickly Bot Child vs Colin McBot,3,Colin McBot,Black Won by Checkmate
+Bot With a Plot vs Laser Bot,3,Laser Bot,Black Won by Checkmate
+Laser Bot vs Two Move Bot,3,Laser Bot,White Won by Checkmate
+Bot With a Clock vs Thinking Bot II,3,Thinking Bot II,Black Won by Checkmate
